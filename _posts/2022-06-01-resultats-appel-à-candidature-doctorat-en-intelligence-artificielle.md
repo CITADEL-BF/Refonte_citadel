@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "RESULTATS [APPEL À CANDIDATURE] : Doctorat en Intelligence Artificielle"
 date: 2022-06-15
 categories: 

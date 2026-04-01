@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Appel à candidature : CITADEL FELLOWS 2023, 20 Bourses de Master d'Excellence Disponibles"
 date: 2023-03-13
 categories: 

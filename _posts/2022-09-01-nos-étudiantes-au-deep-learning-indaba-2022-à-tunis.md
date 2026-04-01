@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Nos étudiant.e.s au Deep Learning Indaba 2022 à Tunis"
 date: 2022-09-04
 categories: 

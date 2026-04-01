@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Résultats de l’appel à candidature : CITADEL FELLOWS 2023"
 date: 2023-02-20
 categories: 

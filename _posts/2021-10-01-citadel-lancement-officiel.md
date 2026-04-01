@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[CITADEL] : Lancement officiel"
 date: 2021-10-27
 categories: 

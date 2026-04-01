@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Séminaire sur l’Intelligence Artificielle : Fouille de données Et applications"
 date: 2022-04-20
 categories: 

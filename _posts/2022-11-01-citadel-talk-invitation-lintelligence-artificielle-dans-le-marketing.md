@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION : L'intelligence Artificielle dans le Marketing"
 date: 2022-11-15
 categories: 

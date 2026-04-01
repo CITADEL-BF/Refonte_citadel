@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Résultats de l’appel à candidature de Bourses de Stage pour des Mémoires d’Excellence en IA"
 date: 2022-03-10
 categories: 

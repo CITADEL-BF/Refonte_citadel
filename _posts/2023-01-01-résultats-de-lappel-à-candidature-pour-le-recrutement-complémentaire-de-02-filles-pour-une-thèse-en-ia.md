@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Résultats de l’appel à candidature pour le recrutement complémentaire de 02 filles pour une thèse en IA"
 date: 2023-01-17
 categories: 

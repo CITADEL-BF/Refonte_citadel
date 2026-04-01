@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[#CITADEL] : Cérémonie officielle de lancement"
 date: 2021-11-03
 categories: 

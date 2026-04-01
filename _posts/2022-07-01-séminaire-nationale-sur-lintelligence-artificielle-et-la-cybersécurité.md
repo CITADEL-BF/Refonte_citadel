@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Séminaire nationale sur l’Intelligence Artificielle et la Cybersécurité."
 date: 2022-07-22
 categories: 

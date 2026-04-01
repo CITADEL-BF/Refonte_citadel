@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Semaine de l'IA en Afrique"
 date: 2022-11-28
 categories: 

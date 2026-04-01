@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION : Télédétection des mines explosives enfouies dans le sol à l'aide de drone\""
 date: 2023-01-20
 categories: 

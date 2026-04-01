@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Appel à candidature pour co-organiser des séminaires en IA - Destiné aux Universités Publiques et Privées du Burkina Faso."
 date: 2023-03-16
 categories: 

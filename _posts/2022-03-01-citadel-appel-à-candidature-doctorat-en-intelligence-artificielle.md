@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[CITADEL] APPEL À CANDIDATURE : Doctorat en Intelligence Artificielle"
 date: 2022-03-11
 categories: 

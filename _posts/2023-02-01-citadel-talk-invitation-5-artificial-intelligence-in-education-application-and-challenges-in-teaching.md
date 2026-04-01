@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION 5 : Artificial Intelligence in Education: Application and Challenges in Teaching"
 date: 2023-02-10
 categories: 

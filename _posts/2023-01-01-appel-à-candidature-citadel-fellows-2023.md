@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "APPEL À CANDIDATURE : CITADEL FELLOWS 2023"
 date: 2023-01-10
 categories: 

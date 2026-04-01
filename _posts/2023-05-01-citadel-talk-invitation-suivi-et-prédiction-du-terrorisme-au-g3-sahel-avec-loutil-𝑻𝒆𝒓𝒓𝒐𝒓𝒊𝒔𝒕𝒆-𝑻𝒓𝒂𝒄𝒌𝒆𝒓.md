@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL Talk Invitation: Suivi et Prédiction du terrorisme au G3 Sahel avec l'outil 𝑻𝒆𝒓𝒓𝒐𝒓𝒊𝒔𝒕𝒆 𝑻𝒓𝒂𝒄𝒌𝒆𝒓"
 date: 2023-05-01
 categories: 

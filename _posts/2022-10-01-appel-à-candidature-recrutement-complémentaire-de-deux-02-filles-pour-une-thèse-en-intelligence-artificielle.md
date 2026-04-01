@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "APPEL À CANDIDATURE : Recrutement (complémentaire) de deux (02) filles pour une thèse en Intelligence Artificielle"
 date: 2022-10-13
 categories: 

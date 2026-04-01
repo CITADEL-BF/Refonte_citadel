@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION 6 : Intelligence Artificielle (IA) pour la fiabilité et la sécurité des avions"
 date: 2023-03-23
 categories: 

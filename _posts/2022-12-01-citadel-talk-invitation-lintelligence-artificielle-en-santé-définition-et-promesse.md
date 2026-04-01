@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION : l’Intelligence Artificielle en Santé, définition et promesse"
 date: 2022-12-14
 categories: 

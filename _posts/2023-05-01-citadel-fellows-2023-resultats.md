@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL FELLOWS 2023 : RESULTATS"
 date: 2023-05-11
 categories: 

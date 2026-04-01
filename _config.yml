@@ -34,6 +34,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: /blog/:year/:month/:day/:title/
+
 sass:
   quiet_deps: true
 
@@ -45,7 +47,9 @@ sass:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+    - output/
+    - ordre.py
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

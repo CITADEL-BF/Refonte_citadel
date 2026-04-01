@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITA’SC 2022 : Comprendre l’intelligence artificielle pour proposer des solutions aux problèmes réels des Burkinabè !"
 date: 2022-09-25
 categories: 

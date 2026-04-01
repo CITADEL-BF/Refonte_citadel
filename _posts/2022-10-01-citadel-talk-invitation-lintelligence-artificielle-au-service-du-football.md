@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION : L'intelligence Artificielle au service du football"
 date: 2022-10-25
 categories: 

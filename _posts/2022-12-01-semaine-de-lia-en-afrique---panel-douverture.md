@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Semaine de l'IA en Afrique - Panel d'ouverture"
 date: 2022-12-05
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITADEL TALK INVITATION : Appel à Contribution d'Experts de la Diaspora"
 date: 2022-10-15
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "APPEL À CANDIDATURE : Bourses de Stage pour des Mémoires d'Excellence en IA"
 date: 2022-01-22
 categories: 

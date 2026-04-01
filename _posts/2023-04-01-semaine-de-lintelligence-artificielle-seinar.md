@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Semaine de l’Intelligence Artificielle (SEINAR)"
 date: 2023-04-25
 categories: 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CITA'SC 2022 : Appel à candidature CITADEL SUMMER SCHOOL"
 date: 2022-08-27
 categories: 
