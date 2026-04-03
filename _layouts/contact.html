@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} - Citadel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <!-- Ajoutez vos CSS/JS ici -->
+</head>
+<body>
+
+  <!-- Header personnalisé -->
+  <header class="site-header">
+    <div class="container">
+      <h1>CITADEL</h1>
+      <nav>
+        <a href="/">Accueil</a>
+        <a href="/contact/">Contact</a>
+        <!-- Autres liens -->
+      </nav>
+    </div>
+  </header>
+
+  <!-- Section Héros -->
+  <section class="hero">
+    <div class="container">
+      <h2>Bienvenue à Citadel</h2>
+      <p>Centre d'Excellence en IA</p>
+      <img src="{{ '/assets/images/hero-image.jpg' | relative_url }}" alt="Héros">
+    </div>
+  </section>
+
+  <!-- Contenu injecté depuis le Markdown -->
+  <main class="main-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <!-- Section Call to Action -->
+  <section class="cta">
+    <div class="container">
+      <h3>Rejoignez-nous</h3>
+      <a href="/contact/" class="btn">Contactez-nous</a>
+    </div>
+  </section>
+
+  <!-- Section Partenaires -->
+  <section class="partners">
+    <div class="container">
+      <h3>Nos Partenaires</h3>
+      <div class="partner-logos">
+        <img src="{{ '/assets/images/partner1.png' | relative_url }}" alt="Partenaire 1">
+        <img src="{{ '/assets/images/partner2.png' | relative_url }}" alt="Partenaire 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer personnalisé -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2023 Citadel - Université Virtuelle Burkina Faso</p>
+      <div class="social-links">
+        <a href="https://linkedin.com/company/citadel-uvbf">LinkedIn</a>
+        <a href="https://twitter.com/citadel_uvbf">Twitter</a>
+        <!-- Autres réseaux -->
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

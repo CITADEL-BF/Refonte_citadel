@@ -1,0 +1,83 @@
+/* Styles de base pour le layout contact */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  background: #f4f4f4;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-content {
+  padding: 2rem 0;
+}
+
+.cta {
+  background: #007bff;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.cta .btn {
+  background: white;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.partners {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.partner-logos img {
+  max-width: 150px;
+  margin: 0 1rem;
+}
+
+.site-footer {
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.social-links a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
