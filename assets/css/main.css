@@ -1,10 +1,23 @@
 /* Styles de base pour le layout contact */
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  /* Compensation pour navbar fixe */
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem 0;
 }
 
 .container {
@@ -40,10 +53,6 @@ body {
   height: auto;
 }
 
-.main-content {
-  padding: 2rem 0;
-}
-
 .cta {
   background: #007bff;
   color: white;
@@ -67,17 +76,4 @@ body {
 .partner-logos img {
   max-width: 150px;
   margin: 0 1rem;
-}
-
-.site-footer {
-  background: #333;
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.social-links a {
-  color: white;
-  margin: 0 0.5rem;
-  text-decoration: none;
 }
