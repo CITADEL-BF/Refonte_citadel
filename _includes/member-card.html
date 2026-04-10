@@ -1,0 +1,24 @@
+<!-- Member Card Component -->
+<div class="member-card">
+  {% if include.member.image %}
+    <div class="member-card__image">
+      <img 
+        src="{{ include.member.image }}" 
+        alt="Professional portrait of {{ include.member.name }}"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  {% endif %}
+  
+  <div class="member-card__content">
+    {% if include.member.role %}
+      <span class="member-card__role">{{ include.member.role }}</span>
+    {% endif %}
+    
+    <h3 class="member-card__name">{{ include.member.name }}</h3>
+    
+    {% if include.member.description %}
+      <p class="member-card__description">{{ include.member.description }}</p>
+    {% endif %}
+  </div>
+</div>

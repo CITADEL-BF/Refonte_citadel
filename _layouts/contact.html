@@ -1,55 +1,154 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html class="light" lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} - Citadel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - CITADEL</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="/assets/js/tailwindContact.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/contact.css">
 </head>
-<body>
+
+<body class="bg-background text-on-surface">
 
   <!-- Header réutilisable -->
   {% include header.html %}
 
-  <!-- Section Héros -->
-  <section class="hero">
-    <div class="container">
-      <h2>Bienvenue à Citadel</h2>
-      <p>Centre d'Excellence en IA</p>
-      <img src="{{ '/assets/images/hero-image.jpg' | relative_url }}" alt="Héros">
+  <!-- Hero Section with Background Image -->
+  <section class="hero-map">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Contact</h1>
+      <p>Nous sommes à votre écoute pour toute demande d'information ou collaboration de recherche.</p>
     </div>
   </section>
 
-  <!-- Contenu injecté depuis le Markdown -->
-  <main class="main-content">
-    <div class="container">
-      {{ content }}
+  <!-- Main Content Grid -->
+  <main class="max-w-7xl mx-auto px-6 py-16 -mt-12 md:-mt-20 relative z-20">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- Contact Form Card -->
+      <div class="lg:col-span-7 bg-surface-container-lowest rounded-xl p-8 md:p-12 shadow-xl" style="box-shadow: 0 10px 30px rgba(0,105,62,0.06);">
+        <h2 class="text-3xl font-bold text-primary mb-8">Envoyez un message</h2>
+        <form class="space-y-6">
+          <!-- Names and Email Row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="space-y-1">
+              <label class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Nom Complet</label>
+              <input class="w-full bg-surface-container-high border-b-2 border-outline-variant focus:border-primary focus:ring-0 transition-colors p-3 rounded-t-lg" placeholder="ex: Ouédraogo Aziz" type="text"/>
+            </div>
+            <div class="space-y-1">
+              <label class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Email</label>
+              <input class="w-full bg-surface-container-high border-b-2 border-outline-variant focus:border-primary focus:ring-0 transition-colors p-3 rounded-t-lg" placeholder="OuedAziz@gmail.com" type="email"/>
+            </div>
+          </div>
+
+          <!-- Research Subject -->
+          <div class="space-y-1">
+            <label class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Sujet de recherche</label>
+            <select class="w-full bg-surface-container-high border-b-2 border-outline-variant focus:border-primary focus:ring-0 transition-colors p-3 rounded-t-lg appearance-none">
+              <option>Sélectionnez un axe de recherche</option>
+              <option>LANGUE & PATRIMOINE</option>
+              <option>SANTÉ & BIEN-ÊTRE</option>
+              <option>AGRICULTURE ET PASTORALISME</option>
+              <option>FINTECH & SÉCURITÉ</option>
+              <option>CONFIDENTIALITÉ ET EXPLICABILITÉ</option>
+              <option>ÉNERGIE ET CHANGEMENT CLIMATIQUE</option>
+            </select>
+          </div>
+
+          <!-- Message -->
+          <div class="space-y-1">
+            <label class="text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Message</label>
+            <textarea class="w-full bg-surface-container-high border-b-2 border-outline-variant focus:border-primary focus:ring-0 transition-colors p-3 rounded-t-lg resize-none" placeholder="Comment pouvons-nous vous aider ?" rows="5"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button class="w-full md:w-auto px-8 py-4 bg-primary hover:bg-primary-dim text-on-primary font-bold rounded-lg transition-all duration-300 flex items-center justify-center gap-3" type="submit">
+            <span>Envoyer le message</span>
+            <span class="material-symbols-outlined">send</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Information Column -->
+      <div class="lg:col-span-5 space-y-6">
+        
+        <!-- Seat Info -->
+        <div class="bg-surface-container p-8 rounded-xl flex gap-6 items-start hover:bg-surface-container-high transition-colors">
+          <div class="bg-primary text-on-primary p-3 rounded-lg flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined">location_on</span>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-primary mb-2">Siège Social</h3>
+            <p class="text-on-surface opacity-80">UNIVERSITE VIRTUELLE BURKINA FASO (BP : 64 Ouagadougou Cité AN II – Burkina Faso)</p>
+          </div>
+        </div>
+
+        <!-- Phones Info -->
+        <div class="bg-surface-container p-8 rounded-xl flex gap-6 items-start hover:bg-surface-container-high transition-colors">
+          <div class="bg-primary text-on-primary p-3 rounded-lg flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined">phone</span>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-primary mb-2">Téléphone</h3>
+            <p class="text-on-surface opacity-80">+226 02 20 31 31</p>
+          </div>
+        </div>
+
+        <!-- Emails Info -->
+        <div class="bg-surface-container p-8 rounded-xl flex gap-6 items-start hover:bg-surface-container-high transition-colors">
+          <div class="bg-primary text-on-primary p-3 rounded-lg flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined">mail</span>
+          </div>
+          <div>
+            <h3 class="font-bold text-lg text-primary mb-2">Courriel</h3>
+            <p class="text-on-surface opacity-80">info@citadel.bf</p>
+          </div>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="bg-primary-container p-8 rounded-xl">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="material-symbols-outlined text-primary">schedule</span>
+            <h3 class="font-bold text-lg text-on-primary-container">Horaires d'ouverture</h3>
+          </div>
+          <ul class="space-y-4">
+            <li class="flex justify-between items-center border-b border-on-primary-container/10 pb-2">
+              <span class="font-medium text-on-primary-container/80">Lundi - Vendredi</span>
+              <span class="font-bold text-on-primary-container">08:00 - 16:00</span>
+            </li>
+            <li class="flex justify-between items-center">
+              <span class="font-medium text-on-primary-container/80">Dimanche</span>
+              <span class="font-bold text-error">Fermé</span>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </main>
 
-  <!-- Section Call to Action -->
-  <section class="cta">
-    <div class="container">
-      <h3>Rejoignez-nous</h3>
-      <a href="/contact/" class="btn">Contactez-nous</a>
-    </div>
-  </section>
-
-  <!-- Section Partenaires -->
-  <section class="partners">
-    <div class="container">
-      <h3>Nos Partenaires</h3>
-      <div class="partner-logos">
-        <img src="{{ '/assets/images/partner1.png' | relative_url }}" alt="Partenaire 1">
-        <img src="{{ '/assets/images/partner2.png' | relative_url }}" alt="Partenaire 2">
-      </div>
-    </div>
+  <!-- Interactive Map Section -->
+  <section class="w-full h-96 bg-surface-container-high relative">
+    <iframe 
+      src="https://maps.google.com/maps?q=Université+Viruelle+Burkina+Faso,+Ouagadougou+Cité+AN+II,+Burkina+Faso&output=embed" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </section>
 
   <!-- Footer réutilisable -->

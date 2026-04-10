@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} | CITADEL Research Center</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="/assets/js/tailwindMembres.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/header.css"/>
+  <link rel="stylesheet" href="/assets/css/footer.css"/>
+  <link rel="stylesheet" href="/assets/css/membres.css"/>
+</head>
+
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+
+  <!-- Header réutilisable -->
+  {% include header.html %}
+
+  <main>
+
+    <!-- Hero Section -->
+    {% if page.hero %}
+      <section class="hero">
+        <div class="hero__background">
+          <img src="{{ page.hero.image }}" alt="{{ page.hero.alt | default: 'Hero background' }}" />
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <div class="max-w-3xl">
+            {% if page.hero.tag %}
+              <span class="hero__tag">{{ page.hero.tag }}</span>
+            {% endif %}
+            <h1 class="hero__title">{{ page.hero.title }}</h1>
+            {% if page.hero.description %}
+              <p class="hero__description">{{ page.hero.description }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Core Team Section -->
+    {% if page.core_team %}
+      <section class="section bg-surface">
+        <div class="max-w-7xl mx-auto">
+          <div class="section-header">
+            <h2 class="section-header__title">{{ page.core_team.title | default: 'Chercheurs et Partenaires Institutionnels' }}</h2>
+            <div class="section-header__divider"></div>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+            {% for member in page.core_team.members %}
+              {% include member-card.html member=member %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Leaders Section -->
+    {% if page.leaders %}
+      <section class="section bg-white">
+        <div class="max-w-7xl mx-auto">
+          <div class="section-header">
+            {% if page.leaders.tag %}
+              <span class="section-header__tag">{{ page.leaders.tag }}</span>
+            {% endif %}
+            <h2 class="section-header__title">{{ page.leaders.title | default: 'Les leaders et co-leads' }}</h2>
+            {% if page.leaders.subtitle %}
+              <p class="section-header__subtitle">{{ page.leaders.subtitle }}</p>
+            {% endif %}
+          </div>
+
+          <!-- 3-Column Grid for Leaders -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-8 justify-items-center">
+            {% for member in page.leaders.members %}
+              {% assign leader_offset = forloop.index > 3 %}
+              {% include silhouette-card.html member=member offset=leader_offset %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Network Section (Asymmetric Grid) -->
+    {% if page.network %}
+      <section class="section bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+          <div class="text-center mb-20">
+            <h2 class="text-4xl font-headline font-bold text-primary mb-4 tracking-tight">{{ page.network.title | default: 'Un Réseau en Mouvement' }}</h2>
+            {% if page.network.description %}
+              <p class="text-on-surface-variant text-lg">{{ page.network.description }}</p>
+            {% endif %}
+          </div>
+
+          <!-- Asymmetric Grid -->
+          <div class="asymmetric-grid mb-16">
+            <!-- Main Image (1.5fr) -->
+            {% if page.network.main_image %}
+              <div class="bg-surface-container-high rounded-2xl overflow-hidden relative min-h-[400px]">
+                <img 
+                  src="{{ page.network.main_image.url }}" 
+                  alt="{{ page.network.main_image.alt | default: 'Laboratory' }}"
+                  class="absolute inset-0 w-full h-full object-cover"
+                />
+                <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
+                  <p class="text-white text-sm font-medium">{{ page.network.main_image.caption }}</p>
+                  <p class="text-white/70 text-xs">{{ page.network.main_image.description }}</p>
+                </div>
+              </div>
+            {% endif %}
+
+            <!-- Stats Section (1fr + 1fr stacked) -->
+            <div class="grid grid-rows-2 gap-8">
+              {% for stat in page.network.stats %}
+                <div class="stat-block stat-block--{{ stat.type | default: 'primary' }}">
+                  <span class="stat-block__number">{{ stat.number }}</span>
+                  <span class="stat-block__label">{{ stat.label }}</span>
+                </div>
+              {% endfor %}
+            </div>
+
+            <!-- Secondary Image (1fr) -->
+            {% if page.network.secondary_image %}
+              <div class="bg-surface-container-high rounded-2xl overflow-hidden relative">
+                <img 
+                  src="{{ page.network.secondary_image.url }}" 
+                  alt="{{ page.network.secondary_image.alt | default: 'Team' }}"
+                  class="absolute inset-0 w-full h-full object-cover"
+                />
+                <div class="absolute inset-0 bg-primary/20"></div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Call to Action Section -->
+    {% if page.cta %}
+      <section class="section bg-primary text-white">
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center">
+          <h2 class="text-4xl md:text-5xl font-headline font-extrabold mb-8 max-w-3xl leading-tight">{{ page.cta.title }}</h2>
+          <div class="flex flex-col sm:flex-row gap-4">
+            {% for button in page.cta.buttons %}
+              <a 
+                href="{{ button.url }}" 
+                class="cta-button cta-button--{{ button.type | default: 'primary' }}"
+              >
+                {{ button.label }}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+  </main>
+
+  <!-- Ligne de séparation blanche entre CTA et Footer -->
+  <div class="w-full h-px bg-white/20"></div>
+
+  <!-- Footer réutilisable -->
+  {% include footer.html %}
+
+</body>
+</html>

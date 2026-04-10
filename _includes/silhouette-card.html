@@ -1,0 +1,15 @@
+<!-- Silhouette Card Component for leaders with optional image support -->
+<div class="silhouette-card{% if include.offset %} pt-8{% endif %}">
+  <div class="silhouette-card__placeholder">
+    {% if include.member.image %}
+      <img src="{{ include.member.image }}" alt="Portrait de {{ include.member.name }}" class="silhouette-card__image" />
+    {% else %}
+      <div class="silhouette-texture opacity-80 w-full h-full"></div>
+    {% endif %}
+
+    <div class="silhouette-card__info">
+      <h3>{{ include.member.name }}</h3>
+      <p>{{ include.member.role }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+/* Contact Page - Minimal CSS for Tailwind-based design */
+
+/* Base typographie */
+body {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6;
+  padding-top: 64px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Manrope', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom focus states for form inputs */
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+}
+
+/* Smooth transitions for info boxes */
+.info-box {
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/* Hero background image */
+.hero-map {
+  position: relative;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+  background-image: url("/assets/images/contact-us-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-map .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hero-map .content {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.hero-map h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-map p {
+  opacity: 0.9;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .hero-map {
+    height: 260px;
+  }
+
+  .hero-map h1 {
+    font-size: 2.25rem;
+  }
+}
