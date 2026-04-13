@@ -1,6 +1,128 @@
 ---
-layout: default
-title: Accueil
----
+layout: accueil
+title: "Accueil"
+date: 2021-09-16
+hero:
+  tag: "Innovation & Recherche"
+  title: "L'IA pour un Développement  <br /> Durable"
+  description: "Le Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) propulse l'innovation technologique au Burkina Faso."
+  images:
+    - "/assets/images/Carrousel-2-1.jpg"
+    - "/assets/images/Carrousel.jpg"
+  buttons:
+    - label: "Rejoignez-nous"
+      url: "/contact/"
+      type: "primary"
+    - label: "Nos Projets"
+      url: "/missions/"
+      type: "secondary"
 
-# Bienvenue
+partners:
+  title: "Nos Partenaires"
+  list:
+    - name: "Université Virtuelle Burkina"
+      logo: "/assets/images/UVBF.png"
+      tag: "Hôte"
+      url: "https://uv.bf"
+    - name: "Open Burkina"
+      logo: "/assets/images/openBurkina.png"
+      tag: "Opérationnel"
+      url: "https://www.openburkina.bf"
+    - name: "IDRC-CRDI (Canada)"
+      logo: "/assets/images/cidr.png"
+      tag: "Bailleur"
+      url: "https://www.idrc.ca"
+    - name: "Sida"
+      logo: "/assets/images/sida.png"
+      tag: "Bailleur"
+      url: "https://www.sida.se"
+    - name: "AI4D Africa"
+      logo: "/assets/images/ai4d-africa.png"
+      tag: "Thématique"
+      url: "https://africa.ai4d.ai"
+
+about:
+  title: "Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement."
+  description: "CITADEL est un pôle d'innovation dédié à l'avancement de la recherche fondamentale et appliquée en IA. Notre mission est de transformer les défis locaux en opportunités globales par le biais de solutions technologiques intelligentes et durables."
+  image: "/assets/images/members-banner.png"
+  image_alt: "Modern research laboratory setting with diverse scientists working on advanced computing technology in a bright clean environment"
+  points:
+    - icon_image: "/assets/images/recherche.png"
+      label: "Recherche"
+    - icon_image: "/assets/images/innovation.png"
+      label: "Innovation"
+    - icon_image: "/assets/images/developpement.png"
+      label: "Développement"
+
+research_axes:
+  title: "Axes Stratégiques de Recherche"
+  description: "Nos travaux s'articulent autour de piliers fondamentaux pour répondre aux enjeux du développement numérique en Afrique."
+  image: "/assets/images/AXE.gif"
+  image_alt: "Conceptual visualization of artificial intelligence axes including robotics, big data, and neural networks in a clean organized diagram"
+  
+activities:
+  title: "Nos Activités"
+  image: "/assets/images/projet-1024x724.png"
+  image_alt: "Group of young professional researchers collaborating in a bright modern academic space with diagrams on the wall"
+  list:
+    - icon: "analytics"
+      name: "Analyser"
+      description: "l’état de l’art de la recherche fondamentale en IA, avec une perspective locale africaine."
+    - icon: "school"
+      name: "Former"
+      description: "(en considérant les couches sociales les moins représentées, notamment la question du genre) pour dynamiser l’industrie locale de l’IA."
+    - icon: "hub"
+      name: "Coordonner"
+      description: "de manière holistique sur la mise en œuvre et le déploiement de modèles d’IA dans des applications concrètes contextualisées."
+    - icon: "science"
+      name: "Démontrer"
+      description: "de manière systématique les risques de l’IA afin d’informer les pouvoirs publics et la société civile sur les insuffisances des régulations locales."
+
+news:
+  title: "Actualités"
+  articles:
+    - title: "Lancement du IndabaX Burkina Faso 2024"
+      date: "15 Mai 2024"
+      url: "#"
+      image: "/assets/images/indabaX-BF2025.jpeg"
+      image_alt: "professional workshop setting with diverse students collaborating around a laptop in bright natural light"
+    - title: "CITADEL Fellows : La nouvelle cohorte dévoilée"
+      date: "02 Mai 2024"
+      url: "#"
+      image: "/assets/images/Fellows-2025-cohort6-Admis.png"
+      image_alt: "Academic fellows gathered in a circle discussing research in a contemporary wood-accented university space"
+    - title: "CITADEL Talk : L'éthique de l'IA au service de l'humain"
+      date: "28 Avril 2024"
+      url: "#"
+      image: "/assets/images/CITADEL-Talk22.jpg"
+      image_alt: "Speaker presenting at a tech conference with large digital screen and cinematic ambient lighting"
+    - title: "Succès : CITADEL remporte un financement majeur"
+      date: "12 Avril 2024"
+      url: "#"
+      image: "/assets/images/CITADEL-prix-international.jpg"
+      image_alt: "Hands holding a financial report with positive growth charts on a wooden table in sunlight"
+
+gallery:
+  title: "Photothèque"
+  albums:
+    - title: "Cérémonie officielle de Lancement"
+      images:
+        - url: "/assets/images/CITADEL-lancement-Photo-famille.jpg"
+          alt: "Official ribbon cutting ceremony with dignitaries in professional attire and festive atmosphere"
+        - url: "/assets/images/CITADEL-LANCEMENT-1.png"
+          alt: "Wide shot of audience at an official institutional launch event with high ceilings and bright light"
+        - url: "/assets/images/CITADEL-lancement-1.jpg"
+          alt: "Speaker at a podium during a ceremony with official flags in the background"
+        - url: "/assets/images/CITADEL-Pr-AlkassoumMaiga-.jpg"
+          alt: "Group photo of officials and researchers standing together at a launch event"
+    - title: "Présentation à l'Université AUBE NOUVELLE"
+      images:
+        - url: "/assets/images/citadel-u-auben-20-min-1024x682.jpeg"
+          alt: "University students and presenters engaged in a workshop setting with colorful furniture"
+        - url: "/assets/images/citadel-u-auben-1-min-1024x370.jpeg"
+          alt: "Close up of collaborative discussion at a university campus event"
+        - url: "/assets/images/citadel-u-auben-19-min-1024x394.jpeg"
+          alt: "Presentation slides shown on a screen in a large academic lecture hall"
+        - url: "/assets/images/citadel-u-auben-18-min-1024x682.jpeg"
+          alt: "Candid shot of university presenters talking with students in a bright hall"
+---

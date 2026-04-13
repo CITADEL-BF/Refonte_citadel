@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CITADEL - Centre d'Excellence Interdisciplinaire en IA</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="/assets/js/tailwindAccueil.js"></script>
+
+  <!-- CSS Custom -->
+  <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/accueil.css">
+</head>
+
+<body class="bg-background font-body text-on-background selection:bg-primary-container selection:text-on-primary-container">
+
+  <!-- Header réutilisable -->
+  {% include header.html %}
+
+  <main>
+
+    <!-- Hero Section -->
+    {% if page.hero %}
+      <section class="hero">
+        <div class="hero-bg">
+          {% for image in page.hero.images %}
+            <div class="hero-slide" style="background-image: url('{{ image }}'); animation-delay: {{ forloop.index0 | times: 4 }}s;"></div>
+          {% endfor %}
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-left">
+            {% if page.hero.tag %}
+              <span class="hero-tag">{{ page.hero.tag }}</span>
+            {% endif %}
+            <h1 class="hero-title">{{ page.hero.title }}</h1>
+            {% if page.hero.description %}
+              <p class="hero-description">{{ page.hero.description }}</p>
+            {% endif %}
+            <div class="hero-buttons">
+              {% for button in page.hero.buttons %}
+                <a href="{{ button.url }}" class="hero-button {% if button.type == 'primary' %}hero-button--primary{% else %}hero-button--secondary{% endif %}">
+                  {{ button.label }}
+                  {% if button.type == 'primary' %}<span class="material-symbols-outlined">arrow_forward</span>{% endif %}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-counters" >
+              <div class="counter-item">
+                <div class="counter-value">50<span class="counter-plus">+</span></div>
+                <div class="counter-label">Doctorants</div>
+              </div>
+              <div class="counter-item">
+                <div class="counter-value">50<span class="counter-plus">+</span></div>
+                <div class="counter-label">Projets Actifs</div>
+              </div>
+              <div class="counter-item">
+                <div class="counter-value">5<span class="counter-plus">+</span></div>
+                <div class="counter-label">Partenaires</div>
+              </div>
+              <div class="counter-item">
+                <div class="counter-value">6</div>
+                <div class="counter-label">Axes de Recherches</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Partners Section -->
+    {% if page.partners %}
+      <section class="partners-section">
+        <div class="section-container">
+          <h2 class="partners-title">{{ page.partners.title }}</h2>
+          <div class="partners-divider"></div>
+          
+          <div class="partners-grid">
+            {% for partner in page.partners.list %}
+              {% include partners-card.html partner=partner %}
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- About Section -->
+    {% if page.about %}
+      <section class="about-section">
+        <div class="section-container about-grid">
+          <div class="about-left">
+            <h2 class="about-title">{{ page.about.title }}</h2>
+            <p class="about-description">{{ page.about.description }}</p>
+            
+            <div class="about-icons">
+              {% for point in page.about.points %}
+                <div class="about-icon-item">
+                  <div class="about-icon">
+                    {% if point.icon_image %}
+                      <img src="{{ point.icon_image }}" alt="{{ point.label }}" class="about-icon-image">
+                    {% else %}
+                      <span class="material-symbols-outlined">{{ point.icon }}</span>
+                    {% endif %}
+                  </div>
+                  <div class="about-icon-label">{{ point.label }}</div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          
+          <div class="about-right">
+            <img src="{{ page.about.image }}" alt="{{ page.about.image_alt }}" class="about-image">
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Research Axes Section -->
+    {% if page.research_axes %}
+      <section class="research-section">
+        <div class="section-container research-content">
+          <h2 class="research-title">{{ page.research_axes.title }}</h2>
+          <p class="research-description">{{ page.research_axes.description }}</p>
+          
+          <div class="research-axes-box">
+            <img src="{{ page.research_axes.image }}" alt="{{ page.research_axes.image_alt }}" class="research-image">
+            <div class="research-overlay">
+              <div class="research-quote-label">{{ page.research_axes.quote_label }}</div>
+              <div class="research-quote">{{ page.research_axes.quote }}</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Activities Section -->
+    {% if page.activities %}
+      <section class="activities-section">
+        <div class="section-container activities-grid">
+          <div class="activities-left">
+            <img src="{{ page.activities.image }}" alt="{{ page.activities.image_alt }}" class="activities-image">
+          </div>
+          
+          <div class="activities-right">
+            <h2 class="activities-title">{{ page.activities.title }}</h2>
+            <div class="activities-list">
+              {% for activity in page.activities.list %}
+                <div class="activity-item">
+                  <div class="activity-icon" data-icon="{{ activity.icon }}">
+                    <span class="material-symbols-outlined">{{ activity.icon }}</span>
+                  </div>
+                  <div>
+                    <h3 class="activity-name">{{ activity.name }}</h3>
+                    <p class="activity-description">{{ activity.description }}</p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- News Section -->
+    {% if page.news %}
+      <section class="news-section">
+        <div class="section-container news-header">
+          <div>
+            <h3 class="news-title">{{ page.news.title }}</h3>
+          </div>
+          <button class="news-link">
+            Toute l'actualité <span class="material-symbols-outlined">arrow_right_alt</span>
+          </button>
+        </div>
+        
+        <div class="news-grid">
+          {% for article in page.news.articles %}
+            {% include news-card.html article=article %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- Gallery Section -->
+    {% if page.gallery %}
+      <section class="gallery-section">
+        <div class="section-container">
+          <h2 class="gallery-title">{{ page.gallery.title }}</h2>
+          
+          {% for album in page.gallery.albums %}
+            <div class="gallery-album">
+              <h3 class="gallery-album-title">
+                <span class="album-marker"></span>
+                {{ album.title }}
+              </h3>
+              <div class="gallery-grid">
+                {% for image in album.images %}
+                  <div class="gallery-item">
+                    <img src="{{ image.url }}" alt="{{ image.alt }}" class="gallery-image">
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+
+  </main>
+
+  <!-- Footer réutilisable -->
+  {% include footer.html %}
+
+</body>
+</html>
