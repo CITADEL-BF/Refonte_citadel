@@ -1,0 +1,10 @@
+<article class="mission-step-card">
+  {% if step.image %}
+    <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="mission-step-card__image" />
+  {% endif %}
+  <div class="mission-step-card__body">
+    {% if step.number %}<span class="mission-step-card__number">{{ step.number }}</span>{% endif %}
+    <h3 class="mission-step-card__title">{{ step.title }}</h3>
+    <p class="mission-step-card__text">{{ step.description }}</p>
+  </div>
+</article>

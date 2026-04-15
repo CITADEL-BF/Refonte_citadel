@@ -39,7 +39,7 @@ partners:
     - name: "AI4D Africa"
       logo: "/assets/images/ai4d-africa.png"
       tag: "Thématique"
-      url: "https://africa.ai4d.ai"
+      url: "https://www.ai4d.ai/"
 
 about:
   title: "Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement."

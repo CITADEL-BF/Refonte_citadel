@@ -12,12 +12,12 @@
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <script src="/assets/js/tailwindAccueil.js"></script>
+  <script src="{{ '/assets/js/tailwindAccueil.js' | relative_url }}"></script>
 
   <!-- CSS Custom -->
-  <link rel="stylesheet" href="/assets/css/header.css">
-  <link rel="stylesheet" href="/assets/css/footer.css">
-  <link rel="stylesheet" href="/assets/css/accueil.css">
+  <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/accueil.css' | relative_url }}">
 </head>
 
 <body class="bg-background font-body text-on-background selection:bg-primary-container selection:text-on-primary-container">
@@ -31,9 +31,13 @@
     {% if page.hero %}
       <section class="hero">
         <div class="hero-bg">
-          {% for image in page.hero.images %}
-            <div class="hero-slide" style="background-image: url('{{ image }}'); animation-delay: {{ forloop.index0 | times: 4 }}s;"></div>
-          {% endfor %}
+          {% if page.hero.images %}
+            {% for image in page.hero.images %}
+              <div class="hero-slide" style="background-image: url('{{ image | relative_url }}'); animation-delay: {{ forloop.index0 | times: 4 }}s "></div>
+            {% endfor %}
+          {% elsif page.hero.image %}
+            <div class="hero-slide" style="background-image: url('{{ page.hero.image | relative_url }}');"></div>
+          {% endif %}
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -65,7 +69,7 @@
                 <div class="counter-label">Projets Actifs</div>
               </div>
               <div class="counter-item">
-                <div class="counter-value">5<span class="counter-plus">+</span></div>
+                <div class="counter-value">5<span class="counter-plus"></span></div>
                 <div class="counter-label">Partenaires</div>
               </div>
               <div class="counter-item">
@@ -178,16 +182,30 @@
           <div>
             <h3 class="news-title">{{ page.news.title }}</h3>
           </div>
-          <button class="news-link">
+          <a href="{{ '/blog/' | relative_url }}" class="news-link">
             Toute l'actualité <span class="material-symbols-outlined">arrow_right_alt</span>
-          </button>
+          </a>
         </div>
         
         <div class="news-grid">
-          {% for article in page.news.articles %}
-            {% include news-card.html article=article %}
-          {% endfor %}
+          {% if page.news.articles %}
+            {% for article in page.news.articles %}
+              {% include news-card.html article=article %}
+            {% endfor %}
+          {% else %}
+            {% comment %} Affiche automatiquement les 3 derniers posts si rien n'est défini {% endcomment %}
+            {% for post in site.posts limit:3 %}
+              {% include news-card.html article=post %}
+            {% endfor %}
+          {% endif %}
         </div>
+      </section>
+    {% endif %}
+
+    <!-- Main Content Injection -->
+    {% if content != "" %}
+      <section class="section-container py-12 prose max-w-none">
+        {{ content }}
       </section>
     {% endif %}
 

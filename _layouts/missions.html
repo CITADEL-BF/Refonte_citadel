@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | CITADEL Research Center</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script src="{{ '/assets/js/tailwind.config.js' | relative_url }}"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/missions.css' | relative_url }}">
+  <style>
+    .accordion-button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 1.25rem 1.5rem;
+      background: white;
+      border: 1px solid #d9dedd;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-weight: 600;
+      color: #00693e;
+      font-family: 'Manrope', sans-serif;
+      transition: all 0.3s ease;
+      text-align: left;
+    }
+
+    .accordion-button:hover {
+      background: #f5f7f6;
+      border-color: #00693e;
+    }
+
+    .accordion-button.active {
+      background: #f5f7f6;
+      border-color: #00693e;
+    }
+
+    .accordion-button .material-symbols-outlined {
+      transition: transform 0.3s ease;
+    }
+
+    .accordion-button.active .material-symbols-outlined {
+      transform: rotate(180deg);
+    }
+
+    .accordion-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      border-left: 1px solid #d9dedd;
+      border-right: 1px solid #d9dedd;
+      border-bottom: 1px solid #d9dedd;
+      border-radius: 0 0 0.5rem 0.5rem;
+      margin-top: -1px;
+    }
+
+    .accordion-content.active {
+      max-height: 1000px;
+      overflow: visible;
+    }
+
+    .accordion-content p {
+      padding: 1.5rem;
+      color: #595c5c;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    .accordion-wrapper {
+      margin-bottom: 1rem;
+    }
+
+    .accordion-wrapper.active .accordion-content {
+      max-height: 2000px;
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface">
+
+  <!-- Header -->
+  {% include header.html %}
+
+  <main class="pt-20">
+
+    <!-- 1. Hero Section -->
+    {% if page.hero %}
+      <section class="missions-hero bg-surface-container-lowest">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="missions-hero__content">
+            <div class="missions-hero__text">
+              <div class="missions-hero__title-group">
+                <div class="missions-hero__icon-box">
+                  <span class="material-symbols-outlined" data-icon="{{ page.hero.icon | default: 'psychology' }}">{{ page.hero.icon | default: 'psychology' }}</span>
+                </div>
+                <h1 class="missions-hero__title">{{ page.hero.title }}</h1>
+              </div>
+              <p class="missions-hero__description">{{ page.hero.description }}</p>
+            </div>
+            <div class="missions-hero__image">
+              <div class="missions-hero__image-bg"></div>
+              <div class="missions-hero__image-circle">
+                <img src="{{ page.hero.image | default: '/assets/images/CITADEL-lancement-1.jpg' | relative_url }}" 
+                     alt="{{ page.hero.alt | default: 'CITADEL Research' }}">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 2. Mission Steps Section -->
+    {% if page.mission_steps %}
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            {% for step in page.mission_steps %}
+              <div class="text-center">
+                <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary-container text-primary font-bold text-2xl mb-6">
+                  {{ step.number }}
+                </div>
+                <div class="aspect-square flex items-center justify-center bg-surface rounded-lg mb-6 overflow-hidden p-4">
+                  <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-bold text-primary mb-4">{{ step.title }}</h3>
+                <p class="text-on-surface-variant font-body leading-relaxed min-h-24">{{ step.description }}</p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 3. Process Section -->
+    {% if page.process %}
+      <section class="py-16 bg-gradient-to-b from-surface to-white relative overflow-hidden" id="process-section">
+        <div class="max-w-7xl mx-auto px-6">
+          <!-- Intro text with fade-in effect on scroll -->
+          <div class="process-fade-element mb-16 opacity-0">
+            <p class="text-center text-lg font-body text-on-surface-variant leading-relaxed max-w-4xl mx-auto">
+              {{ page.process.description }}
+            </p>
+          </div>
+
+          <!-- Process Steps -->
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            {% for step in page.process.steps %}
+              <div class="group">
+                <div class="bg-white p-6 rounded-xl border-l-4 border-primary hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+                  <div class="flex items-center gap-3 mb-4">
+                    <div class="w-1 h-8 bg-primary rounded"></div>
+                    <h4 class="font-bold text-primary text-lg">{{ step.title }}</h4>
+                  </div>
+                  <p class="text-sm text-on-surface-variant leading-relaxed flex-grow">{{ step.text }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <!-- Fade effect animation for scroll trigger -->
+        <style>
+          @keyframes fadeInUp {
+            from {
+              opacity: 0;
+              transform: translateY(20px);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+
+          .process-fade-element.visible {
+            animation: fadeInUp 1s ease-out forwards;
+          }
+        </style>
+      </section>
+    {% endif %}
+
+    <!-- 4. Quote Section -->
+    {% if page.quote %}
+      <section class="py-16 bg-primary text-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+          <p class="text-2xl font-bold mb-8">{{ page.quote.text }}</p>
+          {% if page.quote.button %}
+            <a href="{{ page.quote.button.url }}" class="inline-block px-6 py-3 bg-primary-container text-primary font-bold rounded-lg hover:bg-white transition">
+              {{ page.quote.button.label }}
+            </a>
+          {% endif %}
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 5. MIDS Section with Accordions -->
+    {% if page.mids %}
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-primary mb-4">{{ page.mids.title }}</h2>
+          <p class="text-lg text-on-surface-variant mb-8">{{ page.mids.description }}</p>
+          
+          <div class="space-y-3">
+            {% for accordion in page.mids.accordions %}
+              <div class="accordion-wrapper">
+                <button class="accordion-button" onclick="toggleAccordion(this)">
+                  <span>{{ accordion.title }}</span>
+                  <span class="material-symbols-outlined">expand_more</span>
+                </button>
+                <div class="accordion-content">
+                  <p>{{ accordion.abstract }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 5. Inclusion Section with Accordions -->
+    {% if page.inclusion %}
+      <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-primary mb-4">{{ page.inclusion.title }}</h2>
+          <p class="text-lg text-on-surface-variant mb-8">{{ page.inclusion.description }}</p>
+          
+          <div class="space-y-3">
+            {% for accordion in page.inclusion.accordions %}
+              <div class="accordion-wrapper">
+                <button class="accordion-button" onclick="toggleAccordion(this)">
+                  <span>{{ accordion.title }}</span>
+                  <span class="material-symbols-outlined">expand_more</span>
+                </button>
+                <div class="accordion-content">
+                  <p>{{ accordion.abstract }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 6. Interdisciplinarity Section with Accordions -->
+    {% if page.interdisciplinarity %}
+      <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+            <div class="lg:col-span-2">
+              <h2 class="text-4xl font-bold text-primary mb-6">{{ page.interdisciplinarity.title }}</h2>
+              <p class="text-lg text-on-surface-variant mb-10 leading-relaxed">{{ page.interdisciplinarity.description }}</p>
+              
+              <div class="space-y-3">
+                {% for accordion in page.interdisciplinarity.accordions %}
+                  <div class="accordion-wrapper">
+                    <button class="accordion-button" onclick="toggleAccordion(this)">
+                      <span>{{ accordion.title }}</span>
+                      <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+                    <div class="accordion-content">
+                      <p>{{ accordion.abstract }}</p>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            
+            <div class="lg:col-span-1">
+              <div class="sticky top-8 flex items-center justify-center">
+                <img src="{{ page.interdisciplinarity.image | relative_url }}" alt="{{ page.interdisciplinarity.title }}" class="w-full max-w-sm h-auto rounded-lg shadow-lg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <!-- 7. Collaborations Section with Accordions -->
+    {% if page.collaborations %}
+      <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-6">
+          <h2 class="text-4xl font-bold text-primary mb-12">{{ page.collaborations.title }}</h2>
+          
+          <div class="space-y-3">
+            {% for accordion in page.collaborations.accordions %}
+              <div class="accordion-wrapper">
+                <button class="accordion-button" onclick="toggleAccordion(this)">
+                  <span>{{ accordion.title }}</span>
+                  <span class="material-symbols-outlined">expand_more</span>
+                </button>
+                <div class="accordion-content">
+                  <p>{{ accordion.abstract }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+  <script>
+    // Accordion functionality
+    function toggleAccordion(button) {
+      const wrapper = button.parentElement;
+      const content = wrapper.querySelector('.accordion-content');
+      const isActive = wrapper.classList.contains('active');
+      
+      // Toggle current accordion
+      if (isActive) {
+        wrapper.classList.remove('active');
+        button.classList.remove('active');
+        content.classList.remove('active');
+      } else {
+        wrapper.classList.add('active');
+        button.classList.add('active');
+        content.classList.add('active');
+      }
+    }
+
+    // Intersection Observer for scroll animations
+    const observerOptions = {
+      threshold: 0.2,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Add visible class to trigger animation
+          entry.target.classList.add('visible');
+          // Stop observing after animation is triggered
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Observe fade elements
+    const fadeElements = document.querySelectorAll('.process-fade-element');
+    fadeElements.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+body { font-family: 'Work Sans', sans-serif; }
+h1, h2, h3, .nav-link { font-family: 'Manrope', sans-serif; }
+.glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); }
+
+/* Research Card Filtering */
+.research-card {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
