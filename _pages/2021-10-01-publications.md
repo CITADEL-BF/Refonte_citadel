@@ -1,33 +1,302 @@
 ---
-layout: page
-title: "Publications"
+layout: 2021-10-01-publications
+title: "Publications Scientifiques"
 permalink: /publications/
----
-
----
-title: "Publications"
 date: 2021-10-01
-draft: true
+draft: false
+
+publications:
+  - title: "A Low Resource Language Translation: French To Moore"
+    id: "CIT-2025-001"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Hamed Joseph Ouily"
+        role: "Lead Researcher"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/CITADEL-M-min.png"
+      - name: "Aminata Sabané"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/DrSabane.png"
+    year: 2025
+    abstract: "Cette étude présente une approche innovante pour la traduction automatique entre le français et le mooré, une langue à ressources limitées parlée au Burkina Faso. En utilisant des techniques d'apprentissage profond et des corpus parallèles limités, nous démontrons une amélioration significative de la qualité de traduction, ouvrant la voie à la préservation et à la digitalisation des langues africaines."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/A-Low-Resource-Language-Translation__0AFrench-To-Moore.pdf"
+    doi: "10.1038/citadel.2025.001"
+    citations: 0
+    date: "2025-02-14"
+
+  - title: "AI BASED APPROACH FOR EARLY DIAGNOSIS SUPPORT IN HEMORRHAGIC STROKE"
+    id: "CIT-2025-002"
+    category: "Santé & bien-être"
+    category_color: "text-blue-700 bg-blue-100"
+    border_color: "border-blue-300"
+    authors:
+      - name: "Athanase SAWADOGO "
+        role: "Lead Researcher"
+        affiliation: " Computer science department, UFR/SEA, Joseph KI-ZERBO University "
+        image: "/assets/images/CITADEL-M-min.png"
+      - name: "Lydie Simone TAPSOBA "
+        role: "Co-Researcher"
+        affiliation: "Mathematics and Informatics laboratory (LAMI), Ouagadougou, Burkina Faso "
+        image: "/assets/images/Artboard-15.png"
+    year: 2025
+    abstract: "Cette recherche développe une approche basée sur l'intelligence artificielle pour assister le diagnostic précoce des accidents vasculaires cérébraux hémorragiques. En analysant les images médicales et les données cliniques, notre modèle offre un soutien décisionnel aux professionnels de santé, améliorant la rapidité et la précision du diagnostic dans les contextes à ressources limitées."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-BASED-APPROACH-FOR-EARLY-DIAGNOSIS_SUPPORT-IN-HEMORRHAGIC-STROKE.pdf"
+    doi: "10.1038/citadel.2025.002"
+    citations: 0
+    date: "2025-02-13"
+
+  - title: "AI driven Generation of News Summaries"
+    id: "CIT-2025-003"
+    category: "Vie privée & explicabilité"
+    category_color: "text-gray-700 bg-gray-100"
+    border_color: "border-gray-300"
+    authors:
+      - name: "Issiaka Faissal Compaore"
+        role: "Lead Researcher"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/CITADEL-M-min.png"
+      - name: "Rodrique Kafando"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Kaf.png"
+    year: 2025
+    abstract: "Cette étude explore l'utilisation de l'intelligence artificielle pour générer automatiquement des résumés d'actualités, en mettant l'accent sur l'explicabilité et la préservation de la vie privée. Nous proposons un modèle qui non seulement produit des résumés cohérents mais aussi explique ses décisions, contribuant ainsi à une IA plus transparente et éthique dans le traitement de l'information."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries.pdf"
+    doi: "10.1038/citadel.2025.003"
+    citations: 0
+    date: "2025-02-12"
+
+  - title: "Artificial Intelligence for the Analysis of the Security Situation in Burkina Faso"
+    id: "CIT-2025-004"
+    category: "Sécurité"
+    category_color: "text-red-700 bg-red-100"
+    border_color: "border-red-300"
+    authors:
+      - name: "Abdoul Fataoh Kaboré"
+        role: "Researcher"
+        affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
+        image: "/assets/images/kabore-abdoul-fataoh.jpg"
+      - name: "Maı̈mouna Ouattara"
+        role: "Co-Researcher"
+        affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
+        image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
+    year: 2025
+    abstract: "Ce document présente une analyse assistée par intelligence artificielle pour la situation sécuritaire au Burkina Faso. Le modèle intègre des flux de données géospatiales et des signaux socio-économiques pour identifier les zones de tension et renforcer la prise de décision opérationnelle."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Artificial-Intelligence-for-the-Analysis-of-the_0ASecurity-Situation-in-Burkina-Faso_AFRICOMM_en.pdf"
+    doi: "10.1038/citadel.2025.004"
+    citations: 0
+    date: "2025-02-11"
+
+  - title: "Fakipedia: Building and Exploiting Commonsense Knowledge"
+    id: "CIT-2025-005"
+    category: "Intelligence Artificielle"
+    category_color: "text-teal-700 bg-teal-100"
+    border_color: "border-teal-300"
+    authors:
+      - name: "Sidbewendin-Angelique-YAMEOGO"
+        role: "Lead Researcher"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/Sidbewendin-Angelique-YAMEOGO.jpg"
+      - name: "Aminata Sabané"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/DrSabane.png"
+    year: 2025
+    abstract: "Fakipedia introduit une base de connaissances spécialisée pour les faits et contre-vérités en langue française, exploitée par des modèles de génération de texte. Nous montrons comment renforcer la précision d'un système conversationnel face aux contenus trompeurs."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Fakipedia_-Building-and-exploiting-.pdf"
+    doi: "10.1038/citadel.2025.005"
+    citations: 0
+    date: "2025-02-10"
+
+  - title: "Resource Constrained Environments Video Analytics"
+    id: "CIT-2025-006"
+    category: "Sécurité"
+    category_color: "text-red-700 bg-red-100"
+    border_color: "border-red-300"
+    authors:
+      - name: "Rodrique Kafando"
+        role: "Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Kaf.png"
+      - name: "Aminata Sabané"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/DrSabane.png"  
+    year: 2025
+    abstract: "Cette publication conçoit une solution d'analyse vidéo adaptée aux environnements contraints en ressources. Le système détecte automatiquement des comportements critiques tout en garantissant un faible coût de calcul pour des déploiements locaux."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Resource_Constrained_Environments_Video_Analytics-1.pdf"
+    doi: "10.1038/citadel.2025.006"
+    citations: 0
+    date: "2025-02-09"
+
+  - title: "AI-driven Generation of News Summaries Leveraging GPT and Pegasus"
+    id: "CIT-2025-007"
+    category: "Intelligence Artificielle"
+    category_color: "text-teal-700 bg-teal-100"
+    border_color: "border-teal-300"
+    authors:
+      - name: "Issiaka Faissal Compaore"
+        role: "Lead Researcher"
+        affiliation : "Centre d’Excellence CITADEL"
+        image: "/assets/images/Artboard-17.png"
+      - name: "Rodrique Kafando"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Kaf.png"
+    year: 2025
+    abstract: "Ce travail compare plusieurs architectures de résumé automatique basées sur GPT et Pegasus pour améliorer la qualité des synthèses d'articles d'actualité. L'étude met l'accent sur la réduction des biais et la fidélité des informations extraites."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries-Leveraging-GPT-and-Pegasus-Summarizer-for-Efficient-Information-Extraction.pdf"
+    doi: "10.1038/citadel.2025.007"
+    citations: 0
+    date: "2025-02-08"
+
+  - title: "Evaluating Acoustic Parameters for DeepFake Audio           Identification"
+    id: "CIT-2025-008"
+    category: "Vie privée & explicabilité"
+    category_color: "text-gray-700 bg-gray-100"
+    border_color: "border-gray-300"
+    authors:
+      - name: "Djiré Albérick Euraste"
+        role: "Lead Researcher"
+        affiliation: "Centre d’Excellence en IA (CITADEL) Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Djire-Alberick-Euraste.jpg"
+      - name: "Aminata Sabané"
+        role: "Co-Researcher"
+        affiliation: "UFR Sciences Exactes et Appliquées Université Joseph Ki-Zerbo (UJKZ)"
+        image: "/assets/images/DrSabane.png" 
+    year: 2025
+    abstract: "Ce document présente une démonstration de DeepFake vocal en langue locale et analyse les défis éthiques de cette technologie. Nous proposons des mécanismes de détection visant à prévenir les usages malveillants dans les médias numériques."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/DeepFake_Vocale-Alberick.pdf"
+    doi: "10.1038/citadel.2025.008"
+    citations: 0
+    date: "2025-02-07"
+
+  - title: "Detecting Illicit Data Leaks on Android Smartphones"
+    id: "CIT-2025-009"
+    category: "Vie privée & explicabilité"
+    category_color: "text-gray-700 bg-gray-100"
+    border_color: "border-gray-300"
+    authors:
+      - name: "Serge Lionel Nikiema"
+        role: "Researcher"
+        affiliation: "Centre d’Excellence en IA pour le Developpement (CITADEL)"
+        image: "/assets/images/Artboard-17.png"
+      - name: "Aminata Sabané"
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/DrSabane.png" 
+    year: 2025
+    abstract: "Cette publication propose un modèle d'intelligence artificielle pour détecter les fuites de données sensibles sur les smartphones Android. Le système identifie les applications à risque et analyse les flux réseaux pour protéger la confidentialité des utilisateurs."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Detecting-Illicit-Data-Leaks-on-AndroidSmartphones-Using-an-ArtificialIntelligence-Models.pdf"
+    doi: "10.1038/citadel.2025.009"
+    citations: 0
+    date: "2025-02-06"
+
+  - title: "L'intelligence artificielle pour l'analyse de la situation sécuritaire du Burkina Faso"
+    id: "CIT-2025-010"
+    category: "Sécurité"
+    category_color: "text-red-700 bg-red-100"
+    border_color: "border-red-300"
+    authors:
+      - name: "Abdoul Fataoh Kabore"
+        role: "Lead Researcher"
+        affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
+        image: "/assets/images/kabore-abdoul-fataoh.jpg"
+      - name: "Maïmouna Ouattara"
+        role: "Co-Researcher"
+        affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
+        image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
+    year: 2025
+    abstract: "Ce rapport examine l'application de l'intelligence artificielle à l'analyse de données sécuritaires au Burkina Faso. Le modèle détecte des tendances et contribue à l'anticipation des crises à partir de sources ouvertes et de capteurs locaux."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Lintelligence-artificielle-pour-lanalyse-de-la-situation-securitaire-du-Burkina-Faso.pdf"
+    doi: "10.1038/citadel.2025.010"
+    citations: 0
+    date: "2025-02-05"
+
+  - title: "MetaTPTrans: A Meta-Learning Approach for Multilingual Code Representation Learning"
+    id: "CIT-2025-011"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Weiguo Pian"
+        role: "Researcher"
+        affiliation: " SnT"
+        image: "/assets/images/Artboard-17.png"
+      - name: "Hanyu Peng"
+        role: "Co-Researcher"
+        affiliation: " University of Luxembourg"
+        image: "/assets/images/Artboard-17.png"
+    year: 2025
+    abstract: "MetaTPTrans propose un apprentissage méta pour représenter des codes multilingues. Cette méthode facilite le traitement des langues africaines et le transfert de connaissances entre corpus disciplinaires."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/MetaTPTrans_-A-Meta-Learning-Approach-for-Multilingual-Code-Representation-Learning.pdf"
+    doi: "10.1038/citadel.2025.011"
+    citations: 0
+    date: "2025-02-04"
+
+  - title: "SNEToolkit: Spatial Named Entities Disambiguation Toolkit"
+    id: "CIT-2025-012"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Rodrique KAFANDO"
+        role: "Lead Researcher"
+        affiliation: "TETIS"
+        image: "/assets/images/Kaf.png"
+      - name: "Rémy Decoupes"
+        role: "Co-Researcher"
+        affiliation: "Univ Montpellier"
+        image: "/assets/images/Artboard-17.png"
+    year: 2025
+    abstract: "SNEToolkit est un outil de désambiguïsation des entités nommées spatiales pour des textes multilingues. Il améliore la reconnaissance de lieux et de personnes dans les documents africains tout en conservant la structure géographique."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/SNEToolkit_-Spatial-named-entities-disambiguation-toolkit.pdf"
+    doi: "10.1038/citadel.2025.012"
+    citations: 0
+    date: "2025-02-03"
+
+  - title: "Text-to-OWL: Automated Ontology Construction for Tuberculosis Treatment Recommendation"
+    id: "CIT-2025-013"
+    category: "Santé & bien-être"
+    category_color: "text-blue-700 bg-blue-100"
+    border_color: "border-blue-300"
+    authors:
+      - name: "Zonabo Ouédraogo"
+        role: "Lead Researcher"
+        affiliation: "Interdisciplinary Center of Excellence in AI for Development (CITADEL)"
+        image: "/assets/images/Artboard-15.png"
+      - name: " Lydie Simone Tapsoba"
+        role: "Co-Researcher"
+        affiliation: "Interdisciplinary Center of Excellence in AI for Development (CITADEL)"
+        image: "/assets/images/Artboard-15.png"
+    year: 2025
+    abstract: "Text-to-OWL décrit une chaîne de construction automatique d'ontologies pour recommander des traitements antituberculeux. Le système combine intelligence artificielle et knowledge graph pour assister les professionnels de santé."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Text-to-OWL_-Automated-Ontology-Construction-for-Tuberculosis-Treatment-Recommendation-using-Generative-AI.pdf"
+    doi: "10.1038/citadel.2025.013"
+    citations: 0
+    date: "2025-02-02"
+
+  - title: "Voice Interaction in Moore Language: Study on Isolated Word Recognition"
+    id: "CIT-2025-014"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Moumini KABORE"
+        role: "Lead Researcher"
+        affiliation: "CITADEL-Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Artboard-17.png " 
+      - name: "Dc KAFANDO Rodrigue "
+        role: "Co-Researcher"
+        affiliation: "Université Virtuelle du Burkina Faso"
+        image: "/assets/images/Kaf.png " 
+    year: 2025
+    abstract: "Cette étude présente une interface vocale en mooré pour la reconnaissance de mots isolés. Elle met en évidence les défis phonétiques et propose des techniques d'apprentissage profond adaptées aux langues africaines."
+    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Voice-Interaction-in-Moore-Language-Study-on-Isolated-Word-Recognition-in-Audio-Samples.pdf"
+    doi: "10.1038/citadel.2025.014"
+    citations: 0
+    date: "2025-02-01"
 ---
-
-[](https://citadel.bf/?p=1151 "SaaS and the cloud: A primer for IT pros")
-
-#### [SaaS and the cloud: A primer for IT pros](https://citadel.bf/?p=1151 "SaaS and the cloud: A primer for IT pros")
-
-[](https://citadel.bf/?p=4654 "The Future of Cloud-Based Products")
-
-#### [The Future of Cloud-Based Products](https://citadel.bf/?p=4654 "The Future of Cloud-Based Products")
-
-[](https://citadel.bf/?p=4661 "Cloud computing: SaaS, IaaS or PaaS")
-
-#### [Cloud computing: SaaS, IaaS or PaaS](https://citadel.bf/?p=4661 "Cloud computing: SaaS, IaaS or PaaS")
-
-[](https://citadel.bf/index.php/2020/10/16/a-complete-guide-to-customer-communication/ "What are the advantages of SaaS?")
-
-#### [What are the advantages of SaaS?](https://citadel.bf/index.php/2020/10/16/a-complete-guide-to-customer-communication/ "What are the advantages of SaaS?")
-
-[](https://citadel.bf/?p=12543 "What is Organizational Development and Why is it Important?")
-
-#### [What is Organizational Development and Why is it Important?](https://citadel.bf/?p=12543 "What is Organizational Development and Why is it Important?")
-
-#### [Bonjour tout le monde !](https://citadel.bf/?p=1 "Bonjour tout le monde !")
