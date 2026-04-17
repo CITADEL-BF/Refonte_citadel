@@ -1,0 +1,230 @@
+---
+---
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog &amp; Actualités | Citadel Intelligence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "error": "#ba1a1a",
+                        "surface-dim": "#cfdbe9",
+                        "surface-container-low": "#ecf4ff",
+                        "on-background": "#111d26",
+                        "on-tertiary-fixed": "#111d26",
+                        "secondary-fixed": "#e2e2e5",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "outline": "#6e7a6d",
+                        "background": "#f7f9ff",
+                        "surface-variant": "#d8e4f1",
+                        "surface-tint": "#006d30",
+                        "inverse-on-surface": "#e7f2ff",
+                        "secondary-fixed-dim": "#c6c6c9",
+                        "on-primary-container": "#f7fff3",
+                        "surface-container-high": "#ddeaf7",
+                        "on-secondary-container": "#636467",
+                        "tertiary": "#515d69",
+                        "primary-fixed-dim": "#74dc8a",
+                        "tertiary-container": "#6a7682",
+                        "inverse-primary": "#74dc8a",
+                        "on-secondary": "#ffffff",
+                        "on-surface": "#111d26",
+                        "surface-container": "#e3effd",
+                        "surface-bright": "#f7f9ff",
+                        "on-tertiary-container": "#fcfcff",
+                        "on-primary-fixed": "#00210a",
+                        "on-tertiary-fixed-variant": "#3c4853",
+                        "surface": "#f7f9ff",
+                        "primary-fixed": "#90f9a3",
+                        "tertiary-fixed-dim": "#bcc8d5",
+                        "on-primary-fixed-variant": "#005323",
+                        "on-secondary-fixed-variant": "#454749",
+                        "secondary-container": "#e2e2e5",
+                        "primary": "#006b2f",
+                        "outline-variant": "#becabb",
+                        "on-surface-variant": "#3f4a3e",
+                        "secondary": "#5d5e61",
+                        "surface-container-highest": "#d8e4f1",
+                        "tertiary-fixed": "#d8e4f1",
+                        "on-secondary-fixed": "#1a1c1e",
+                        "inverse-surface": "#26323c",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#11863f",
+                        "error-container": "#ffdad6"
+                    },
+                    fontFamily: {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-effect {
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+{% include header.html %}
+
+<section class="hero-slider-container relative mt-20">
+  <div class="hero-slider relative overflow-hidden w-full h-screen">
+    <div class="slide slide-1"></div>
+    <div class="slide slide-2"></div>
+    <div class="slide slide-3"></div>
+    <div class="slide slide-4"></div>
+    <div class="absolute inset-0 bg-black/20 pointer-events-none"></div>
+  </div>
+  <div class="absolute top-12 left-12 z-20">
+    <span class="bg-primary px-6 py-3 text-on-primary text-sm font-bold rounded-sm shadow-2xl uppercase tracking-widest">
+      {{ page.hero_tag }}
+    </span>
+  </div>
+</section>
+
+<main class="max-w-7xl mx-auto px-6 py-24">
+<!-- Filter Bar -->
+<div class="flex flex-col gap-6 mb-16">
+  <div class="flex flex-wrap items-center gap-4">
+    <div class="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
+      <button class="filter-button active bg-primary text-on-primary px-6 py-2 rounded-full text-sm font-semibold whitespace-nowrap" data-filter="all">Tous les articles</button>
+      <button class="filter-button px-6 py-2 rounded-full text-sm font-semibold whitespace-nowrap" data-filter="actualites">Actualités</button>
+      <button class="filter-button px-6 py-2 rounded-full text-sm font-semibold whitespace-nowrap" data-filter="seminaire">Séminaire</button>
+      <button class="filter-button px-6 py-2 rounded-full text-sm font-semibold whitespace-nowrap" data-filter="formation">Formation</button>
+      <button class="filter-button px-6 py-2 rounded-full text-sm font-semibold whitespace-nowrap" data-filter="hackathon">Hackathon</button>
+    </div>
+
+    <div class="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-6 ml-auto">
+      <input id="searchInput" type="search" placeholder="Rechercher un article" class="min-w-[220px] rounded-full border border-surface-container-high bg-white/90 px-5 py-3 text-sm text-on-surface shadow-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20" />
+      <div class="flex items-center gap-2 text-on-surface-variant text-sm font-medium">
+        <span>Trier par:</span>
+        <select id="sortSelect" class="bg-transparent border-none focus:ring-0 cursor-pointer font-bold text-on-surface">
+          <option value="recent">Plus récents</option>
+          <option value="oldest">Plus anciens</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<div id="featuredContainer" class="md:col-span-8"></div>
+<div id="sideContainer" class="md:col-span-4 flex flex-col gap-6"></div>
+</div>
+
+<div id="postGrid" class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+{% for post in site.posts %}
+  {% assign card_category = post.theme | default: post.categories.first | slugify | default: 'actualites' %}
+  <div class="post-item" data-category="{{ card_category }}" data-title="{{ post.title | downcase }}" data-excerpt="{{ post.excerpt | default: post.content | strip_html | truncatewords: 20 | downcase }}" data-date="{{ post.date | date: '%s' }}">
+    {% include blog-card.html category=card_category %}
+  </div>
+{% endfor %}
+</div>
+</main>
+
+{% include footer.html %}
+
+<script>
+  const filterButtons = document.querySelectorAll('.filter-button');
+  const postItems = Array.from(document.querySelectorAll('.post-item'));
+  const featuredContainer = document.getElementById('featuredContainer');
+  const sideContainer = document.getElementById('sideContainer');
+  const searchInput = document.getElementById('searchInput');
+  const sortSelect = document.getElementById('sortSelect');
+
+  const buildFeaturedCard = (postElement) => {
+    const clone = postElement.querySelector('.post-card').cloneNode(true);
+    clone.classList.remove('post-card');
+    return clone;
+  };
+
+  const getSortOrder = () => sortSelect.value === 'oldest' ? 1 : -1;
+
+  const filterAndSort = (filter, search) => {
+    let filtered = postItems.filter(item => filter === 'all' || item.dataset.category === filter);
+    if (search) {
+      const term = search.toLowerCase();
+      filtered = filtered.filter(item => item.dataset.title.includes(term) || item.dataset.excerpt.includes(term));
+    }
+    filtered.sort((a, b) => {
+      const dateA = parseInt(a.dataset.date, 10);
+      const dateB = parseInt(b.dataset.date, 10);
+      return getSortOrder() * (dateA - dateB);
+    });
+    return filtered;
+  };
+
+  const renderSection = () => {
+    const activeFilter = Array.from(filterButtons).find(btn => btn.classList.contains('bg-primary'))?.dataset.filter || 'all';
+    const searchValue = searchInput.value.trim();
+    const filtered = filterAndSort(activeFilter, searchValue);
+
+    featuredContainer.innerHTML = '';
+    sideContainer.innerHTML = '';
+
+    const topPosts = filtered.slice(0, 3);
+    topPosts.forEach((item, index) => {
+      const clone = buildFeaturedCard(item);
+      if (index === 0) {
+        const wrapper = document.createElement('article');
+        wrapper.className = 'group relative overflow-hidden rounded-xl bg-surface-container-lowest transition-all hover:shadow-2xl hover:shadow-primary/5';
+        wrapper.appendChild(clone);
+        featuredContainer.appendChild(wrapper);
+      } else {
+        const wrapper = document.createElement('article');
+        wrapper.className = 'bg-surface-container-lowest p-6 rounded-xl hover:bg-surface-bright transition-colors group';
+        wrapper.appendChild(clone);
+        sideContainer.appendChild(wrapper);
+      }
+    });
+
+    postItems.forEach((item) => {
+      const isInFiltered = filtered.includes(item);
+      const isTop = topPosts.includes(item);
+      item.style.display = isInFiltered && !isTop ? 'block' : 'none';
+    });
+  };
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterButtons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      button.classList.add('bg-primary', 'text-on-primary');
+      button.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      renderSection();
+    });
+  });
+
+  searchInput.addEventListener('input', renderSection);
+  sortSelect.addEventListener('change', renderSection);
+
+  renderSection();
+</script>
+</body>
+</html>

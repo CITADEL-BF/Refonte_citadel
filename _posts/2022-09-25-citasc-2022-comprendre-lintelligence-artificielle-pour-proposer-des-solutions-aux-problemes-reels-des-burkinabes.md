@@ -1,0 +1,50 @@
+---
+title: 'CITA’SC 2022 : Comprendre l’intelligence artificielle pour proposer des solutions
+  aux problèmes réels des Burkinabè !'
+date: 2022-09-25
+categories:
+- actualites
+- blog
+coverImage: CITASC-2022-POST.png
+theme: Actualités
+---
+
+![](images/CITASC-2022-POST-1024x576.png)
+
+Du 19 au 24 septembre avait lieu au monastère Abbaye Saint Benoît de Koubri, la première édition du CITADEL Summer School (CITA’SC). Cette école d’été est une initiative du Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) en partenariat avec la coopération Luxembourgeoise. 34 étudiant(e)s Doctorant(e)s et en année de Master en informatique venu(e)s des différentes universités du Burkina Faso ont acquis des connaissances théoriques et pratiques sur l’IA qu’ils ont mis en pratique lors d’un hackathon organisé pour l’occasion. Cet évènement a connu la présence de la Ministre de la transition digitale, des postes et des communications électroniques, Dr Aminata ZERBO, du Représentant du Ministre de l’enseignement supérieur, de la recherche scientifique et de l’innovation ainsi que des premiers responsables de l’Université virtuelle du Burkina. Retour sur la première édition d’une école d’été qui a suscité beaucoup d’intérêts !
+
+> **_**_« Nous savons tout le potentiel de cette technologie pour non seulement booster la plupart des domaines et répondre à des problématiques majeures que nous rencontrons… »_**_**  
+> 
+> **Dr Aminata ZERBO/SABAN**E
+
+« Intelligence artificielle et applications », c’est le thème de cette première édition du CITADEL Summer School. Ce thème porte en lui le leitmotiv de CITADEL qui est de vulgariser les potentiels de l’IA pour en assurer son appropriation et son utilisation pour un développement durable en Afrique et particulièrement au Burkina Faso. Si l’IA commence à susciter de l’intérêt au Burkina Faso, les initiatives pour la rendre accessible au plus grand nombre ne sont pas autant connues. L’école d’été qui fait partie des premières initiatives du genre au Burkina Faso, a réuni une trentaine de participants pour parler de l’IA pendant une semaine et se challenger afin de proposer des solutions en phase avec les réalités du pays. L’importance de cette technologie n’est plus à démontrer comme le témoigne la ministre de la transition digitale, des postes et des communications électroniques en ces termes « _Nous savons tout le potentiel de cette technologie pour non seulement booster la plupart des domaines et répondre à des problématiques majeures que nous rencontrons. Pour cela il faut des compétences, des gens qui comprennent l’IA, qui savent l’utiliser pour penser, concevoir et implémenter les solutions. Je suis donc heureuse que cette école puisse avoir lieu_ ». Pendant une semaine, les étudiants ont renforcé leurs connaissances sur les outils de l’IA. Ce fut également un moment de partage d’expériences sur les problèmes spécifiques liés à la mise en œuvre de projets d’intelligence artificielle dans le milieu de l’industrie et de la recherche. Les apprenants ont reçu une formation sur python, le Machine learning et le Deep learning. Le CITA’SC vient compléter la série d’initiatives de CITADEL pour donner des opportunités aux étudiants de jeter leur dévolu sur cette technologie afin de produire des résultats dans les domaines de : SANTÉ & BIEN-ÊTRE, FINTECH & SÉCURITÉ, LANGUES & PATRIMOINE, AGRICULTURE & PASTORALISME, ÉNERGIE & CHANGEMENT CLIMATIQUE, CONFIDENTIALITÉ & EXPLICABILITÉ. _« Il n’y a pas de développement sans intelligence et l’intelligence se formate dans les écoles et universités. Aujourd’hui nous avons besoin de l’IA pour avancer et nous vous invitons à travailler à ce qu’elle soit connue et banalisée »_ c’est en ces termes que le Pr. Jean Marie DIPAMA, président de l’Université Virtuelle du Burkina Faso (UV-BF) exprime la nécessité d’aller vers le monde universitaire pour divulguer les potentiels de l’IA.
+
+## **Des solutions basées sur l’IA pour relever les défis sécuritaires…**
+
+L’un des aspects stimulants de cette école d’été a été le HACKHATON organisé à l’issue des séances d’apprentissages sur la prise en main de python, du machine learning et du Deep learning ainsi que des partages d’expériences. Cette compétition a consisté pour les participants, à développer des solutions sur le thème : « _Défis sécuritaires et apport de l’IA : analyse de la situation sécuritaire à partir de sources de données hétérogènes_ ». Ce fut l’occasion d’évaluer le niveau d’assimilation des participants. Sur l’ensemble des groupes constitués pour réaliser ce travail, c’est le groupe 3 qui est arrivé sur la plus haute des marches avec une moyenne de 78.6%. Avec pour lead Parfait OUEDRAOGO, le groupe a travaillé sur les commentaires des abonnés de lefaso.net. Ils remportent donc la somme de 500 000 FCFA en espère et des gadgets d’une valeur de 350 000 FCFA. Les membres du groupe bénéficieront également de formation d’une valeur de 150 000. « _Au-delà des prix, c’est ce qui se profile à l’horizon qui est le plus important. Nous souhaitons que les réflexions que vous avez eu à faire, les thématiques que vous traitez et les solutions que vous apportez en dégageant les perspectives puissent se concrétiser. En tant qu’institution, nous sommes là pour porter vos initiatives afin que vos rêves puissent se réaliser_ » tels étaient les mots du premier responsable de l’UVBF à l’endroit des participants en les exhortant à plus de dynamise et d’investissement pour cerner les rouages de l’IA.
+
+### Lauréats du hackathon
+
+## ****Ce qu’en pensent les participants…****
+
+![](images/CITASC-2022-DOUAMBA-Fadila-W.png)
+
+##### **DOUAMBA Fadila W,** _Etudiante en Master 1 en intelligence artificielle à l'Université des sciences et technologies de Huazhong en Chine._
+
+Étant étudiante en première année de Master en intelligence artificielle, j'ai voulu mieux en savoir sur L'IA et ses différentes techniques et aussi échanger avec les responsables déjà dans le domaine c’est ce qui m’a motivé à participer à cette école d’été. J'ai beaucoup appris sur le natural language processing sur lequel je n'avais pas beaucoup de notions. Ce qui m'a le plus marqué c'est le hackathon qui nous a permis d'appliquer ce que nous avons appris durant cette formation. A l’issue du CITA’SC mon intérêt pour l'intelligence artificielle a considérablement augmenté et cela m'incite à en apprendre plus, à continuer à me former sur les techniques de L'IA afin de contribuer au développement du secteur au Burkina Faso.Je recommanderais le CITA'SC à un étudiant puisque c'est un cadre idéal pour l'apprentissage, la formation, le challenge et le relationnel.
+
+![](images/CITASC-2022-KABORE-Moumini.png)
+
+##### KABORE Moumini, _Etudiant en Master Fouilles de données et intelligence artificielle à l’Université Virtuelle du Burkina Faso :_
+
+En participant au CITA’SC, j’ai eu envie de plus me familiariser aux concepts de l’IA notamment le Natural Langage Processing, le Machine Learning (ML) et Deep Learning pour leurs meilleures contextualisations aux défis de notre société dans les multiples domaines (Agriculture, Santé, Education, …).  Durant mon séjour à Koubri j’ai appris l’humilité aussi bien de la part de nos encadreurs qui ont su briser les barrières avec les apprenants et celle de la vie du monastère. J’étais bien comblé aussi bien sur les concepts de l’IA avec des encadreurs très talentueux sur le sujet que sur les perspectives d’opportunités. J’ai aussi appris la nécessité de fédérer nos talents pour mieux défier les problèmes de notre société avec l’aide de l’IA. Ce qui m’a le plus marqué c’est la détermination de nos encadreurs sur la durée de la période de la formation à nous outiller. Cette école d’été a éveillé beaucoup de choses en moi à savoir le chemin qui pourra me conduire à mes réelles attentes. Dans l’avenir je compte travailler sur une thèse sur les défis de certains algorithmes en langage d’apprentissage naturel (NLP) qui aideront à une contextualisation pour mieux faire face aux défis de l’insécurité et bien d’autres.  Je recommande vivement le CITA’SC à un étudiant qui rêve sur l’intelligence artificielle avec la qualité de l’enseignement, à l’ouverture à d’autres passionnés du domaine et au concept du travail d’équipe.
+
+##### **SEGBE Hissegnon Christian,** _Etudiant en Master Master en Management des Système d’Information, Université Aube Nouvelle_
+
+Dans le cadre de ma soutenance de mémoire de master, je me suis intéressé à l’intelligence artificielle pour la détection de plagiat dans les mémoires et thèses de soutenance des étudiants. C’est donc la raison qui m’a amené à saisir cette opportunité de formation afin d’avoir plus de connaissance dans le domaine de l’IA. Bien sûr qu’au sortir de cette école d’été, mon intérêt pour l’IA a augmenté et je compte chercher une formation un peu plus poussée dans le domaine et faire carrière. Toute fois si CITADEL peut également nous aider à avoir une formation plus poussée dans le domaine, cela sera plus que louable.
+
+##### **SAWADOGO Salimata,** _Etudiante en Master 1 Sécurité Informatique et cybersécurité à l’Université Joseph KI-ZERBO_
+
+J’ai voulu participer à cette activité parce que j’avais quelques bases en IA et je voulais en savoir davantage. Rentrer plus en profondeur afin de comprendre comment je pourrai utiliser l’IA pour développer mon projet professionnel. J’ai appris beaucoup de choses que je ne savais pas encore sur l’IA. Entre autres le natural language processing, l’ontologie et la transformée de Houf. Ce qui m’a le plus marqué c’est le dynamisme des formateurs, leur facilité d’accès (on pouvait avoir tout ce qu’on voulait. Y’avait qu’à demander).
+
+Après cette semaine d’apprentissage je compte déposer ma candidature pour le Master en Intelligence artificielle de l’Université virtuelle (si je rempli bien sur les conditions). Sinon je ferai des formations en ligne pour développer mes compétences.

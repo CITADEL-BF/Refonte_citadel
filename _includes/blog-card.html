@@ -1,0 +1,14 @@
+<article class="post-card filterable {{ include.category }} bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
+  <div class="h-64 overflow-hidden bg-surface-container-high">
+    <img alt="{{ post.title }}" class="w-full h-full object-cover" src="/assets/images/{{ post.coverImage }}"/>
+  </div>
+  <div class="p-8 flex flex-col flex-grow">
+    <div class="text-xs font-bold text-on-surface-variant/60 uppercase tracking-widest mb-3">{{ post.theme | default: "Actualités" }}</div>
+    <h3 class="text-xl font-headline font-bold mb-4 text-on-surface">{{ post.title }}</h3>
+    <p class="text-on-surface-variant text-sm leading-relaxed mb-6">{{ post.excerpt | default: post.content | strip_html | truncatewords: 30 }}</p>
+    <div class="mt-auto pt-6 border-t border-surface-container-low flex justify-between items-center">
+      <span class="text-xs text-on-surface-variant">{{ post.date | date: "%d %B %Y" }}</span>
+      <a class="text-primary material-symbols-outlined" href="{{ post.url }}">arrow_forward</a>
+    </div>
+  </div>
+</article>
