@@ -1,0 +1,27 @@
+{
+  "actualites": [
+    "Actualités",
+    "Formation",
+    "Séminaire",
+    "Hackathon"
+  ],
+  "blog": [
+    "Actualités",
+    "Formation",
+    "Séminaire",
+    "Hackathon"
+  ],
+  "publications": [
+    "Actualités",
+    "Hackathon"
+  ],
+  "non-classe": [
+    "Actualités",
+    "Formation",
+    "Séminaire",
+    "Hackathon"
+  ],
+  "news": [
+    "Hackathon"
+  ]
+}

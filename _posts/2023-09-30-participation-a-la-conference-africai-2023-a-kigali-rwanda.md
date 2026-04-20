@@ -1,14 +1,12 @@
 ---
-title: Participation à la conférence AfricAI 2023 à Kigali, Rwanda
-date: 2023-09-30
-categories:
-- actualites
-- blog
-coverImage: AfricAI-2023-.png
-theme: Actualités
+layout: post
+title: 'Participation à la conférence AfricAI 2023 à Kigali, Rwanda'
+date: '2023-09-30'
+category: 'actualites'
+image: /assets/images/AfricAI-2023-.png
 ---
 
-![](images/AfricAI-2023-.png)
+![](/assets/images/AfricAI-2023-.png)
 
 ## **Contexte**
 
@@ -65,13 +63,13 @@ Nous avons pris part à cet atelier à la suite à l’invitation de la CAFDO, q
 - Nous devons sortir très souvent pour voir comment les uns et les autres travaillent afin de nous en inspirer ;
 
 Pour terminer, cette semaine a été une occasion pour nous de rencontrer divers acteurs de la recherche, de l’industrie et de bailleurs de fond. Nous espérons bien  avoir l’occasion de multiplier ces types de voyages qui nous permettent de réseauter et de créer de vraies plus values pour nos institutions d’origine.  
-![](images/eG6z8VvPK2XaPTJAGyr6VJOiz92jT0IKDR7NF97W3iiF2IPCYBeupgyBIyvHJuY2Mm3Vlht0MPt3-n15tAguN5bZ36w8gGzqBsmZSyiXCTJLKSIGsLCysHRg3yB5sn_U8UgsfA5A47GVL9Fxq3-u6MU)
+![](/assets/images/eG6z8VvPK2XaPTJAGyr6VJOiz92jT0IKDR7NF97W3iiF2IPCYBeupgyBIyvHJuY2Mm3Vlht0MPt3-n15tAguN5bZ36w8gGzqBsmZSyiXCTJLKSIGsLCysHRg3yB5sn_U8UgsfA5A47GVL9Fxq3-u6MU)
 
-<figure>
 
-<figure>
 
-![AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)](images/AfricAI-2023-Radisson-Convention-Center-Kigali-Rwanda-Rodrique-Kafando.png)
+
+
+![AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)](/assets/images/AfricAI-2023-Radisson-Convention-Center-Kigali-Rwanda-Rodrique-Kafando.png)
 
 <figcaption>
 
@@ -79,11 +77,11 @@ AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)
 
 </figcaption>
 
-</figure>
 
-<figure>
 
-![Photo-de-groupe-Atelier-CAFDO](images/Photo-de-groupe-Atelier-CAFDO-1024x768.jpg)
+
+
+![Photo-de-groupe-Atelier-CAFDO](/assets/images/Photo-de-groupe-Atelier-CAFDO-1024x768.jpg)
 
 <figcaption>
 
@@ -91,11 +89,11 @@ Photo-de-groupe-Atelier-CAFDO
 
 </figcaption>
 
-</figure>
 
-<figure>
 
-![Photo-de-cloture-AfricAI](images/Photo-de-cloture-AfricAI-1024x640.jpg)
+
+
+![Photo-de-cloture-AfricAI](/assets/images/Photo-de-cloture-AfricAI-1024x640.jpg)
 
 <figcaption>
 
@@ -103,6 +101,6 @@ Photo-de-cloture-AfricAI
 
 </figcaption>
 
-</figure>
 
-</figure>
+
+

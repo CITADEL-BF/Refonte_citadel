@@ -82,7 +82,11 @@
           <!-- 3-Column Grid for Leaders -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-8 justify-items-center">
             {% for member in page.leaders.members %}
-              {% assign leader_offset = forloop.index > 3 %}
+              {% if forloop.index > 3 %}
+                {% assign leader_offset = true %}
+              {% else %}
+                {% assign leader_offset = false %}
+              {% endif %}
               {% include silhouette-card.html member=member offset=leader_offset %}
             {% endfor %}
           </div>

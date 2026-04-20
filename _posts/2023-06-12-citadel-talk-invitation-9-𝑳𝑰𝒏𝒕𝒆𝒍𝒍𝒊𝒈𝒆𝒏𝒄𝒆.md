@@ -1,15 +1,12 @@
 ---
-title: 'CITADEL TALK INVITATION 9 : 𝑳''𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆 𝑨𝒓𝒕𝒊𝒇𝒊𝒄𝒊𝒆𝒍𝒍𝒆 𝒂𝒖 𝒔𝒆𝒄𝒐𝒖𝒓𝒔 𝒅𝒆 𝒍𝒂
-  𝑹𝒆𝒄𝒉𝒆𝒓𝒄𝒉𝒆 𝑴𝒆́𝒅𝒊𝒄𝒂𝒍𝒆'
-date: 2023-06-12
-categories:
-- actualites
-- blog
-coverImage: Citadel-talk-9.jpg
-theme: Conférences
+layout: post
+title: 'CITADEL TALK INVITATION 9 : 𝑳''''''''𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆 𝑨𝒓𝒕𝒊𝒇𝒊𝒄𝒊𝒆𝒍𝒍𝒆 𝒂𝒖 𝒔𝒆𝒄𝒐𝒖𝒓𝒔 𝒅𝒆 𝒍𝒂'
+date: '2023-06-12'
+category: 'actualites'
+image: /assets/images/Citadel-talk-9.jpg
 ---
 
-![](images/Citadel-talk-9-1024x1024.jpg)
+![](/assets/images/Citadel-talk-9-1024x1024.jpg)
 
 #𝐂𝐈𝐓𝐀𝐃𝐄𝐋\_𝐓𝐀𝐋𝐊\_𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍
 

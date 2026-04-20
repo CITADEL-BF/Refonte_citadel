@@ -138,7 +138,7 @@
 
 <div id="postGrid" class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
 {% for post in site.posts %}
-  {% assign card_category = post.theme | default: post.categories.first | slugify | default: 'actualites' %}
+  {% assign card_category = post.category | default: 'actualites' %}
   <div class="post-item" data-category="{{ card_category }}" data-title="{{ post.title | downcase }}" data-excerpt="{{ post.excerpt | default: post.content | strip_html | truncatewords: 20 | downcase }}" data-date="{{ post.date | date: '%s' }}">
     {% include blog-card.html category=card_category %}
   </div>

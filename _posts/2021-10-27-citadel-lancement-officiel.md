@@ -1,11 +1,9 @@
 ---
+layout: post
 title: '[CITADEL] : Lancement officiel'
-date: 2021-10-27
-categories:
-- actualites
-- blog
-coverImage: Web-lancement-final.png
-theme: Événements
+date: '2021-10-27'
+category: 'actualites'
+image: /assets/images/Web-lancement-final.png
 ---
 
 Lancement officiel du Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement \[#CITADEL\] :  

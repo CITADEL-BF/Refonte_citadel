@@ -1,14 +1,12 @@
 ---
-title: Meilleur Poster IndabaX Burkina 2025
-date: 2025-03-16
-categories:
-- actualites
-- blog
-coverImage: indabax-dl-bf2025-poster.png
-theme: Conférences
+layout: post
+title: 'Meilleur Poster IndabaX Burkina 2025'
+date: '2025-03-16'
+category: 'actualites'
+image: /assets/images/indabax-dl-bf2025-poster.png
 ---
 
-![](images/indabax-dl-bf2025-poster-1024x1024.png)
+![](/assets/images/indabax-dl-bf2025-poster-1024x1024.png)
 
 𝐌𝐞𝐢𝐥𝐥𝐞𝐮𝐫 𝐏𝐨𝐬𝐭𝐞𝐫 𝐈𝐧𝐝𝐚𝐛𝐚𝐗 𝐁𝐮𝐫𝐤𝐢𝐧𝐚 𝟐𝟎𝟐𝟓 🏆
 

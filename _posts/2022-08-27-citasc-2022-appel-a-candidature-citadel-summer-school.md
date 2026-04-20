@@ -1,16 +1,12 @@
 ---
-title: 'CITA''SC 2022 : Appel à candidature CITADEL SUMMER SCHOOL'
-date: 2022-08-27
-categories:
-- actualites
-- blog
-coverImage: CSC-FINAL.png
-theme: Appels à candidature
+layout: post
+title: 'CITA''''''''SC 2022 : Appel à candidature CITADEL SUMMER SCHOOL'
+date: '2022-08-27'
+category: 'actualites'
+image: /assets/images/CSC-FINAL.png
 ---
 
-<figure>
-
-![CITA'SC 2022](images/CSC-FINAL-1024x577.png)
+![CITA'SC 2022](/assets/images/CSC-FINAL-1024x577.png)
 
 <figcaption>
 
@@ -18,7 +14,7 @@ CITADEL SUMMER SCHOOL
 
 </figcaption>
 
-</figure>
+
 
 Le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] de [l'Université Virtuelle du Burkina Faso](https://uv.bf/) (UV-BF) lance un appel à candidature pour le CITADEL SUMMER SCHOOL-CITA’SC 2022 (Ecole d’été 2022) en collaboration avec le projet [LuxWays](https://wwwfr.uni.lu/snt/news_events/renforcer_l_expertise_en_en_cybersecurite_en_afrique_de_l_ouest\) "Luxembourg/West-Africa Lab for Higher Education Capacity Building in CyberSecurity and Emerging Topics in ICT4Dev") .
 

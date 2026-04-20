@@ -1,9 +1,24 @@
 <article class="post-card filterable {{ include.category }} bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
   <div class="h-64 overflow-hidden bg-surface-container-high">
-    <img alt="{{ post.title }}" class="w-full h-full object-cover" src="/assets/images/{{ post.coverImage }}"/>
+    {% assign card_image = post.image | default: post.coverImage %}
+    {% if card_image contains '/assets/images/' %}
+      <img alt="{{ post.title }}" class="w-full h-full object-cover" src="{{ card_image | relative_url }}"/>
+    {% else %}
+      <img alt="{{ post.title }}" class="w-full h-full object-cover" src="/assets/images/{{ card_image }}"/>
+    {% endif %}
   </div>
   <div class="p-8 flex flex-col flex-grow">
-    <div class="text-xs font-bold text-on-surface-variant/60 uppercase tracking-widest mb-3">{{ post.theme | default: "Actualités" }}</div>
+    {% case post.category | default: 'actualites' %}
+      {% when 'seminaire' %}
+        {% assign category_label = 'Séminaire' %}
+      {% when 'formation' %}
+        {% assign category_label = 'Formation' %}
+      {% when 'hackathon' %}
+        {% assign category_label = 'Hackathon' %}
+      {% else %}
+        {% assign category_label = 'Actualités' %}
+    {% endcase %}
+    <div class="text-xs font-bold text-on-surface-variant/60 uppercase tracking-widest mb-3">{{ category_label }}</div>
     <h3 class="text-xl font-headline font-bold mb-4 text-on-surface">{{ post.title }}</h3>
     <p class="text-on-surface-variant text-sm leading-relaxed mb-6">{{ post.excerpt | default: post.content | strip_html | truncatewords: 30 }}</p>
     <div class="mt-auto pt-6 border-t border-surface-container-low flex justify-between items-center">

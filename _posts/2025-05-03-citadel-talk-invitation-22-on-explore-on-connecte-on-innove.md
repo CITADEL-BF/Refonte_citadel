@@ -1,14 +1,12 @@
 ---
+layout: post
 title: 'CITADEL TALK INVITATION #22 – On explore, on connecte, on innove !'
-date: 2025-05-03
-categories:
-- actualites
-- blog
-coverImage: CITADEL-Talk22.jpg
-theme: Conférences
+date: '2025-05-03'
+category: 'actualites'
+image: /assets/images/CITADEL-Talk22.jpg
 ---
 
-![](images/CITADEL-Talk22.jpg)
+![](/assets/images/CITADEL-Talk22.jpg)
 
 📅 Vendredi 𝟎𝟗 𝐦𝐚𝐢 𝟐𝟎𝟐𝟓 | 𝟏𝟔𝐡𝟎𝟎 GMT  
 📍 𝟏𝟎𝟎% 𝐞𝐧 𝐥𝐢𝐠𝐧𝐞

@@ -1,14 +1,12 @@
 ---
-title: CITADEL FELLOWS COHORTE 6 - RÉSULTATS OFFICIELS
-date: 2025-05-13
-categories:
-- actualites
-- blog
-coverImage: Fellows-2025-cohort6-Admis.png
-theme: Résultats
+layout: post
+title: 'CITADEL FELLOWS COHORTE 6 - RÉSULTATS OFFICIELS'
+date: '2025-05-13'
+category: 'actualites'
+image: /assets/images/Fellows-2025-cohort6-Admis.png
 ---
 
-![](images/Fellows-2025-cohort6-Admis.png)
+![](/assets/images/Fellows-2025-cohort6-Admis.png)
 
 Le Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) a le plaisir d’annoncer les 𝟏𝟎 𝐥𝐚𝐮𝐫𝐞́𝐚𝐭𝐬 𝐫𝐞𝐭𝐞𝐧𝐮𝐬 𝐩𝐨𝐮𝐫 𝐢𝐧𝐭𝐞́𝐠𝐫𝐞𝐫 𝐥𝐚 𝟔𝐞 𝐜𝐨𝐡𝐨𝐫𝐭𝐞 𝐝𝐮 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞 𝐂𝐈𝐓𝐀𝐃𝐄𝐋 𝐅𝐄𝐋𝐋𝐎𝐖𝐒 !  
 Ces jeunes talents bénéficieront d’un accompagnement d’excellence dans les domaines stratégiques de l’IA appliquée.

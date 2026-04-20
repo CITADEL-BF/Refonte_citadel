@@ -1,14 +1,12 @@
 ---
-title: APPEL À CANDIDATURE – CITADEL FELLOWS COHORTE 6
-date: 2025-04-13
-categories:
-- actualites
-- blog
-coverImage: Fellows-2025-cohort6.jpg
-theme: Appels à candidature
+layout: post
+title: 'APPEL À CANDIDATURE – CITADEL FELLOWS COHORTE 6'
+date: '2025-04-13'
+category: 'actualites'
+image: /assets/images/Fellows-2025-cohort6.jpg
 ---
 
-![](images/Fellows-2025-cohort6.jpg)
+![](/assets/images/Fellows-2025-cohort6.jpg)
 
 🎓 𝐀𝐩𝐩𝐞𝐥 𝐚̀ 𝐜𝐚𝐧𝐝𝐢𝐝𝐚𝐭𝐮𝐫𝐞 – 𝐂𝐈𝐓𝐀𝐃𝐄𝐋 𝐅𝐄𝐋𝐋𝐎𝐖𝐒 𝐂𝐎𝐇𝐎𝐑𝐓𝐄 𝟔
 

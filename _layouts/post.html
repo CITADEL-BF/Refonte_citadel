@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% if page.image %}
+<section class="post-hero">
+  <div class="post-hero-background" style="background-image: url('{{ page.image | relative_url }}');"></div>
+  <div class="post-overlay"></div>
+  <div class="post-hero-content section-container">
+    <div class="post-hero-meta">
+      {% if page.category %}
+      <span class="post-hero-badge">{{ page.category | capitalize }}</span>
+      {% endif %}
+      <span class="post-hero-date">{{ page.date | date: "%d %B %Y" }}</span>
+    </div>
+    <h1 class="post-hero-title">{{ page.title }}</h1>
+    {% if page.excerpt %}
+    <p class="post-hero-copy">{{ page.excerpt | strip_html | truncatewords: 45 }}</p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<main class="section-container article-page">
+  <article class="article-content prose prose-lg max-w-none">
+    {{ content }}
+  </article>
+
+  <section class="news-section">
+    <div class="news-header">
+      <div>
+        <h3 class="news-title">Actualités</h3>
+      </div>
+      <a href="{{ '/blog/' | relative_url }}" class="news-link">
+        Toute l'actualité <span class="material-symbols-outlined">arrow_right_alt</span>
+      </a>
+    </div>
+    <div class="news-grid">
+      {% assign related_posts = site.posts | where_exp: "item", "item.url != page.url" %}
+      {% for post in related_posts limit:3 %}
+        {% include news-card.html article=post %}
+      {% endfor %}
+    </div>
+  </section>
+</main>

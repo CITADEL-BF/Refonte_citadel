@@ -1,14 +1,12 @@
 ---
+layout: post
 title: 'SEINAR 2024: VERS UNE SOUVERAINETÉ NUMÉRIQUE'
-date: 2024-04-19
-categories:
-- actualites
-- blog
-coverImage: SEINAR-2024.png
-theme: Séminaires & Ateliers
+date: '2024-04-19'
+category: 'actualites'
+image: /assets/images/SEINAR-2024.png
 ---
 
-![](images/SEINAR-2024-1024x1024.png)
+![](/assets/images/SEINAR-2024-1024x1024.png)
 
 🚀🌍 𝐒𝐄𝐈𝐍𝐀𝐑 𝟐𝟎𝟐𝟒: 𝐕𝐄𝐑𝐒 𝐔𝐍𝐄 𝐒𝐎𝐔𝐕𝐄𝐑𝐀𝐈𝐍𝐄𝐓𝐄́ 𝐍𝐔𝐌𝐄́𝐑𝐈𝐐𝐔𝐄
 

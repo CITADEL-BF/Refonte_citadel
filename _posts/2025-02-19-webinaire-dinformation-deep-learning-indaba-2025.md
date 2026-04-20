@@ -1,13 +1,12 @@
 ---
-title: 'Webinaire d''information : Deep Learning Indaba 2025 !'
-date: 2025-02-19
-categories:
-- actualites
-coverImage: Indaba-dl2025.png
-theme: Conférences
+layout: post
+title: 'Webinaire d''''''''information : Deep Learning Indaba 2025 !'
+date: '2025-02-19'
+category: 'actualites'
+image: /assets/images/Indaba-dl2025.png
 ---
 
-![](images/Indaba-dl2025-1024x1024.png)
+![](/assets/images/Indaba-dl2025-1024x1024.png)
 
 Vous souhaitez en savoir plus sur Deep Learning Indaba 2025, l'événement incontournable en Intelligence Artificielle sur le continent africain ? 🌍🤖
 

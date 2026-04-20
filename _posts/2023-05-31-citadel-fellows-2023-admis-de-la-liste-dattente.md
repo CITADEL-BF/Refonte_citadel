@@ -1,14 +1,12 @@
 ---
+layout: post
 title: 'CITADEL FELLOWS 2023 : Admis de la liste d’attente'
-date: 2023-05-31
-categories:
-- actualites
-- blog
-coverImage: Admis-Liste-Attente.png
-theme: Résultats
+date: '2023-05-31'
+category: 'actualites'
+image: /assets/images/Admis-Liste-Attente.png
 ---
 
-![](images/Admis-Liste-Attente_1-724x1024.png)
+![](/assets/images/Admis-Liste-Attente_1-724x1024.png)
 
 Nous sommes ravis de vous informer que trois participants de la liste d'attente ont été repêchés et sont désormais admis au Programme de Bourses des Stages pour des Mémoires d'Excellence en Intelligence Artificielle (IA) de CITADEL. Félicitations à :
 

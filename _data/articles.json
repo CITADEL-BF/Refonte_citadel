@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "2021-10-27-citadel-lancement-officiel",
+    "title": "[CITADEL] : Lancement officiel",
+    "date": "2021-10-27",
+    "category": "Actualités",
+    "cover_image": "Web-lancement-final.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2021-11-03-30299",
+    "title": "[#CITADEL] : Cérémonie officielle de lancement",
+    "date": "2021-11-03",
+    "category": "Formation",
+    "cover_image": null,
+    "image_count": 0
+  },
+  {
+    "slug": "2022-01-22-appel-a-candidature-bourses-de-stage-pour-des-memoires-dexcellence-en-ia",
+    "title": "APPEL À CANDIDATURE : Bourses de Stage pour des Mémoires d'Excellence en IA",
+    "date": "2022-01-22",
+    "category": "Actualités",
+    "cover_image": "CITADEL-fellows2022-siteWeb.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-03-10-resultats-de-lappel-a-candidature-de-bourses-de-stage-pour-des-memoires-dexcellence-en-ia",
+    "title": "Résultats de l’appel à candidature de Bourses de Stage pour des Mémoires d’Excellence en IA",
+    "date": "2022-03-10",
+    "category": "Actualités",
+    "cover_image": "CITADEL-Resultats-de-lappel-a-candidature-de-Bourses-de-Stage-pour-des-Memoires-dExcellence-en-IA-.jpeg",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-03-11-citadel-appel-a-candidature-doctorat-en-intelligence-artificielle",
+    "title": "[CITADEL] APPEL À CANDIDATURE : Doctorat en Intelligence Artificielle",
+    "date": "2022-03-11",
+    "category": "Actualités",
+    "cover_image": "CITADEL-Thesis-2022-site-web.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-04-20-seminaire-sur-lintelligence-artificielle-fouille-de-donnees-et-applications",
+    "title": "Séminaire sur l’Intelligence Artificielle : Fouille de données Et applications",
+    "date": "2022-04-20",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-SeminaieUJKZ-LinkedIn.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-06-15-resultats-appel-a-candidature-doctorat-en-intelligence-artificielle",
+    "title": "RESULTATS [APPEL À CANDIDATURE] : Doctorat en Intelligence Artificielle",
+    "date": "2022-06-15",
+    "category": "Actualités",
+    "cover_image": "CITADEL-Thesis-2022-Resultats-Linkedin.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-07-22-seminaire-nationale-sur-lintelligence-artificielle-et-la-cybersecurite",
+    "title": "Séminaire nationale sur l’Intelligence Artificielle et la Cybersécurité.",
+    "date": "2022-07-22",
+    "category": "Séminaire",
+    "cover_image": "Seminaire-nationale-sur-lIntelligence-Artificielle-et-la-Cybersecurite.Seminaire-nationale-sur-lIn-scaled.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-08-27-citasc-2022-appel-a-candidature-citadel-summer-school",
+    "title": "CITA'SC 2022 : Appel à candidature CITADEL SUMMER SCHOOL",
+    "date": "2022-08-27",
+    "category": "Formation",
+    "cover_image": "CSC-FINAL.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-09-04-nos-etudiant-e-s-au-deep-learning-indaba-2022-a-tunis",
+    "title": "Nos étudiant.e.s au Deep Learning Indaba 2022 à Tunis",
+    "date": "2022-09-04",
+    "category": "Formation",
+    "cover_image": null,
+    "image_count": 0
+  },
+  {
+    "slug": "2022-09-25-citasc-2022-comprendre-lintelligence-artificielle-pour-proposer-des-solutions-aux-problemes-reels-des-burkinabes",
+    "title": "CITA’SC 2022 : Comprendre l’intelligence artificielle pour proposer des solutions aux problèmes réels des Burkinabè !",
+    "date": "2022-09-25",
+    "category": "Formation",
+    "cover_image": "CITASC-2022-POST.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-10-13-appel-a-candidature-recrutement-complementaire-de-deux-02-filles-pour-une-these-en-intelligence-artificielle",
+    "title": "APPEL À CANDIDATURE : Recrutement (complémentaire) de deux (02) filles pour une thèse en Intelligence Artificielle",
+    "date": "2022-10-13",
+    "category": "Actualités",
+    "cover_image": "CITADEL-woman-thesis-2022-img.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-10-15-citadel-talk-invitation-appel-a-contribution-dexperts-de-la-diaspora",
+    "title": "CITADEL TALK INVITATION : Appel à Contribution d'Experts de la Diaspora",
+    "date": "2022-10-15",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-TALK-INVITATION-linkedIn.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-10-25-citadel-talk-invitation-lintelligence-artificielle-au-service-du-football",
+    "title": "CITADEL TALK INVITATION : L'intelligence Artificielle au service du football",
+    "date": "2022-10-25",
+    "category": "Séminaire",
+    "cover_image": "DIASPORA.-first-talk-LinkedIn.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-11-15-citadel-talk-invitation-lintelligence-artificielle-dans-le-marketing",
+    "title": "CITADEL TALK INVITATION : L'intelligence Artificielle dans le Marketing",
+    "date": "2022-11-15",
+    "category": "Séminaire",
+    "cover_image": "DIASPORA.-David.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-11-28-semaine-de-lia-en-afrique",
+    "title": "Semaine de l'IA en Afrique",
+    "date": "2022-11-28",
+    "category": "Séminaire",
+    "cover_image": "Seminaire-IA-Afrique.jpeg",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-12-05-semaine-de-lia-en-afrique-panel-douverture",
+    "title": "Semaine de l'IA en Afrique - Panel d'ouverture",
+    "date": "2022-12-05",
+    "category": "Séminaire",
+    "cover_image": "ITAUN-CITADEL-post.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2022-12-14-citadel-talk-invitation-lintelligence-artificielle-en-sante-definition-et-promesse",
+    "title": "CITADEL TALK INVITATION : l’Intelligence Artificielle en Santé, définition et promesse",
+    "date": "2022-12-14",
+    "category": "Séminaire",
+    "cover_image": "IA-Sante-CITADEL-1.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-01-10-appel-a-candidature-citadel-fellows-2023",
+    "title": "APPEL À CANDIDATURE : CITADEL FELLOWS 2023",
+    "date": "2023-01-10",
+    "category": "Actualités",
+    "cover_image": "Fellows2023-L.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-01-17-resultats-de-lappel-a-candidature-pour-le-recrutement-complementaire-de-02-filles-pour-une-these-en-ia",
+    "title": "Résultats de l’appel à candidature pour le recrutement complémentaire de 02 filles pour une thèse en IA",
+    "date": "2023-01-17",
+    "category": "Actualités",
+    "cover_image": null,
+    "image_count": 0
+  },
+  {
+    "slug": "2023-01-20-citadel-talk-invitation-teledetection-des-mines-explosives-enfouies-dans-le-sol-a-laide-de-drone",
+    "title": "CITADEL TALK INVITATION : Télédétection des mines explosives enfouies dans le sol à l'aide de drone\"",
+    "date": "2023-01-20",
+    "category": "Séminaire",
+    "cover_image": "Mine-Detection.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-02-10-citadel-talk-invitation-5-artificial-intelligence-in-education-application-and-challenges-in-teaching",
+    "title": "CITADEL TALK INVITATION 5 : Artificial Intelligence in Education: Application and Challenges in Teaching",
+    "date": "2023-02-10",
+    "category": "Séminaire",
+    "cover_image": "IA-Education-web.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-02-20-resultats-de-lappel-a-candidature-citadel-fellows-2023",
+    "title": "Résultats de l’appel à candidature : CITADEL FELLOWS 2023",
+    "date": "2023-02-20",
+    "category": "Actualités",
+    "cover_image": "Fellows2023-results.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-03-13-appel-a-candidature-citadel-fellows-2023-20-bourses-de-master-dexcellence-disponibles",
+    "title": "Appel à candidature : CITADEL FELLOWS 2023, 20 Bourses de Master d'Excellence Disponibles",
+    "date": "2023-03-13",
+    "category": "Actualités",
+    "cover_image": "Fellows2023-Mars.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-03-16-appel-a-candidature-pour-co-organiser-des-seminaires-en-ia-destine-aux-universites-publiques-et-privees-du-burkina-faso",
+    "title": "Appel à candidature pour co-organiser des séminaires en IA - Destiné aux Universités Publiques et Privées du Burkina Faso.",
+    "date": "2023-03-16",
+    "category": "Séminaire",
+    "cover_image": "citadel-ai-seminars-1.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-03-23-citadel-talk-invitation-6-intelligence-artificielle-ia-pour-la-fiabilite-et-la-securite-des-avions",
+    "title": "CITADEL TALK INVITATION 6 : Intelligence Artificielle (IA) pour la fiabilité et la sécurité des avions",
+    "date": "2023-03-23",
+    "category": "Séminaire",
+    "cover_image": "citadel-talk-6.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-04-21-les-doctorants-de-citadel-en-collaboration-avec-orange-digital-center-partagent-leurs-connaissances-en-intelligence-artificielle-avec-des-apprenants-engages-et-passionnes",
+    "title": "Les doctorants de CITADEL en collaboration avec Orange Digital Center partagent leurs connaissances en Intelligence Artificielle avec des apprenants engagés et passionnés.",
+    "date": "2023-04-21",
+    "category": "Formation",
+    "cover_image": "CITADEL-ODC-Formation-3.png",
+    "image_count": 4
+  },
+  {
+    "slug": "2023-04-25-semaine-de-lintelligence-artificielle-seinar",
+    "title": "Semaine de l’Intelligence Artificielle (SEINAR)",
+    "date": "2023-04-25",
+    "category": "Hackathon",
+    "cover_image": "seinar.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-05-01-citadel-talk-invitation-suivi-et-prediction-du-terrorisme-au-g3-sahel-avec-loutil-djihadist-tracker",
+    "title": "CITADEL Talk Invitation: Suivi et Prédiction du terrorisme au G3 Sahel avec l'outil 𝑻𝒆𝒓𝒓𝒐𝒓𝒊𝒔𝒕𝒆 𝑻𝒓𝒂𝒄𝒌𝒆𝒓",
+    "date": "2023-05-01",
+    "category": "Séminaire",
+    "cover_image": "v-copy-2.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-05-11-citadel-fellows-2023-resultats",
+    "title": "CITADEL FELLOWS 2023 : RESULTATS",
+    "date": "2023-05-11",
+    "category": "Actualités",
+    "cover_image": null,
+    "image_count": 0
+  },
+  {
+    "slug": "2023-05-16-citadel-talk-invitation-8-implications-of-pricing-and-fleet-size-strategies-on-the-demand-and-operation-of-shared-bikes-and-e-scooters-a-case-study-from-lyon-france",
+    "title": "CITADEL TALK INVITATION 8 : Implications of pricing and fleet size strategies on the demand and operation of shared bikes and e-scooters : a case study from Lyon, France",
+    "date": "2023-05-16",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-Talk8-copy-1.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-05-31-citadel-fellows-2023-admis-de-la-liste-dattente",
+    "title": "CITADEL FELLOWS 2023 : Admis de la liste d’attente",
+    "date": "2023-05-31",
+    "category": "Formation",
+    "cover_image": "Admis-Liste-Attente.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-06-12-citadel-talk-invitation-9-𝑳𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆",
+    "title": "CITADEL TALK INVITATION 9 : 𝑳'𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆 𝑨𝒓𝒕𝒊𝒇𝒊𝒄𝒊𝒆𝒍𝒍𝒆 𝒂𝒖 𝒔𝒆𝒄𝒐𝒖𝒓𝒔 𝒅𝒆 𝒍𝒂 𝑹𝒆𝒄𝒉𝒆𝒓𝒄𝒉𝒆 𝑴𝒆́𝒅𝒊𝒄𝒂𝒍𝒆",
+    "date": "2023-06-12",
+    "category": "Séminaire",
+    "cover_image": "Citadel-talk-9.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-08-21-citadel-talk-invitation-10-developper-des-applications-apache-spark-pour-le-big-data",
+    "title": "CITADEL TALK INVITATION 10 : Développer des applications Apache Spark pour le Big Data",
+    "date": "2023-08-21",
+    "category": "Séminaire",
+    "cover_image": "Citadel-talk-10.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-09-30-participation-a-la-conference-africai-2023-a-kigali-rwanda",
+    "title": "Participation à la conférence AfricAI 2023 à Kigali, Rwanda",
+    "date": "2023-09-30",
+    "category": "Formation",
+    "cover_image": "AfricAI-2023-.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-11-09-semaine-du-numerique-2023-cafe-numerique-sur-lintelligence-artificielle",
+    "title": "Semaine du Numérique 2023 : Café numérique sur l'intelligence Artificielle",
+    "date": "2023-11-09",
+    "category": "Actualités",
+    "cover_image": "SN-2023-DigitalCofee.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-11-15-semaine-du-numerique-2023-panels-thematiques-sur-lintelligence-artificielle",
+    "title": "Semaine du Numérique 2023 : Panels thématiques sur l'Intelligence Artificielle",
+    "date": "2023-11-15",
+    "category": "Séminaire",
+    "cover_image": "citadel_sn23_panels-ia.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-11-18-la-participation-active-de-citadel-a-la-18eme-edition-de-la-semaine-du-numerique-2023",
+    "title": "La Participation Active de CITADEL à la 18ème Édition de la Semaine du Numérique 2023",
+    "date": "2023-11-18",
+    "category": "Actualités",
+    "cover_image": "citadel_sn23_panels-ia-Recovered.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2023-12-04-citasc-2023-citadel-summer-school",
+    "title": "CITASC-2023 : CITADEL - SUMMER SCHOOL",
+    "date": "2023-12-04",
+    "category": "Formation",
+    "cover_image": null,
+    "image_count": 0
+  },
+  {
+    "slug": "2023-12-13-appel-a-candidature-citadel-fellows-2024-15-bourses-de-master-dexcellence-disponibles",
+    "title": "Appel à candidature : CITADEL FELLOWS 2024, 15 Bourses de Master d’Excellence Disponibles",
+    "date": "2023-12-13",
+    "category": "Actualités",
+    "cover_image": "Fellows2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-01-11-resultats-du-programme-de-master-dexcellence-en-ia-citadel-fellows-2024",
+    "title": "Résultats du Programme de Master d'Excellence en IA :   CITADEL Fellows 2024",
+    "date": "2024-01-11",
+    "category": "Actualités",
+    "cover_image": "CITADEL-MASTER-FELLOWS-2024.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-01-22-citadel-talk-invitation-12-ia-et-transformation-digitale-dans-nos-entreprises-publiques-et-privees",
+    "title": "CITADEL TALK INVITATION 12 : IA et Transformation digitale dans nos entreprises publiques et privees",
+    "date": "2024-01-22",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-TALK-JANVIER-2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-02-22-citadel-talk-invitation-13-etude-et-adaptation-de-techniques-dia-pour-la-traduction-automatique-des-langues-locales-du-burkina-faso",
+    "title": "CITADEL TALK INVITATION 13 : Étude et adaptation de techniques d'IA pour la traduction automatique des langues locales du Burkina Faso",
+    "date": "2024-02-22",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-TALK-FEVREIER2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-03-21-citadel-talk-invitation-14-creation-dune-base-de-donnees-de-fake-news-et-creation-dun-modele-de-detection-de-fake-news-a-partir-de-lintelligence-artificielle",
+    "title": "CITADEL TALK INVITATION 14 : Création d’une Base de données de Fake News et Création d’un Modèle de Détection de Fake News à partir de l’Intelligence Artificielle",
+    "date": "2024-03-21",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-TALK-Mars_2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-03-25-seminaire-sur-lintegration-de-lintelligence-artificielle-dans-le-domaine-de-la-sante",
+    "title": "Séminaire sur l'intégration de l'intelligence artificielle dans le domaine de la santé",
+    "date": "2024-03-25",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-ATIS.jpeg",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-03-26-convergence-et-conflits-lintelligence-artificielle-et-la-cyber-securite-dans-un-monde-connecte",
+    "title": "Convergence et Conflits : L’Intelligence Artificielle et la Cyber sécurité dans un Monde Connecté",
+    "date": "2024-03-26",
+    "category": "Séminaire",
+    "cover_image": "Conference-flyer1-scaled.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-04-19-seinar-2024-vers-une-souverainete-numerique",
+    "title": "SEINAR 2024: VERS UNE SOUVERAINETÉ NUMÉRIQUE",
+    "date": "2024-04-19",
+    "category": "Hackathon",
+    "cover_image": "SEINAR-2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-04-22-citadel-talk-invitation-15-prediction-de-la-charge-des-transformateurs-sur-les-reseau-electriques-intelligents",
+    "title": "CITADEL TALK INVITATION 15 : Prediction de la charge des transformateurs sur les réseau électriques intelligents",
+    "date": "2024-04-22",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-TALK-15_Avril-2024.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2024-04-22-📸✨-retrospective-du-lancement-epique-de-la-seinar2024-a-luniversite-virtuelle-du-burkina-faso",
+    "title": "📸✨ Rétrospective du Lancement Épique de la SEINAR2024 à l'Université Virtuelle du Burkina Faso !",
+    "date": "2024-04-22",
+    "category": "Actualités",
+    "cover_image": "seinar_5.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-02-19-webinaire-dinformation-deep-learning-indaba-2025",
+    "title": "Webinaire d'information : Deep Learning Indaba 2025 !",
+    "date": "2025-02-19",
+    "category": "Séminaire",
+    "cover_image": "Indaba-dl2025.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-03-01-lia-generative-au-service-des-entreprises-et-du-secteur-public-bonnes-pratiques-pour-la-securisation-des-donnees-sensibles",
+    "title": "L’IA générative au service des entreprises et du secteur public : Bonnes pratiques pour la sécurisation des données sensibles",
+    "date": "2025-03-01",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-Talk21-1080X1080.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-03-16-meilleur-poster-indabax-burkina-2025",
+    "title": "Meilleur Poster IndabaX Burkina 2025",
+    "date": "2025-03-16",
+    "category": "Hackathon",
+    "cover_image": "indabax-dl-bf2025-poster.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-04-13-appel-a-candidature-citadel-fellows-cohorte-6",
+    "title": "APPEL À CANDIDATURE – CITADEL FELLOWS COHORTE 6",
+    "date": "2025-04-13",
+    "category": "Actualités",
+    "cover_image": "Fellows-2025-cohort6.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-04-17-citadel-remporte-encore-un-financement-competitif-international-de-1-million-de-dollars-pour-la-recherche-en-intelligence-artificielle-au-burkina-faso",
+    "title": "CITADEL remporte encore un financement compétitif international de 1 million de dollars pour la recherche en Intelligence Artificielle au Burkina Faso",
+    "date": "2025-04-17",
+    "category": "Hackathon",
+    "cover_image": "CITADEL-prix-international.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-05-03-citadel-talk-invitation-22-on-explore-on-connecte-on-innove",
+    "title": "CITADEL TALK INVITATION #22 – On explore, on connecte, on innove !",
+    "date": "2025-05-03",
+    "category": "Séminaire",
+    "cover_image": "CITADEL-Talk22.jpg",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-05-13-citadel-fellows-cohorte-6-resultats-officiels",
+    "title": "CITADEL FELLOWS COHORTE 6 - RÉSULTATS OFFICIELS",
+    "date": "2025-05-13",
+    "category": "Actualités",
+    "cover_image": "Fellows-2025-cohort6-Admis.png",
+    "image_count": 0
+  },
+  {
+    "slug": "2025-06-20-indabax-burkina-faso-2025-le-rendez-vous-de-lintelligence-artificielle-en-afrique",
+    "title": "IndabaX Burkina Faso 2025 – Le rendez-vous de l’intelligence artificielle en Afrique !",
+    "date": "2025-06-20",
+    "category": "Formation",
+    "cover_image": "indabaX-BF2025.jpeg",
+    "image_count": 0
+  }
+]

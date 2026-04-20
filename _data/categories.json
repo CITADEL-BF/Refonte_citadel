@@ -1,0 +1,18 @@
+{
+  "Actualités": {
+    "icon": "📰",
+    "count": 18
+  },
+  "Séminaire": {
+    "icon": "🎤",
+    "count": 26
+  },
+  "Formation": {
+    "icon": "📚",
+    "count": 9
+  },
+  "Hackathon": {
+    "icon": "🏆",
+    "count": 4
+  }
+}
