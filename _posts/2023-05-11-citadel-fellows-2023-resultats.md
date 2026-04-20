@@ -2,8 +2,13 @@
 layout: post
 title: 'CITADEL FELLOWS 2023 : RESULTATS'
 date: '2023-05-11'
-category: 'actualites'
+category: actualites
+image: /assets/images/Fellows2023-results-1-1024x427.png
 ---
+
+
+
+
 
 ![](/assets/images/Fellows2023-results-1-1024x427.png)
 

@@ -2,10 +2,15 @@
 layout: post
 title: 'CITASC-2023 : CITADEL - SUMMER SCHOOL'
 date: '2023-12-04'
-category: 'formation'
+category: formation
+image:  /assets/images/CITASC-2022-POST-1024x576.png
 ---
 
-![](/assets/images/CITASC2023-3-1024x256.jpg)
+
+
+
+
+![](/assets/images/CITASC-2022-POST-1024x576.png)
 
 🚀 **CITA'SC 2023: Explorez l'IA avec CITADEL!** 🚀
 

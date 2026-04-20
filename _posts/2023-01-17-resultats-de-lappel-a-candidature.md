@@ -1,9 +1,14 @@
 ---
 layout: post
-title: 'Résultats de l’appel à candidature pour le recrutement complémentaire de 02'
+title: Résultats de l’appel à candidature pour le recrutement complémentaire de 02
 date: '2023-01-17'
-category: 'actualites'
+category: actualites
+image: /assets/images/CITADEL-Thesis-2022-Resultats-2-1024x427.png
 ---
+
+
+
+
 
 ![](/assets/images/CITADEL-Thesis-2022-Resultats-2-1024x427.png)
 

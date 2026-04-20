@@ -1,9 +1,12 @@
 ---
 layout: post
-title: 'Nos étudiant.e.s au Deep Learning Indaba 2022 à Tunis'
+title: Nos étudiant.e.s au Deep Learning Indaba 2022 à Tunis
 date: '2022-09-04'
-category: 'actualites'
+category: actualites
+image: /assets/images/DeepLearningIndaba3.png
 ---
+
+![Couverture de l'article](/assets/images/DeepLearningIndaba3.png)
 
 ## Du 21 au 26 aout
 
