@@ -11,7 +11,7 @@ hero:
     - "/assets/images/Carrousel.jpg"
   buttons:
     - label: "Rejoignez-nous"
-      url: "/contact/"
+      url: "/rejoignez-nous/"
       type: "primary"
     - label: "Nos Projets"
       url: "/missions/"

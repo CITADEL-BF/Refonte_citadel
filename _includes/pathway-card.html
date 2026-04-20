@@ -1,0 +1,19 @@
+<div class="group relative bg-surface-container-lowest p-10 rounded-xl transition-all hover:-translate-y-2 hover:shadow-2xl hover:shadow-{{ include.shadow_color }}/10">
+  <div class="w-16 h-16 rounded-lg bg-{{ include.icon_bg }} flex items-center justify-center mb-8 text-{{ include.icon_color }}">
+    <span class="material-symbols-outlined text-4xl" data-icon="{{ include.icon }}">{{ include.icon }}</span>
+  </div>
+  <h3 class="text-2xl font-headline font-bold text-on-surface mb-4">{{ include.title }}</h3>
+  <p class="text-on-surface-variant mb-8 leading-relaxed">{{ include.description }}</p>
+  <ul class="space-y-3 mb-10 text-sm font-medium">
+    {% for item in include.items %}
+    <li class="flex items-center gap-2">
+      <span class="material-symbols-outlined text-secondary text-lg" data-icon="check_circle" data-weight="fill">check_circle</span>
+      {{ item }}
+    </li>
+    {% endfor %}
+  </ul>
+  <a class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all" href="{{ include.link_url }}">
+    {{ include.link_text }}
+    <span class="material-symbols-outlined">arrow_forward</span>
+  </a>
+</div>

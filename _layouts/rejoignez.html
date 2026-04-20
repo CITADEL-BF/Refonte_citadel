@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>{{ page.title }} | CITADEL </title>
+  <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}">
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+  <!-- Header -->
+  {% include header.html %}
+
+  <main class="pt-20">
+    <!-- Hero Section -->
+    <section class="relative min-h-[716px] flex items-center overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <img class="w-full h-full object-cover" src="{{ page.hero_image }}" alt="Technology and leisure background">
+        <div class="absolute inset-0 bg-gradient-to-r from-emerald-900/40 to-transparent"></div>
+      </div>
+      <div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
+        <div class="max-w-3xl">
+          <span class="inline-block px-4 py-1 mb-6 rounded-full bg-primary-container text-on-primary-container font-label text-xs font-semibold tracking-widest uppercase"></span>
+          <h1 class="text-6xl md:text-8xl font-headline font-extrabold tracking-tight text-white mb-8 leading-[0.9]">
+            {{ page.hero_title }} <br><span class="text-primary-fixed">{{ page.hero_title_highlight }}</span>
+          </h1>
+          <p class="text-xl md:text-2xl text-emerald-50/90 leading-relaxed font-light mb-10 max-w-2xl">
+            {{ page.hero_description }}
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a class="px-8 py-4 bg-primary text-on-primary rounded-lg font-semibold hover:bg-primary-dim transition-all shadow-xl shadow-primary/20" href="{{ page.cta_primary_link }}">{{ page.cta_primary_text }}</a>
+            <a class="px-8 py-4 glass-panel text-on-surface rounded-lg font-semibold border border-white/20 hover:bg-white/40 transition-all" href="{{ page.cta_secondary_link }}">{{ page.cta_secondary_text }}</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pathways to Join Section -->
+    <section class="py-24 px-8 max-w-screen-2xl mx-auto">
+      <div class="mb-16">
+        <h2 class="text-4xl font-headline font-bold text-primary mb-4">{{ page.pathways_title }}</h2>
+        <div class="w-24 h-1 bg-secondary rounded-full"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {% for pathway in page.pathways %}
+          {% include pathway-card.html 
+            title=pathway.title 
+            description=pathway.description 
+            icon=pathway.icon 
+            icon_bg=pathway.icon_bg 
+            icon_color=pathway.icon_color 
+            items=pathway.items 
+            link_text=pathway.link_text 
+            link_url=pathway.link_url 
+            shadow_color=pathway.shadow_color 
+          %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section class="py-24 bg-surface-container" id="apply">
+      <div class="max-w-4xl mx-auto px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-headline font-extrabold text-on-surface mb-4">{{ page.form_title }}</h2>
+          <p class="text-on-surface-variant">{{ page.form_description }}</p>
+        </div>
+        <div class="bg-surface-container-lowest rounded-3xl p-12 shadow-2xl shadow-emerald-900/5">
+          <!-- Form -->
+          <form class="space-y-8">
+            <!-- Profile Selection -->
+            <div>
+              <label class="block text-sm font-label font-semibold text-on-surface mb-6 text-center uppercase tracking-widest">Quel est votre profil ?</label>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {% for profile in page.form_profiles %}
+                  <label class="cursor-pointer">
+                    <input {% if forloop.first %}checked{% endif %} class="sr-only peer" name="profile" type="radio" value="{{ profile }}">
+                    <div class="p-6 text-center border-2 border-surface-container rounded-xl peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
+                      <span class="block font-headline font-bold text-on-surface">{{ profile }}</span>
+                    </div>
+                  </label>
+                {% endfor %}
+              </div>
+            </div>
+
+            <!-- Form Fields -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {% for field in page.form_fields %}
+                <div class="space-y-2">
+                  <label class="text-xs font-label font-bold text-outline-variant uppercase">{{ field.label }}</label>
+                  <input class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface placeholder:text-outline" placeholder="{{ field.placeholder }}" type="{{ field.type }}" name="{{ field.name }}">
+                </div>
+              {% endfor %}
+            </div>
+
+            <!-- Domain of Interest -->
+            <div class="space-y-2">
+              <label class="text-xs font-label font-bold text-outline-variant uppercase">Domaine d'Intérêt</label>
+              <select class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface appearance-none" name="interest">
+                {% for interest in page.form_interests %}
+                  <option>{{ interest }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <!-- Submit Button -->
+            <button class="w-full py-4 bg-primary text-on-primary font-bold rounded-xl hover:bg-primary-dim transition-all flex items-center justify-center gap-2 group" type="button">
+              Envoyer
+              <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="py-24 px-8 max-w-screen-2xl mx-auto overflow-hidden" id="impact">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <!-- Image Side -->
+        <div class="order-2 lg:order-1 relative">
+          <div class="aspect-square rounded-[3rem] overflow-hidden rotate-3 scale-95 bg-primary-container/20 absolute inset-0 -z-10"></div>
+          <img class="w-full aspect-square object-cover rounded-[3rem] shadow-2xl" src="{{ page.impact_image }}" alt="Researchers in high-tech lab">
+          <div class="absolute -bottom-8 -right-8 p-8 glass-panel rounded-3xl shadow-xl max-w-xs">
+            <div class="flex items-center gap-4 mb-2">
+              <span class="text-4xl font-headline font-black text-primary">{{ page.impact_stat_number }}</span>
+              <span class="text-xs font-label font-bold text-on-surface-variant uppercase leading-tight tracking-widest">{{ page.impact_stat_text }}</span>
+            </div>
+            <p class="text-sm text-on-surface-variant">{{ page.impact_stat_description }}</p>
+          </div>
+        </div>
+
+        <!-- Content Side -->
+        <div class="order-1 lg:order-2">
+          <h2 class="text-5xl font-headline font-extrabold text-primary mb-12 leading-tight">
+            {{ page.impact_title }} <br>{{ page.impact_title_highlight }}
+          </h2>
+          <div class="space-y-10">
+            {% for feature in page.impact_features %}
+              <div class="flex gap-6">
+                <div class="flex-shrink-0 w-12 h-12 rounded-full bg-{{ feature.icon_bg }} flex items-center justify-center text-{{ feature.icon_color }}">
+                  <span class="material-symbols-outlined" data-icon="{{ feature.icon }}">{{ feature.icon }}</span>
+                </div>
+                <div>
+                  <h4 class="text-xl font-headline font-bold text-on-surface mb-2">{{ feature.title }}</h4>
+                  <p class="text-on-surface-variant leading-relaxed">{{ feature.description }}</p>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+  <!-- Scripts and Styles -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-variant": "#d9dedd",
+            "secondary-fixed-dim": "#a1c6ff",
+            "on-surface": "#2c2f2f",
+            "primary-fixed": "#92febc",
+            "outline-variant": "#abaead",
+            "primary-container": "#92febc",
+            "on-surface-variant": "#595c5c",
+            "surface": "#f5f7f6",
+            "error": "#b31b25",
+            "on-tertiary-fixed": "#3a0002",
+            "surface-bright": "#f5f7f6",
+            "inverse-on-surface": "#9b9d9d",
+            "outline": "#747777",
+            "on-secondary-container": "#004887",
+            "surface-container": "#e6e9e8",
+            "tertiary": "#b5161e",
+            "tertiary-container": "#ff9289",
+            "surface-dim": "#d1d5d4",
+            "surface-container-low": "#eff1f0",
+            "error-dim": "#9f0519",
+            "on-error-container": "#570008",
+            "on-primary-container": "#00623a",
+            "on-primary-fixed": "#004e2c",
+            "on-secondary-fixed": "#003565",
+            "background": "#f5f7f6",
+            "on-tertiary": "#ffefed",
+            "surface-container-high": "#dfe3e2",
+            "inverse-primary": "#92febc",
+            "on-primary": "#cbffda",
+            "secondary-dim": "#005095",
+            "secondary": "#005caa",
+            "on-secondary-fixed-variant": "#005197",
+            "tertiary-fixed": "#ff9289",
+            "surface-container-highest": "#d9dedd",
+            "tertiary-fixed-dim": "#ff7b71",
+            "secondary-container": "#b9d3ff",
+            "tertiary-dim": "#a40113",
+            "on-primary-fixed-variant": "#006e41",
+            "error-container": "#fb5151",
+            "on-error": "#ffefee",
+            "surface-container-lowest": "#ffffff",
+            "primary": "#00693e",
+            "on-tertiary-container": "#690008",
+            "primary-dim": "#005c36",
+            "on-tertiary-fixed-variant": "#7a000b",
+            "on-secondary": "#eef3ff",
+            "on-background": "#2c2f2f",
+            "surface-tint": "#00693e",
+            "secondary-fixed": "#b9d3ff",
+            "primary-fixed-dim": "#84efaf",
+            "inverse-surface": "#0b0f0f"
+          },
+          fontFamily: {
+            "headline": ["Manrope"],
+            "body": ["Work Sans"],
+            "label": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+  </style>
+</body>
+</html>
