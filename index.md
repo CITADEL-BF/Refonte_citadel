@@ -13,7 +13,7 @@ hero:
     - label: "Rejoignez-nous"
       url: "/rejoignez-nous/"
       type: "primary"
-    - label: "Nos Projets"
+    - label: "Nos Thèses"
       url: "/missions/"
       type: "secondary"
 

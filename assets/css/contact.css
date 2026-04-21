@@ -17,7 +17,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   line-height: 1.6;
-  padding-top: 64px;
+  padding-top: 80px; /* Ajusté pour correspondre à la hauteur du header fixe */
 }
 
 h1, h2, h3, h4 {
@@ -34,19 +34,20 @@ h1, h2, h3, h4 {
 
 .hero-map {
   position: relative;
-  height: 450px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: linear-gradient(135deg, #00693e 0%, #004e2c 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-map::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: url('/assets/images/technology-leisure.jpg') center / cover;
   z-index: 0;
 }
 
@@ -62,6 +63,7 @@ h1, h2, h3, h4 {
   z-index: 2;
   text-align: center;
   color: white;
+  padding-top: 20px; /* Descend un peu le texte par rapport au header */
 }
 
 .hero-map h1 {
@@ -237,7 +239,6 @@ form button:active {
   align-items: center;
   justify-content: center;
   padding-top: 0;
-  background-image: url("/assets/images/contact-us-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
