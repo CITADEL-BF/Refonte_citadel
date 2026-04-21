@@ -80,27 +80,6 @@ activities:
 
 news:
   title: "Actualités"
-  articles:
-    - title: "Lancement du IndabaX Burkina Faso 2024"
-      date: "15 Mai 2024"
-      url: "#"
-      image: "/assets/images/indabaX-BF2025.jpeg"
-      image_alt: "professional workshop setting with diverse students collaborating around a laptop in bright natural light"
-    - title: "CITADEL Fellows : La nouvelle cohorte dévoilée"
-      date: "02 Mai 2024"
-      url: "#"
-      image: "/assets/images/Fellows-2025-cohort6-Admis.png"
-      image_alt: "Academic fellows gathered in a circle discussing research in a contemporary wood-accented university space"
-    - title: "CITADEL Talk : L'éthique de l'IA au service de l'humain"
-      date: "28 Avril 2024"
-      url: "#"
-      image: "/assets/images/CITADEL-Talk22.jpg"
-      image_alt: "Speaker presenting at a tech conference with large digital screen and cinematic ambient lighting"
-    - title: "Succès : CITADEL remporte un financement majeur"
-      date: "12 Avril 2024"
-      url: "#"
-      image: "/assets/images/CITADEL-prix-international.jpg"
-      image_alt: "Hands holding a financial report with positive growth charts on a wooden table in sunlight"
 
 gallery:
   title: "Photothèque"

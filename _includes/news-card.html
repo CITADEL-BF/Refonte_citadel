@@ -1,7 +1,7 @@
 <!-- News Card Component -->
 <div class="news-card">
   <div class="news-card-image">
-    <img src="{{ include.article.image }}" alt="{{ include.article.image_alt }}" class="news-image">
+    <img src="{{ include.article.image }}" alt="{{ include.article.image_alt | default: include.article.title }}" class="news-image">
   </div>
   <div class="news-card-content">
     <h4 class="news-card-title">{{ include.article.title }}</h4>
