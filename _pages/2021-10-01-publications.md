@@ -23,8 +23,7 @@ publications:
     year: 2024
     abstract: "Cette étude présente une approche innovante pour la traduction automatique entre le français et le mooré, une langue à ressources limitées parlée au Burkina Faso. En utilisant des techniques d'apprentissage profond et des corpus parallèles limités, nous démontrons une amélioration significative de la qualité de traduction, ouvrant la voie à la préservation et à la digitalisation des langues africaines."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/A-Low-Resource-Language-Translation__0AFrench-To-Moore.pdf"
-    doi: "10.1038/citadel.2025.001"
-    citations: 0
+    doi: "10.1007/978-3-031-88226-5_30"
     date: "2024-01-30"
 
   - title: "AI BASED APPROACH FOR EARLY DIAGNOSIS SUPPORT IN HEMORRHAGIC STROKE"
@@ -45,7 +44,6 @@ publications:
     abstract: "Cette recherche développe une approche basée sur l'intelligence artificielle pour assister le diagnostic précoce des accidents vasculaires cérébraux hémorragiques. En analysant les images médicales et les données cliniques, notre modèle offre un soutien décisionnel aux professionnels de santé, améliorant la rapidité et la précision du diagnostic dans les contextes à ressources limitées."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-BASED-APPROACH-FOR-EARLY-DIAGNOSIS_SUPPORT-IN-HEMORRHAGIC-STROKE.pdf"
     doi: "10.1038/citadel.2025.002"
-    citations: 0
     date: "2025-02-13"
 
   - title: "AI driven Generation of News Summaries"
@@ -66,7 +64,6 @@ publications:
     abstract: "Cette étude explore l'utilisation de l'intelligence artificielle pour générer automatiquement des résumés d'actualités, en mettant l'accent sur l'explicabilité et la préservation de la vie privée. Nous proposons un modèle qui non seulement produit des résumés cohérents mais aussi explique ses décisions, contribuant ainsi à une IA plus transparente et éthique dans le traitement de l'information."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries.pdf"
     doi: "10.1038/citadel.2025.003"
-    citations: 0
     date: "2024-01-05"
 
   - title: "Artificial Intelligence for the Analysis of the Security Situation in Burkina Faso"
@@ -86,8 +83,7 @@ publications:
     year: 2024
     abstract: "Ce document présente une analyse assistée par intelligence artificielle pour la situation sécuritaire au Burkina Faso. Le modèle intègre des flux de données géospatiales et des signaux socio-économiques pour identifier les zones de tension et renforcer la prise de décision opérationnelle."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/Artificial-Intelligence-for-the-Analysis-of-the_0ASecurity-Situation-in-Burkina-Faso_AFRICOMM_en.pdf"
-    doi: "10.1038/citadel.2025.004"
-    citations: 0
+    doi: "10.1007/978-3-031-81573-7_14"
     date: "2024-01-30"
 
   - title: "Fakipedia: Building and Exploiting Commonsense Knowledge"
@@ -147,7 +143,7 @@ publications:
     year: 2025
     abstract: "Ce travail compare plusieurs architectures de résumé automatique basées sur GPT et Pegasus pour améliorer la qualité des synthèses d'articles d'actualité. L'étude met l'accent sur la réduction des biais et la fidélité des informations extraites."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries-Leveraging-GPT-and-Pegasus-Summarizer-for-Efficient-Information-Extraction.pdf"
-    doi: " 10.4108/eai.18-12-2023.2348180"
+    doi: "10.4108/eai.18-12-2023.2348180"
     date: "2025-02-08"
 
   - title: "Evaluating Acoustic Parameters for DeepFake Audio           Identification"
@@ -167,7 +163,7 @@ publications:
     year: 2024
     abstract: "Ce document présente une démonstration de DeepFake vocal en langue locale et analyse les défis éthiques de cette technologie. Nous proposons des mécanismes de détection visant à prévenir les usages malveillants dans les médias numériques."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/DeepFake_Vocale-Alberick.pdf"
-    doi: "10.1038/citadel.2025.008"
+    doi: "10.1109/AFRCON58725.2023.10431521"
     date: "2024-01-30"
 
   - title: "Detecting Illicit Data Leaks on Android Smartphones"
@@ -187,9 +183,8 @@ publications:
     year: 2025
     abstract: "Cette publication propose un modèle d'intelligence artificielle pour détecter les fuites de données sensibles sur les smartphones Android. Le système identifie les applications à risque et analyse les flux réseaux pour protéger la confidentialité des utilisateurs."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/Detecting-Illicit-Data-Leaks-on-AndroidSmartphones-Using-an-ArtificialIntelligence-Models.pdf"
-    doi: "10.1038/citadel.2025.009"
-    citations: 0
-    date: "2025-02-06"
+    doi: "10.1007/978-3-031-63215-0_14"
+    date: "2024-06-19"
 
   - title: "L'intelligence artificielle pour l'analyse de la situation sécuritaire du Burkina Faso"
     id: "CIT-2025-010"
@@ -209,7 +204,6 @@ publications:
     abstract: "Ce rapport examine l'application de l'intelligence artificielle à l'analyse de données sécuritaires au Burkina Faso. Le modèle détecte des tendances et contribue à l'anticipation des crises à partir de sources ouvertes et de capteurs locaux."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/Lintelligence-artificielle-pour-lanalyse-de-la-situation-securitaire-du-Burkina-Faso.pdf"
     doi: "10.1038/citadel.2025.010"
-    citations: 0
     date: "2025-02-05"
 
   - title: "MetaTPTrans: A Meta-Learning Approach for Multilingual Code Representation Learning"
@@ -229,8 +223,7 @@ publications:
     year: 2025
     abstract: "MetaTPTrans propose un apprentissage méta pour représenter des codes multilingues. Cette méthode facilite le traitement des langues africaines et le transfert de connaissances entre corpus disciplinaires."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/MetaTPTrans_-A-Meta-Learning-Approach-for-Multilingual-Code-Representation-Learning.pdf"
-    doi: "10.1038/citadel.2025.011"
-    citations: 0
+    doi: "10.1609/aaai.v37i11.25654"
     date: "2025-02-04"
 
   - title: "SNEToolkit: Spatial Named Entities Disambiguation Toolkit"
@@ -250,8 +243,7 @@ publications:
     year: 2023
     abstract: "SNEToolkit est un outil de désambiguïsation des entités nommées spatiales pour des textes multilingues. Il améliore la reconnaissance de lieux et de personnes dans les documents africains tout en conservant la structure géographique."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/SNEToolkit_-Spatial-named-entities-disambiguation-toolkit.pdf"
-    doi: "10.1038/citadel.2025.012"
-    citations: 0
+    doi: "10.1016/j.softx.2023.101476"
     date: "2023-09-04"
 
   - title: "Text-to-OWL: Automated Ontology Construction for Tuberculosis Treatment Recommendation"
@@ -271,8 +263,7 @@ publications:
     year: 2025
     abstract: "Text-to-OWL décrit une chaîne de construction automatique d'ontologies pour recommander des traitements antituberculeux. Le système combine intelligence artificielle et knowledge graph pour assister les professionnels de santé."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/Text-to-OWL_-Automated-Ontology-Construction-for-Tuberculosis-Treatment-Recommendation-using-Generative-AI.pdf"
-    doi: "10.1038/citadel.2025.013"
-    citations: 0
+    doi: "10.1007/978-3-032-01910-3_18"
     date: "2025-02-02"
 
   - title: "Voice Interaction in Moore Language: Study on Isolated Word Recognition"
@@ -293,6 +284,5 @@ publications:
     abstract: "Cette étude présente une interface vocale en mooré pour la reconnaissance de mots isolés. Elle met en évidence les défis phonétiques et propose des techniques d'apprentissage profond adaptées aux langues africaines."
     download_url: "https://citadel.bf/wp-content/uploads/2025/02/Voice-Interaction-in-Moore-Language-Study-on-Isolated-Word-Recognition-in-Audio-Samples.pdf"
     doi: "10.1038/citadel.2025.014"
-    citations: 0
     date: "2025-02-01"
 ---
