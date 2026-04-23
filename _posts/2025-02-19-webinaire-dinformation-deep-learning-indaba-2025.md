@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Webinaire d''''''''information : Deep Learning Indaba 2025 !'
+title: 'Webinaire d''information : Deep Learning Indaba 2025 !'
 date: '2025-02-19'
 category: 'actualites'
 image: /assets/images/Indaba-dl2025.png

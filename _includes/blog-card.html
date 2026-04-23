@@ -23,7 +23,7 @@
     <p class="text-on-surface-variant text-sm leading-relaxed mb-6">{{ post.excerpt | default: post.content | strip_html | truncatewords: 30 }}</p>
     <div class="mt-auto pt-6 border-t border-surface-container-low flex justify-between items-center">
       <span class="text-xs text-on-surface-variant">{{ post.date | date: "%d %B %Y" }}</span>
-      <a class="text-primary material-symbols-outlined" href="{{ post.url }}">arrow_forward</a>
+      <a class="text-primary material-symbols-outlined" href="{{ post.url | relative_url }}">arrow_forward</a>
     </div>
   </div>
 </article>

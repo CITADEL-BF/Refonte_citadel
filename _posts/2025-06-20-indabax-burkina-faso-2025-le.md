@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'IndabaX Burkina Faso 2025 – Le rendez-vous de l’intelligence artificielle en'
+title: 'IndabaX Burkina Faso 2025 – Le rendez-vous de l’intelligence artificielle'
 date: '2025-06-20'
 category: 'actualites'
 image: /assets/images/indabaX-BF2025.jpeg
