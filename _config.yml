@@ -34,7 +34,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# permalink: /articles/:name/
+permalink: /articles/:name/
+
+future: true
 
 sass:
   quiet_deps: true

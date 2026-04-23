@@ -18,7 +18,7 @@ Le Programme de Bourses de Thèses d’Excellence en (IA) est une initiative por
 
 ### •Candidates retenues pour la bourse classés par ordre de mérite:
 
-| Rang | Axes de Recherche | Nom      | Prénom   | Université                |
+| Rang | Axes de Recherche | Nom      | Prénom   |Université                |
 | ---- | ----------------- | -------- | -------  | --------------------------
 | 1ère | Langage & Héritage| Ouattara | Maimouna | Université Joseph KI-ZERBO (Burkina Faso) |
 | 2ème | Fintech & Sécurité | Yameogo | Sougri-nooma Leetitia | Institute Supérieur du Génie Électrique (Burkina Faso) |
