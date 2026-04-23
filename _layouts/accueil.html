@@ -111,7 +111,7 @@
                 <div class="about-icon-item">
                   <div class="about-icon">
                     {% if point.icon_image %}
-                      <img src="{{ point.icon_image }}" alt="{{ point.label }}" class="about-icon-image">
+                      <img src="{{ point.icon_image | relative_url }}" alt="{{ point.label }}" class="about-icon-image">
                     {% else %}
                       <span class="material-symbols-outlined">{{ point.icon }}</span>
                     {% endif %}
@@ -123,7 +123,7 @@
           </div>
           
           <div class="about-right">
-            <img src="{{ page.about.image }}" alt="{{ page.about.image_alt }}" class="about-image">
+            <img src="{{ page.about.image | relative_url }}" alt="{{ page.about.image_alt }}" class="about-image">
           </div>
         </div>
       </section>
@@ -137,7 +137,7 @@
           <p class="research-description">{{ page.research_axes.description }}</p>
           
           <div class="research-axes-box">
-            <img src="{{ page.research_axes.image }}" alt="{{ page.research_axes.image_alt }}" class="research-image">
+            <img src="{{ page.research_axes.image | relative_url }}" alt="{{ page.research_axes.image_alt }}" class="research-image">
             <div class="research-overlay">
               <div class="research-quote-label">{{ page.research_axes.quote_label }}</div>
               <div class="research-quote">{{ page.research_axes.quote }}</div>
@@ -152,7 +152,7 @@
       <section class="activities-section">
         <div class="section-container activities-grid">
           <div class="activities-left">
-            <img src="{{ page.activities.image }}" alt="{{ page.activities.image_alt }}" class="activities-image">
+            <img src="{{ page.activities.image | relative_url }}" alt="{{ page.activities.image_alt }}" class="activities-image">
           </div>
           
           <div class="activities-right">
@@ -224,7 +224,7 @@
               <div class="gallery-grid">
                 {% for image in album.images %}
                   <div class="gallery-item">
-                    <img src="{{ image.url }}" alt="{{ image.alt }}" class="gallery-image">
+                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" class="gallery-image">
                   </div>
                 {% endfor %}
               </div>
