@@ -3,7 +3,7 @@
   {% if include.member.image %}
     <div class="member-card__image">
       <img 
-        src="{{ include.member.image }}" 
+        src="{{ include.member.image | relative_url }}" 
         alt="Professional portrait of {{ include.member.name }}"
         class="w-full h-full object-cover"
       />

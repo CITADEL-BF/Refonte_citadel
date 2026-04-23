@@ -25,7 +25,7 @@
   {% include header.html %}
 
   <!-- Hero Section with Background Image -->
-  <section class="hero-map" style="background-image: url('{{ page.hero_image }}');">
+  <section class="hero-map" style="background-image: url('{{ page.hero_image | relative_url }}');">
     <div class="overlay"></div>
     <div class="content">
       <h1>{{ page.page_title }}</h1>

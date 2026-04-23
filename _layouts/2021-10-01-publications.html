@@ -98,7 +98,7 @@
 {% for author in pub.authors %}
 <div class="flex items-start gap-4 p-4 rounded-lg bg-surface-container-low/50">
 {% if author.image %}
-<img alt="Portrait of {{ author.name }}" class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm" src="{{ author.image }}"/>
+<img alt="Portrait of {{ author.name }}" class="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm" src="{{ author.image | relative_url }}"/>
 {% else %}
 <div class="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center">
 <span class="material-symbols-outlined text-primary">person</span>
@@ -127,7 +127,7 @@
 <span class="text-sm font-semibold text-secondary underline">{{ pub.doi }}</span>
 </div>
 </div>
-<a href="{{ pub.download_url }}" target="_blank" rel="noopener noreferrer" class="download-link flex items-center gap-3 bg-primary text-on-primary px-8 py-3 rounded-lg font-bold hover:bg-primary-dim transition-all shadow-lg shadow-primary/20" download>
+<a href="{{ pub.download_url | relative_url }}" target="_blank" rel="noopener noreferrer" class="download-link flex items-center gap-3 bg-primary text-on-primary px-8 py-3 rounded-lg font-bold hover:bg-primary-dim transition-all shadow-lg shadow-primary/20" download>
 <span class="material-symbols-outlined">picture_as_pdf</span>
                                 Télécharger le document PDF
                             </a>
