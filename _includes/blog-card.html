@@ -4,7 +4,7 @@
     {% if card_image contains '/assets/images/' %}
       <img alt="{{ post.title }}" class="w-full h-full object-cover" src="{{ card_image | relative_url }}"/>
     {% else %}
-      <img alt="{{ post.title }}" class="w-full h-full object-cover" src="/assets/images/{{ card_image }}"/>
+      <img alt="{{ post.title }}" class="w-full h-full object-cover" src="{{ '/assets/images/' | relative_url }}{{ card_image }}"/>
     {% endif %}
   </div>
   <div class="p-8 flex flex-col flex-grow">

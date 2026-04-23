@@ -11,12 +11,12 @@
 
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <script src="/assets/js/tailwind.config.js"></script>
+  <script src="{{ '/assets/js/tailwind.config.js' | relative_url }}"></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/header.css"/>
-  <link rel="stylesheet" href="/assets/css/footer.css"/>
-  <link rel="stylesheet" href="/assets/css/membres.css"/>
+  <link rel="stylesheet" href="{{ '/assets/css/header.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/footer.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/membres.css' | relative_url }}"/>
 </head>
 
 <body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
@@ -156,7 +156,7 @@
           <div class="flex flex-col sm:flex-row gap-4">
             {% for button in page.cta.buttons %}
               <a 
-                href="{{ button.url }}" 
+                href="{{ button.url | relative_url }}" 
                 class="cta-button cta-button--{{ button.type | default: 'primary' }}"
               >
                 {{ button.label }}

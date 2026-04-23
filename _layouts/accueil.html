@@ -51,7 +51,7 @@
             {% endif %}
             <div class="hero-buttons">
               {% for button in page.hero.buttons %}
-                <a href="{{ button.url }}" class="hero-button {% if button.type == 'primary' %}hero-button--primary{% else %}hero-button--secondary{% endif %}">
+                <a href="{{ button.url | relative_url }}" class="hero-button {% if button.type == 'primary' %}hero-button--primary{% else %}hero-button--secondary{% endif %}">
                   {{ button.label }}
                   {% if button.type == 'primary' %}<span class="material-symbols-outlined">arrow_forward</span>{% endif %}
                 </a>

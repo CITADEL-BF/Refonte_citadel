@@ -4,22 +4,22 @@
 
     <!-- Logo -->
     <div class="logo">
-      <img src="/assets/images/logo.jpeg" alt="CITADEL" style="height: 2em; width: auto; display: block;">
+      <img src="{{ '/assets/images/logo.jpeg' | relative_url }}" alt="CITADEL" style="height: 2em; width: auto; display: block;">
     </div>
 
     <!-- Menu desktop -->
     <div class="nav-links">
-      <a href="/">Accueil</a>
-      <a href="/membres/">Membres</a>
-      <a href="/missions/">Missions</a>
-      <a href="/sujets-de-recherche/">Sujets de Recherche</a>
-      <a href="/publications/">Publications</a>
-      <a href="/contact/">Contact</a>
+      <a href="{{ '/' | relative_url }}">Accueil</a>
+      <a href="{{ '/membres/' | relative_url }}">Membres</a>
+      <a href="{{ '/missions/' | relative_url }}">Missions</a>
+      <a href="{{ '/sujets-de-recherche/' | relative_url }}">Sujets de Recherche</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </div>
 
     <!-- Actions -->
     <div class="nav-actions">
-      <a href="/blog/" class="blog-btn">Blog</a>
+      <a href="{{ '/blog/' | relative_url }}" class="blog-btn">Blog</a>
     </div>
 
   </div>

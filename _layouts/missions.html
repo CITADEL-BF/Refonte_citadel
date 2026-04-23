@@ -194,7 +194,7 @@
         <div class="max-w-3xl mx-auto px-6 text-center">
           <p class="text-2xl font-bold mb-8">{{ page.quote.text }}</p>
           {% if page.quote.button %}
-            <a href="{{ page.quote.button.url }}" class="inline-block px-6 py-3 bg-primary-container text-primary font-bold rounded-lg hover:bg-white transition">
+            <a href="{{ page.quote.button.url | relative_url }}" class="inline-block px-6 py-3 bg-primary-container text-primary font-bold rounded-lg hover:bg-white transition">
               {{ page.quote.button.label }}
             </a>
           {% endif %}
