@@ -6,35 +6,35 @@ category: actualites
 image: /assets/images/DeepLearningIndaba3.png
 ---
 
-![Couverture de l'article](/assets/images/DeepLearningIndaba3.png)
+![Couverture de l'article]({{ site.baseurl }}/assets/images/DeepLearningIndaba3.png)
 
 ## Du 21 au 26 aout
 
 avait lieu dans la capitale tunisienne, l’édition 2022 de [l’Indaba Deep Learning](https://deeplearningindaba.com/2022/). Cet évènement annuel réunit la communauté africaine de « Machine Learning » (Apprentissage automatique) avec pour mission de renforcer ce domaine en Afrique.
 
-[![image](/assets/images/DeepLearningIndaba3.png)](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba3.png)](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba4.png)](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba4.png)](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba9.png)](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba9.png)](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba6.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba6.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba7.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba7.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba8.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba8.png)+7](javascript:;)
 
-[![image](/assets/images/deeplearning-indaba2022-c-1024x487.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/deeplearning-indaba2022-c-1024x487.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba1.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba1.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba10.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba10.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba5.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba5.png)+7](javascript:;)
 
-[![image](/assets/images/DeepLearningIndaba2.png)+7](javascript:;)
+[![image]({{ site.baseurl }}/assets/images/DeepLearningIndaba2.png)+7](javascript:;)
 
-![Image Description](/assets/images/soft-triangle-shape.svg)
+![Image Description]({{ site.baseurl }}/assets/images/soft-triangle-shape.svg)
 
 Pendant une semaine, plus de 350 participants venus de 36 pays d’Afrique intéressés par l’intelligence artificielle (IA), ont pu renforcer leurs compétences grâces aux enseignements reçus, aux échanges et débats autour de l’état de l'art de l'apprentissage automatique et de l'intelligence artificielle.
 
@@ -42,7 +42,7 @@ Pour cette année, deux étudiantes du Centre d’Excellence Interdisciplinaire 
 
 Elles répondent à quatre questions pour partager leur expérience d’Indaba.
 
-![](/assets/images/DeepLearningIndaba-YAMEOGO-.png)
+![]({{ site.baseurl }}/assets/images/DeepLearningIndaba-YAMEOGO-.png)
 
 #### **Sidbewendin Angelique YAMEOGO**
 
@@ -64,7 +64,7 @@ Oui j’avais quelques attentes qui ont été comblées. J’ai pu avoir des dis
 
 Participer à Deep Learning Indaba m’a permis d’être plus motivée et mieux organisée pour mes recherches. Cela m’a permis d’apprendre davantage sur l’Intelligence Artificielle. La plupart des chercheurs ont travaillé avec camembert qui est un transformer basé sur la langue française, ce qui m’a plus motivée à faire des recherches sur Flaubert qui est également un transformer basé sur la langue française. En vue de comparer les deux et choisir le Meilleur pour mon travail et comprendre pourquoi c’est camembert qui a été le plus utilisé. Je suis également en contact avec un chercheur qui a déjà travaillé sur la détection des fake news. Ces apports me permettent de mieux avancer dans mes travaux.
 
-![](/assets/images/DeepLearningIndaba-Imelda-Laetitia-SIMBORO-1.png)
+![]({{ site.baseurl }}/assets/images/DeepLearningIndaba-Imelda-Laetitia-SIMBORO-1.png)
 
 #### **Imelda Laetitia SIMBORO**
 

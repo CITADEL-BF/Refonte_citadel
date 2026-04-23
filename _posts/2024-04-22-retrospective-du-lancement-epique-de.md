@@ -12,26 +12,26 @@ Plongez dans les moments captivants et les souvenirs inoubliables du lancement o
 
 📸 Crédits photos : \[CITADEL\]
 
-![](/assets/images/seinar_11-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_11-1024x769.png)
 
-![](/assets/images/seinar_10-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_10-1024x769.png)
 
-![](/assets/images/seinar_9-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_9-1024x769.png)
 
-![](/assets/images/seinar_8-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_8-1024x769.png)
 
-![](/assets/images/seinar_7-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_7-1024x769.png)
 
-![](/assets/images/seinar_6-1024x769.png)
+![]({{ site.baseurl }}/assets/images/seinar_6-1024x769.png)
 
-![](/assets/images/seinar_5-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar_5-1024x768.png)
 
-![](/assets/images/seinar_4-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar_4-1024x768.png)
 
-![](/assets/images/seinar_3-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar_3-1024x768.png)
 
-![](/assets/images/seinar_2-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar_2-1024x768.png)
 
-![](/assets/images/seinar_1-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar_1-1024x768.png)
 
-![](/assets/images/seinar-1024x768.png)
+![]({{ site.baseurl }}/assets/images/seinar-1024x768.png)

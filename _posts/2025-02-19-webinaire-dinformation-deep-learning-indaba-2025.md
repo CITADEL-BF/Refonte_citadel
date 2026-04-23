@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/Indaba-dl2025.png
 ---
 
-![](/assets/images/Indaba-dl2025-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/Indaba-dl2025-1024x1024.png)
 
 Vous souhaitez en savoir plus sur Deep Learning Indaba 2025, l'événement incontournable en Intelligence Artificielle sur le continent africain ? 🌍🤖
 
