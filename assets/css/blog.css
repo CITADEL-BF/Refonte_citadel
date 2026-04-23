@@ -31,10 +31,10 @@
   animation: slide-cycle 24s infinite ease-in-out;
 }
 
-.hero-slider .slide-1 { background-image: url('/assets/images/CITADEL-lancement_2.jpg'); animation-delay: 0s; }
-.hero-slider .slide-2 { background-image: url('/assets/images/CITADEL-lancement-1.jpg'); animation-delay: 6s; }
-.hero-slider .slide-3 { background-image: url('/assets/images/CITADEL-Dr-Tagawende-Bissyande.jpg'); animation-delay: 12s; }
-.hero-slider .slide-4 { background-image: url('/assets/images/citadel-u-auben-15-min-1024x576.jpeg'); animation-delay: 18s; }
+.hero-slider .slide-1 { background-image: url('../images/CITADEL-lancement_2.jpg'); animation-delay: 0s; }
+.hero-slider .slide-2 { background-image: url('../images/CITADEL-lancement-1.jpg'); animation-delay: 6s; }
+.hero-slider .slide-3 { background-image: url('../images/CITADEL-Dr-Tagawende-Bissyande.jpg'); animation-delay: 12s; }
+.hero-slider .slide-4 { background-image: url('../images/citadel-u-auben-15-min-1024x576.jpeg'); animation-delay: 18s; }
 
 @keyframes slide-cycle {
   0%, 20% { opacity: 1; transform: scale(1.05); }
@@ -369,4 +369,3 @@
 .news-link-inline:focus {
   transform: translateX(2px);
 }
-

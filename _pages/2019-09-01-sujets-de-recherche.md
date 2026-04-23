@@ -52,7 +52,7 @@ research_projects:
       category: "Vie privée & explicabilité"
       category_color: "text-gray-700 bg-gray-100"
       border_color: "border-gray-300"
-      university: "Polytechnique de Ouagadougou"
+      university: "Institut Supérieur de Génie Electrique du Burkina Faso(ISGE-BF)"
       description: "Détection d'anomalies sur les images satellitaires pouvant servir d'indice de campements temporaires de groupes armés"
       image: "/assets/images/MOUMOULA-Micheline.jpg"
     
@@ -60,7 +60,7 @@ research_projects:
       category: "Vie privée & explicabilité"
       category_color: "text-gray-700 bg-gray-100"
       border_color: "border-gray-300"
-      university: "Institut Supérieur de Génie Electrique du Burkina Faso"
+      university: "Institut Supérieur de Génie Electrique du Burkina Faso(ISGE-BF)"
       description: "DeepFake vocal : Démonstration audio avec les voix de personnalités publiques"
       image: "/assets/images/Djire-Alberick-Euraste.jpg"
     
@@ -68,7 +68,7 @@ research_projects:
       category: "Langues & patrimoine"
       category_color: "text-purple-700 bg-purple-100"
       border_color: "border-purple-300"
-      university: "Université Virtuelle du Burkina Faso"
+      university: "Université Virtuelle du Burkina Faso(UV-BF)"
       description: "Apprentissage Profond pour le résumé de documents et la détection de plagiats dans les études de l'administration"
       image: "/assets/images/kabore-abdoul-fataoh.jpg"
     
@@ -76,7 +76,7 @@ research_projects:
       category: "Langues & patrimoine"
       category_color: "text-purple-700 bg-purple-100"
       border_color: "border-purple-300"
-      university: "Université Joseph KI-ZERBO"
+      university: " Université Joseph KI-ZERBO(UJKZ)"
       description: "Synthèse vocale pour les langues nationales africaines : Exemple de la langue nationale mooré (Burkina Faso)"
       image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg"
     
@@ -84,7 +84,7 @@ research_projects:
       category: "Agriculture & pastoralisme"
       category_color: "text-orange-700 bg-orange-100"
       border_color: "border-orange-300"
-      university: "Institut Supérieur de Génie Electrique du Burkina Faso"
+      university: "Institut Supérieur de Génie Electrique du Burkina Faso(ISGE-BF)"
       description: "Décompte Automatique et Systématique des Sites miniers artisanaux au Burkina Faso"
       image: "/assets/images/KABORE-Franck-Romuald-WendwoagaKABORE-Franck-Romuald-Wendwoaga.jpg"
     
@@ -100,7 +100,7 @@ research_projects:
       category: "Langues & patrimoine"
       category_color: "text-purple-700 bg-purple-100"
       border_color: "border-purple-300"
-      university: "Université Joseph KI-ZERBO"
+      university: "Université Joseph KI-ZERBO (UJKZ)"
       description: "Création d'une base de données de fake news et création d'un modèle de détection de fake news à partir de l'IA"
       image: "/assets/images/Sidbewendin-Angelique-YAMEOGO.jpg"
     
@@ -108,7 +108,7 @@ research_projects:
       category: "Énergie & changement climatique"
       category_color: "text-green-700 bg-green-100"
       border_color: "border-green-300"
-      university: "International Data Science Institute (IDSI)"
+      university: "International Data Science Institute (IDSI) (INPHB-ENSEA-Polytechnique Paris)"
       description: "Recherche en efficacité énergétique et optimisation des systèmes climatiques"
       image: "/assets/images/CITADEL-M-min.png"
     
@@ -116,7 +116,7 @@ research_projects:
       category: "Énergie & changement climatique"
       category_color: "text-green-700 bg-green-100"
       border_color: "border-green-300"
-      university: "Institut Supérieur des Sciences de la Santé"
+      university: " Institut Supérieur des Sciences de la Santé(INSSA)"
       description: "Évaluation et prédiction des impacts climatiques sur les systèmes de santé"
       image: "/assets/images/CITADEL-M-min.png"
 ---

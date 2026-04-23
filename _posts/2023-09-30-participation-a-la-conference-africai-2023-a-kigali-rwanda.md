@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/AfricAI-2023-.png
 ---
 
-![](/assets/images/AfricAI-2023-.png)
+![]({{ site.baseurl }}/assets/images/AfricAI-2023-.png)
 
 ## **Contexte**
 
@@ -63,13 +63,13 @@ Nous avons pris part à cet atelier à la suite à l’invitation de la CAFDO, q
 - Nous devons sortir très souvent pour voir comment les uns et les autres travaillent afin de nous en inspirer ;
 
 Pour terminer, cette semaine a été une occasion pour nous de rencontrer divers acteurs de la recherche, de l’industrie et de bailleurs de fond. Nous espérons bien  avoir l’occasion de multiplier ces types de voyages qui nous permettent de réseauter et de créer de vraies plus values pour nos institutions d’origine.  
-![](/assets/images/eG6z8VvPK2XaPTJAGyr6VJOiz92jT0IKDR7NF97W3iiF2IPCYBeupgyBIyvHJuY2Mm3Vlht0MPt3-n15tAguN5bZ36w8gGzqBsmZSyiXCTJLKSIGsLCysHRg3yB5sn_U8UgsfA5A47GVL9Fxq3-u6MU)
+![]({{ site.baseurl }}/assets/images/eG6z8VvPK2XaPTJAGyr6VJOiz92jT0IKDR7NF97W3iiF2IPCYBeupgyBIyvHJuY2Mm3Vlht0MPt3-n15tAguN5bZ36w8gGzqBsmZSyiXCTJLKSIGsLCysHRg3yB5sn_U8UgsfA5A47GVL9Fxq3-u6MU)
 
 
 
 
 
-![AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)](/assets/images/AfricAI-2023-Radisson-Convention-Center-Kigali-Rwanda-Rodrique-Kafando.png)
+![AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)]({{ site.baseurl }}/assets/images/AfricAI-2023-Radisson-Convention-Center-Kigali-Rwanda-Rodrique-Kafando.png)
 
 <figcaption>
 
@@ -100,7 +100,3 @@ Photo-de-groupe-Atelier-CAFDO
 Photo-de-cloture-AfricAI
 
 </figcaption>
-
-
-
-

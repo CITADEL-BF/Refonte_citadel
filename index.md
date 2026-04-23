@@ -14,7 +14,7 @@ hero:
       url: "/rejoignez-nous/"
       type: "primary"
     - label: "Nos Thèses"
-      url: "/missions/"
+      url: "https://citadel-bf.github.io/these.citadel.bf/"
       type: "secondary"
 
 partners:

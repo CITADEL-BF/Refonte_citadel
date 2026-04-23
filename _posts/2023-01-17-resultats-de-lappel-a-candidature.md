@@ -18,14 +18,14 @@ Le Programme de Bourses de Thèses d’Excellence en (IA) est une initiative por
 
 ### •Candidates retenues pour la bourse classés par ordre de mérite:
 
-| Rang | Axes de Recherche | Nom | Prénom | Université |
-| --- | --- | --- | --- | --- |
-| 1ère | Langage & Héritage | Ouattara | Maimouna | Université Joseph KI-ZERBO (Burkina Faso) |
+| Rang | Axes de Recherche | Nom      | Prénom   | Université                |
+| ---- | ----------------- | -------- | -------  | --------------------------
+| 1ère | Langage & Héritage| Ouattara | Maimouna | Université Joseph KI-ZERBO (Burkina Faso) |
 | 2ème | Fintech & Sécurité | Yameogo | Sougri-nooma Leetitia | Institute Supérieur du Génie Électrique (Burkina Faso) |
 
 ### • Candidates en liste d’attente par ordre de mérite :
 
 | Rang | Axes de Recherche | Nom | Prénom | Université |
-| --- | --- | --- | --- | --- |
+| ---- | ----------------- | --- | ------ | ------ |
 | 3ème | Énergie & Changement   Climatique | Guedezoume Behanzin | Marthe Paulette | Université d'Abomey Calavi (UAC Bénin) |
 | 4ème | Agriculture & Pastoralisme | Akpoly | Fifamè Edwige | Institut de Mathématique et de Sciences   Physiques (AIMS SENEGAL) |
