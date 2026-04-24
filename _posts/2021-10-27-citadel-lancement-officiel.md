@@ -5,7 +5,7 @@ date: '2021-10-27'
 category: 'actualites'
 image: /assets/images/Web-lancement-final.png
 ---
-
+![]({{ site.baseurl }}/assets/images/Web-lancement-final.png)
 Lancement officiel du Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement \[#CITADEL\] :  
 📌Nous vous donnons Rendez-vous ce 2️⃣7️⃣ octobre 2021 à ⏰ **14h 30** min au sein de **l'Université Virtuelle du Burkina Faso sis à Ouaga 2000 (Boulevard Mohamed Kadhafi)** pour le lancement officiel du 1er laboratoire d’innovation Burkinabé qui formera les leaders de demain en **#intelligence\_artificielle.**  
 Vous avez la possibilité de participer à distance en cliquant ici 👉 [**https://bit.ly/citadel-lancement**](https://bit.ly/citadel-lancement)  
