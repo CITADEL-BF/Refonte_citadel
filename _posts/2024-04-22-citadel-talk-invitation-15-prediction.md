@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-TALK-15_Avril-2024.png
 ---
 
-![](/assets/images/CITADEL-TALK-15_Avril-2024-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-TALK-15_Avril-2024-1024x1024.png)
 
 🚀 𝐂𝐈𝐓𝐀𝐃𝐄𝐋 𝐓𝐀𝐋𝐊 𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍 𝟏𝟓 ✨
 

@@ -7,7 +7,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-Talk8-copy-1.png
 ---
 
-![](/assets/images/CITADEL-Talk8_2-1-1024x341.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-Talk8_2-1-1024x341.png)
 
 🗣️ Appel à tous les esprits curieux de l'IA et des mobilités électriques ! 🚀
 

@@ -6,11 +6,7 @@ category: formation
 image:  /assets/images/CITASC-2022-POST-1024x576.png
 ---
 
-
-
-
-
-![](/assets/images/CITASC-2022-POST-1024x576.png)
+![]({{ site.baseurl }}/assets/images/CITASC-2022-POST-1024x576.png)
 
 🚀 **CITA'SC 2023: Explorez l'IA avec CITADEL!** 🚀
 

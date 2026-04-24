@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-Talk21-1080X1080.png
 ---
 
-![](/assets/images/CITADEL-Talk21-1080X1080-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-Talk21-1080X1080-1024x1024.png)
 
 L’IA générative révolutionne le travail dans les entreprises et les institutions publiques, rendant les employés plus efficaces et productifs. Mais attention ! Une utilisation mal maîtrisée peut exposer des données sensibles et même compromettre la sûreté nationale. Comment en tirer le meilleur parti sans risquer la confidentialité ? 🤔🔐
 

@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/IA-Education-web.png
 ---
 
-![](/assets/images/IA-Education-web-1024x576.png)
+![]({{ site.baseurl }}/assets/images/IA-Education-web-1024x576.png)
 
 🗣️#𝐂𝐈𝐓𝐀𝐃𝐄𝐋 𝐓𝐀𝐋𝐊\_𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍🗣️  
 Pour ce mois de Février, #𝐂𝐈𝐓𝐀𝐃𝐄𝐋 vous convie à une grande conférence publique de haut niveau sur l'éducation et l'Intelligence Artificielle (IA)  

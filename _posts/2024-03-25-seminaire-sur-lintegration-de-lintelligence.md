@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 'Séminaire sur l''''intégration de l''''intelligence artificielle dans le domaine'
+title: 'Séminaire sur l''intégration de l''intelligence artificielle dans le domaine'
 date: '2024-03-25'
 category: 'actualites'
 image: /assets/images/CITADEL-ATIS.jpeg
 ---
 
-![](/assets/images/CITADEL-ATIS-1024x720.jpeg)
+![]({{ site.baseurl }}/assets/images/CITADEL-ATIS-1024x720.jpeg)
 
 Participez au Séminaire sur l'intégration de l'intelligence artificielle dans le domaine de la santé, organisé par le CITADEL et ATIS.
 

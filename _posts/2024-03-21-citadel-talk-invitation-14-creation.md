@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-TALK-Mars_2024.png
 ---
 
-![](/assets/images/CITADEL-TALK-Mars_2024-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-TALK-Mars_2024-1024x1024.png)
 
 🎙️ 𝐂𝐈𝐓𝐀𝐃𝐄𝐋 𝐓𝐀𝐋𝐊 𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍 𝟏4 🎙️  
 🎉🤖🌟 Vous êtes passionné par l'Intelligence Artificielle et vous aimez repousser les frontières de la connaissance ? Ne manquez pas le 14ème CITADEL TALK INVITATION, organisé par le Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) !

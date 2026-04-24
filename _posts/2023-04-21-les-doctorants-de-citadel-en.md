@@ -5,6 +5,7 @@ date: '2023-04-21'
 category: 'actualites'
 image: /assets/images/CITADEL-ODC-Formation-3.png
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-ODC-Formation-3.png)
 
 Résolument engagé dans la formation de compétences locales en IA, CITADEL ne cesse d’apporter son expertise pour l’agrandissement de la communauté et des praticiens de l’IA en Afrique de façon générale et au Burkina Faso en particulier en mobilisant ses chercheurs et compétences associées.
 
@@ -12,7 +13,7 @@ A ce titre, les doctorants du centre CITADEL en collaboration avec Orange Digita
 
 Les apprenants repartent ainsi outillés des bonnes pratiques et une belle compréhension des notions de base de l’IA avec des cas d’études concrets.
 
-![](/assets/images/CITADEL-ODC-Formation-3.png)
-![](/assets/images/CITADEL-ODC-Formation-1.png)
-![](/assets/images/CITADEL-ODC-Formation-2.png)
-![](/assets/images/CITADEL-ODC-Formation-4.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-ODC-Formation-3.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-ODC-Formation-1.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-ODC-Formation-2.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-ODC-Formation-4.png)

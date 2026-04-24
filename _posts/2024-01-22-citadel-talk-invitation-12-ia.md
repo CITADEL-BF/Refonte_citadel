@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-TALK-JANVIER-2024.png
 ---
 
-![](/assets/images/CITADEL-TALK-JANVIER-2024-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-TALK-JANVIER-2024-1024x1024.png)
 
 📢 Cher(e)s passionné(e)s d'Intelligence Artificielle, esprits curieux, chercheurs assoiffés de savoir, et experts en devenir, préparez-vous à un rendez-vous exceptionnel: CITADEL TALK INVITATION 12.
 

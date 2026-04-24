@@ -5,6 +5,7 @@ date: '2022-04-20'
 category: 'actualites'
 image: /assets/images/CITADEL-SeminaieUJKZ-LinkedIn.png
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-SeminaieUJKZ-LinkedIn.png)
 
 Le séminaire IA, Fouille de données et application se déroule dans le cadre des activités de l’équipe de recherche « Intelligence Artificielle, fouille de données et Applications (IA-FDA) » du Laboratoire de Mathématique et Informatique (LAMI) de l’université Joseph KI-ZERBO en collaboration avec le centre CITADEL sous le thème **:**
 

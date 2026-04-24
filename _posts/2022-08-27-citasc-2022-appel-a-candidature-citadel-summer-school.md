@@ -5,8 +5,7 @@ date: '2022-08-27'
 category: 'actualites'
 image: /assets/images/CSC-FINAL.png
 ---
-
-![CITA'SC 2022](/assets/images/CSC-FINAL-1024x577.png)
+![]({{ site.baseurl }}/assets/images/CSC-FINAL-1024x577.png)
 
 <figcaption>
 

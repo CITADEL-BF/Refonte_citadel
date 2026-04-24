@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/Fellows2024.png
 ---
 
-![](/assets/images/Fellows2024-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/Fellows2024-1024x1024.png)
 
 ### **CITADEL FELLOWS : Offrez une Dimension d'Excellence à Votre Mémoire de Master en Intelligence Artificielle!**
 

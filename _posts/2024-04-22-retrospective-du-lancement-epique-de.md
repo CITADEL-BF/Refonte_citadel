@@ -5,6 +5,8 @@ date: '2024-04-22'
 category: 'actualites'
 image: /assets/images/seinar_5.png
 ---
+![]({{ site.baseurl }}/assets/images/seinar_5.png)
+
 
 Plongez dans les moments captivants et les souvenirs inoubliables du lancement officiel de la Semaine de l’Intelligence Artificielle & des technologies émergentes 2024, qui a eu lieu le samedi 20 Avril 2024 à l'Université Virtuelle du Burkina Faso !
 

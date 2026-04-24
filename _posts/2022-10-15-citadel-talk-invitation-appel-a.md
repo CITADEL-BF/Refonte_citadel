@@ -5,8 +5,7 @@ date: '2022-10-15'
 category: 'actualites'
 image: /assets/images/CITADEL-TALK-INVITATION-linkedIn.png
 ---
-
-![](/assets/images/CITADEL-TALK-INVITATION-linkedIn-1024x576.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-TALK-INVITATION-linkedIn-1024x576.png)
 
 Fidèle à sa mission sa mission de démontrer et exploiter pleinement le potentiel de l’IA pour participer au développement du Burkina Faso, le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] lance appel à contribution des Burkinabè de l’extérieur.
 
@@ -30,6 +29,6 @@ Hâtez-vous, Réservez votre place en cliquant le bouton suivant :
 
 En rappel, le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] est une initiative de l’Université virtuelle du Burkina Faso qui ambitionne de relever le défis de l’IA en offrant un cadre de rencontre et d’échanges entre les experts métiers, les politiques, les entrepreneurs et les chercheurs du Burkina (et de la sous-région) en quête d’un environnement favorable pour mener des recherches de haute qualité et compétitives au niveau mondial, qui sont directement applicables sur le terrain pour résoudre des problèmes du quotidien des Burkinabè voire des africains.
 
-![](/assets/images/AxeDeRecherche-1024x753.png)
+![]({{ site.baseurl }}/assets/images/AxeDeRecherche-1024x753.png)
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0tetLb7oAXdpbW3ABJQa1yqGfSPBY8VyKHxfcRE6apECZs5xkyLPFwHdPzgq8iyGml%26id%3D100072284842721&amp;show_text=true&amp;width=500" width="500" height="508" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

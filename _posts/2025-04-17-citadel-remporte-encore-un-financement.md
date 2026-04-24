@@ -5,6 +5,7 @@ date: '2025-04-17'
 category: 'actualites'
 image: /assets/images/CITADEL-prix-international.jpg
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-prix-international.jpg)
 
 𝐔𝐧𝐞 𝐫𝐞𝐜𝐨𝐧𝐧𝐚𝐢𝐬𝐬𝐚𝐧𝐜𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥𝐞 𝐩𝐨𝐮𝐫 𝐂𝐈𝐓𝐀𝐃𝐄𝐋 !
 

@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/indabaX-BF2025.jpeg
 ---
 
-![](/assets/images/indabaX-BF2025-1024x1024.jpeg)
+![]({{ site.baseurl }}/assets/images/indabaX-BF2025-1024x1024.jpeg)
 
 🚀 IndabaX Burkina Faso 2025 – Le rendez-vous de l’intelligence artificielle en Afrique !  
 📅 24, 25 et 26 juillet 2025  

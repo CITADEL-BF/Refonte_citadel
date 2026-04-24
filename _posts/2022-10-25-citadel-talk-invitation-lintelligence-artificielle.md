@@ -5,8 +5,7 @@ date: '2022-10-25'
 category: 'actualites'
 image: /assets/images/DIASPORA.-first-talk-LinkedIn.png
 ---
-
-![](/assets/images/DIASPORA.-first-talk-LinkedIn-1024x576.png)
+![]({{ site.baseurl }}/assets/images/DIASPORA.-first-talk-LinkedIn-1024x576.png)
 
 Pour ce mois d'Octobre, CITADEL vous convie à une grande conférence publique de haut niveau sur l'intelligence Artificielle sous le thème : "L'intelligence Artificielle au service du football" animée par Mr. Jedron Moïse NAYAGA, Ingénieur en Informatique.
 

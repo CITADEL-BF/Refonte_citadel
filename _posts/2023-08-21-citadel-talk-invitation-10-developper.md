@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/Citadel-talk-10.jpg
 ---
 
-![](/assets/images/Citadel-talk-10-cov-web-1024x256.jpg)
+![]({{ site.baseurl }}/assets/images/Citadel-talk-10-cov-web-1024x256.jpg)
 
 🗣️**#𝐂𝐈𝐓𝐀𝐃𝐄𝐋\_𝐓𝐀𝐋𝐊\_𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍🗣️**
 

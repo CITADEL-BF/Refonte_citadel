@@ -81,7 +81,7 @@ AfricAI 2023, Radisson Convention Center, Kigali, Rwanda (Rodrique Kafando)
 
 
 
-![Photo-de-groupe-Atelier-CAFDO](/assets/images/Photo-de-groupe-Atelier-CAFDO-1024x768.jpg)
+![Photo-de-groupe-Atelier-CAFDO]({{ site.baseurl }}/assets/images/Photo-de-groupe-Atelier-CAFDO-1024x768.jpg)
 
 <figcaption>
 
@@ -93,7 +93,7 @@ Photo-de-groupe-Atelier-CAFDO
 
 
 
-![Photo-de-cloture-AfricAI](/assets/images/Photo-de-cloture-AfricAI-1024x640.jpg)
+![Photo-de-cloture-AfricAI]({{ site.baseurl }}/assets/images/Photo-de-cloture-AfricAI-1024x640.jpg)
 
 <figcaption>
 

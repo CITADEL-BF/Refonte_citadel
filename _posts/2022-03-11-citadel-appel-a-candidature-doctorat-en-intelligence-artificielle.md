@@ -5,6 +5,7 @@ date: '2022-03-11'
 category: 'actualites'
 image: /assets/images/CITADEL-Thesis-2022-site-web.png
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-Thesis-2022-site-web.png)
 
 Le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] lance un appel à candidature pour le recrutement d’étudiants en thèse.
 
@@ -31,8 +32,7 @@ Fidèle à sa mission de développer des compétences techniques afin de relever
 ```
 Inscrivez-vous au lien suivant : https://bit.ly/citadel-thesis-2022
 ```
-
-![](/assets/images/AxeDeRecherche-1024x753.png)
+![]({{ site.baseurl }}/assets/images/AxeDeRecherche-1024x753.png)
 
 > Pour rappel, le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] est une initiative de l’Université virtuelle du Burkina Faso qui ambitionne de relever le défis de l’IA en offrant un cadre de rencontre et d’échanges entre les experts métiers, les politiques, les entrepreneurs et les chercheurs du Burkina (et de la sous-région) en quête d’un environnement favorable pour mener des recherches de haute qualité et compétitives au niveau mondial, qui sont directement applicables sur le terrain pour résoudre des problèmes du quotidien des Burkinabè voire des africains.
 

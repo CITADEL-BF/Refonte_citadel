@@ -5,6 +5,7 @@ date: '2022-03-10'
 category: 'actualites'
 image: /assets/images/CITADEL-Resultats-de-lappel-a-candidature-de-Bourses-de-Stage-pour-des-Memoires-dExcellence-en-IA-.jpeg
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-Resultats-de-lappel-a-candidature-de-Bourses-de-Stage-pour-des-Memoires-dExcellence-en-IA-.jpeg)
 
 Le Programme de Bourses de Master d’Excellence en Intelligence Artificielle (IA) est une initiative portée par CITADEL en vue d’accompagner les travaux de mémoire des étudiants en fin de cycle dans les universités du Burkina Faso vers la production d’un mémoire de qualité dans le domaine de l’IA.  
 A l’issu de l’appel candidature lancé en janvier 2022, le jury a retenu dix (10) candidats lors de la sélection finale avec trois (3) candidats en liste d’attente.

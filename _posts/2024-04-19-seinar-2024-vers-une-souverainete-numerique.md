@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/SEINAR-2024.png
 ---
 
-![](/assets/images/SEINAR-2024-1024x1024.png)
+![]({{ site.baseurl }}/assets/images/SEINAR-2024-1024x1024.png)
 
 🚀🌍 𝐒𝐄𝐈𝐍𝐀𝐑 𝟐𝟎𝟐𝟒: 𝐕𝐄𝐑𝐒 𝐔𝐍𝐄 𝐒𝐎𝐔𝐕𝐄𝐑𝐀𝐈𝐍𝐄𝐓𝐄́ 𝐍𝐔𝐌𝐄́𝐑𝐈𝐐𝐔𝐄
 

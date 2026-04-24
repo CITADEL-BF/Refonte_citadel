@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 'APPEL À CANDIDATURE : Bourses de Stage pour des Mémoires d''''''''Excellence en'
+title: 'APPEL À CANDIDATURE : Bourses de Stage pour des Mémoires d''Excellence'
 date: '2022-01-22'
 category: 'actualites'
 image: /assets/images/CITADEL-fellows2022-siteWeb.png
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-fellows2022-siteWeb.png)
 
 # Présentation
 

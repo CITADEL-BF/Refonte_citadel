@@ -6,7 +6,7 @@ category: 'seminaire'
 image: /assets/images/v-copy-2.png
 ---
 
-![](/assets/images/v-copy-2-1024x625.png)
+![]({{ site.baseurl }}/assets/images/v-copy-2-1024x625.png)
 
 Le Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) est enthousiaste de vous convier à sa prochaine conférence de la série CITADEL Talk Invitation, qui aura lieu le vendredi 05 Mai à partir de 16h00 GMT. Cette fois-ci, notre conférence se concentrera sur les outils de suivi et de prédiction du terrorisme au G3 Sahel, en particulier l'outil 𝑻𝒆𝒓𝒓𝒐𝒓𝒊𝒔𝒕𝒆 𝑻𝒓𝒂𝒄𝒌𝒆𝒓.
 

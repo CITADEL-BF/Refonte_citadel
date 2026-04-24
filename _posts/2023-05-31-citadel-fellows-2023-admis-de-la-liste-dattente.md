@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/Admis-Liste-Attente.png
 ---
 
-![](/assets/images/Admis-Liste-Attente_1-724x1024.png)
+![]({{ site.baseurl }}/assets/images/Admis-Liste-Attente_1-724x1024.png)
 
 Nous sommes ravis de vous informer que trois participants de la liste d'attente ont été repêchés et sont désormais admis au Programme de Bourses des Stages pour des Mémoires d'Excellence en Intelligence Artificielle (IA) de CITADEL. Félicitations à :
 

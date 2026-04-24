@@ -5,8 +5,7 @@ date: '2022-09-25'
 category: 'actualites'
 image: /assets/images/CITASC-2022-POST.png
 ---
-
-![](/assets/images/CITASC-2022-POST-1024x576.png)
+![]({{ site.baseurl }}/assets/images/CITASC-2022-POST-1024x576.png)
 
 Du 19 au 24 septembre avait lieu au monastère Abbaye Saint Benoît de Koubri, la première édition du CITADEL Summer School (CITA’SC). Cette école d’été est une initiative du Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) en partenariat avec la coopération Luxembourgeoise. 34 étudiant(e)s Doctorant(e)s et en année de Master en informatique venu(e)s des différentes universités du Burkina Faso ont acquis des connaissances théoriques et pratiques sur l’IA qu’ils ont mis en pratique lors d’un hackathon organisé pour l’occasion. Cet évènement a connu la présence de la Ministre de la transition digitale, des postes et des communications électroniques, Dr Aminata ZERBO, du Représentant du Ministre de l’enseignement supérieur, de la recherche scientifique et de l’innovation ainsi que des premiers responsables de l’Université virtuelle du Burkina. Retour sur la première édition d’une école d’été qui a suscité beaucoup d’intérêts !
 
@@ -23,14 +22,13 @@ L’un des aspects stimulants de cette école d’été a été le HACKHATON org
 ### Lauréats du hackathon
 
 ## ****Ce qu’en pensent les participants…****
-
-![](/assets/images/CITASC-2022-DOUAMBA-Fadila-W.png)
+![]({{ site.baseurl }}/assets/images/CITASC-2022-DOUAMBA-Fadila-W.png)
 
 ##### **DOUAMBA Fadila W,** _Etudiante en Master 1 en intelligence artificielle à l'Université des sciences et technologies de Huazhong en Chine._
 
 Étant étudiante en première année de Master en intelligence artificielle, j'ai voulu mieux en savoir sur L'IA et ses différentes techniques et aussi échanger avec les responsables déjà dans le domaine c’est ce qui m’a motivé à participer à cette école d’été. J'ai beaucoup appris sur le natural language processing sur lequel je n'avais pas beaucoup de notions. Ce qui m'a le plus marqué c'est le hackathon qui nous a permis d'appliquer ce que nous avons appris durant cette formation. A l’issue du CITA’SC mon intérêt pour l'intelligence artificielle a considérablement augmenté et cela m'incite à en apprendre plus, à continuer à me former sur les techniques de L'IA afin de contribuer au développement du secteur au Burkina Faso.Je recommanderais le CITA'SC à un étudiant puisque c'est un cadre idéal pour l'apprentissage, la formation, le challenge et le relationnel.
 
-![](/assets/images/CITASC-2022-KABORE-Moumini.png)
+![]({{ site.baseurl }}/assets/images/CITASC-2022-KABORE-Moumini.png)
 
 ##### KABORE Moumini, _Etudiant en Master Fouilles de données et intelligence artificielle à l’Université Virtuelle du Burkina Faso :_
 

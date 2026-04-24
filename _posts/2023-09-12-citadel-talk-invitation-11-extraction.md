@@ -6,7 +6,7 @@ image: /assets/images/Citadel-talk-11-larg.jpg
 category: 'seminaire'
 ---
 
-![](/assets/images/Citadel-talk-11-larg.jpg)
+![]({{ site.baseurl }}/assets/images/Citadel-talk-11-larg.jpg)
 
 Cher(e)s passionné(e)s d’intelligence artificielle et de l’innovation,
 

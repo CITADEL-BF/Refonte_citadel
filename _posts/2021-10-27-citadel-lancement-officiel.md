@@ -12,4 +12,4 @@ Vous avez la possibilité de participer à distance en cliquant ici 👉 [**http
   
 🔖Cette cérémonie est placée sous la **présidence de Pr Alkassoum Maïga**, Ministre de l’Enseignement Supérieur, de la Recherche Scientifique et de l’Innovation @mesrsi, et a pour **Marraine, Mme Hadja Fatimata Ouattara/Sanon**, Ministre de l’Economie Numérique, des Postes et de la Transformation Digitale.
 
-# ai4dev #citadeluvbf #innovation #informatique
+

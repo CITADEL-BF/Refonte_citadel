@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/CITADEL-MASTER-FELLOWS-2024.jpg
 ---
 
-![](/assets/images/CITADEL-MASTER-FELLOWS-2024-1024x1024.jpg)
+![]({{ site.baseurl }}/assets/images/CITADEL-MASTER-FELLOWS-2024-1024x1024.jpg)
 
 Le Centre Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL) est ravi de dévoiler les lauréats de l'appel à candidatures CITADEL Fellows 2023. Après examen des dossiers, 09 étudiant.e.s en fin de cycle de Master remplissent les critères et ont été sélectionné.e.s pour recevoir une bourse d'une valeur de 100.000 CFA par mois.
 

@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/Seminaire-IA-Afrique.jpeg
 ---
 
-![](/assets/images/Seminaire-IA-Afrique-1024x1024.jpeg)
+![]({{ site.baseurl }}/assets/images/Seminaire-IA-Afrique-1024x1024.jpeg)
 
 Dans le cadre de ses activités, la plateforme africaine de Réseautage et d'Innovation (ITAUN) organise la semaine de l'IA en Afrique (en ligne) 🌍 sous la forme de sessions de formation GRATUITES destinées à tous les étudiants du continent et ce du 5 au 9 décembre 2022.
 

@@ -5,8 +5,7 @@ date: '2022-10-13'
 category: 'actualites'
 image: /assets/images/CITADEL-woman-thesis-2022-img.png
 ---
-
-![](/assets/images/CITADEL-woman-thesis-2022-img-1024x576.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-woman-thesis-2022-img-1024x576.png)
 
 Le Centre d’excellence interdisciplinaire en intelligence artificielle pour le développement \[CITADEL\] lance un appel à candidature pour le recrutement d’étudiantes en thèse dans le domaine de l’intelligence artificielle.
 
@@ -34,6 +33,6 @@ Le présent appel à candidature prendra fin le 20 octobre 2022. Postuler en cli
 
 ## Découvrez les axes stratégiques de CITADEL et les sujets de recherche des étudiant(e)s ici.
 
-![](/assets/images/AxeDeRecherche-1024x753.png)
+![]({{ site.baseurl }}/assets/images/AxeDeRecherche-1024x753.png)
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0pUDepcaSVWnF9Cfhs5FRv9kr9N7rqM3WSGnBWTWwsDYLrDBxHhzPxqh9JC38GqWRl%26id%3D100072284842721&amp;show_text=true&amp;width=500" width="500" height="841" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>

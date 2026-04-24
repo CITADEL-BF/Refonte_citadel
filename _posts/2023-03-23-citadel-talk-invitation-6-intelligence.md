@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/citadel-talk-6.png
 ---
 
-![](/assets/images/citadel-talk-6-1024x683.png)
+![]({{ site.baseurl }}/assets/images/citadel-talk-6-1024x683.png)
 
 [#𝐂𝐈𝐓𝐀𝐃𝐄𝐋](https://www.linkedin.com/feed/hashtag/?keywords=citadel&highlightedUpdateUrns=urn%3Ali%3Aactivity%3A7044733598364540928) 𝐓𝐀𝐋𝐊\_𝐈𝐍𝐕𝐈𝐓𝐀𝐓𝐈𝐎𝐍
 

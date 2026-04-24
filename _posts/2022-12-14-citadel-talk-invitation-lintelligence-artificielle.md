@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/IA-Sante-CITADEL-1.png
 ---
 
-![](/assets/images/IA-Sante-CITADEL-1024x576.png)
+![]({{ site.baseurl }}/assets/images/IA-Sante-CITADEL-1024x576.png)
 
 🗣️#CITADEL TALK\_INVITATION🗣️  
 Pour ce mois de Décembre, CITADEL vous convie à une grande conférence publique de haut niveau sur l'Intelligence Artificielle sous le thème ✅: **"l’Intelligence Artificielle en Santé, définition et promesse"** animée par **Pr. Jean Noël NIKIEMA**, Professeur Adjoint en santé numérique et analyse de mégadonnées au département de gestion, d’évaluation et de politique de santé (DGEPS) de l’École de Santé publique de l’université de Montréal (ESPUM).  

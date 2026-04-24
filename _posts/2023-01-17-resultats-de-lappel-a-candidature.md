@@ -10,7 +10,7 @@ image: /assets/images/CITADEL-Thesis-2022-Resultats-2-1024x427.png
 
 
 
-![](/assets/images/CITADEL-Thesis-2022-Resultats-2-1024x427.png)
+![]({{ site.baseurl }}/assets/images/CITADEL-Thesis-2022-Resultats-2-1024x427.png)
 
 A l’issu de l’appel à candidature lancé en Octobre 2022 pour le recrutement complémentaire de deux (02) filles pour bénéficier d’une bourse de thèse en Intelligence Artificielle (IA), CITADEL a le plaisir de vous annoncer dans le tableau ci-dessous, la liste des candidates retenues après la sélection du Jury.
 

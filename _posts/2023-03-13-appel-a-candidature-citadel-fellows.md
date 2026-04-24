@@ -6,20 +6,20 @@ category: 'actualites'
 image: /assets/images/Fellows2023-Mars.png
 ---
 
-![](/assets/images/Fellows2023-Mars-1024x427.png)
+![]({{ site.baseurl }}/assets/images/Fellows2023-Mars-1024x427.png)
 
-![✅](/assets/images/2705.png)Vous êtes Étudiant.e.s en fin de cycle de Master des Universités du Burkina Faso et d’Afrique francophone ?
+![✅]({{ site.baseurl }}/assets/images/2705.png)Vous êtes Étudiant.e.s en fin de cycle de Master des Universités du Burkina Faso et d’Afrique francophone ?
 
-![✅](/assets/images/2705.png)Vous n’avez pas encore effectué le stage de fin d’année pour votre mémoire?
+![✅]({{ site.baseurl }}/assets/images/2705.png)Vous n’avez pas encore effectué le stage de fin d’année pour votre mémoire?
 
-![✅](/assets/images/2705.png)Vous avez un grand intérêt pour l’Intelleigence Artificielle?
+![✅]({{ site.baseurl }}/assets/images/2705.png)Vous avez un grand intérêt pour l’Intelleigence Artificielle?
 
-Cette opportunité est la vôtre ![❗️](/assets/images/2757.png)![❗️](/assets/images/2757.png)![❗️](/assets/images/2757.png)
+Cette opportunité est la vôtre ![❗️]({{ site.baseurl }}/assets/images/2757.png)![❗️]({{ site.baseurl }}/assets/images/2757.png)![❗️]({{ site.baseurl }}/assets/images/2757.png)
 
 Bénéficiez d’une bourse allant jusqu’à 100.000 fcfa par mois et d’un accompagnement de l’équipe de CITADEL pendant 6 mois pour soutenir votre Master dans l’un des axes stratégiques de CITADEL.
 
-![✍🏾](/assets/images/270d_1f3fe.png)Inscrivez-vous vous vite ![🏃🏾](/assets/images/1f3c3_1f3fe.png)![🏃🏾‍♀️](/assets/images/1f3c3_1f3fe_200d_2640.png) au lien suivant : [https://bit.ly/citadel-fellows2023-new](https://bit.ly/citadel-fellows2023-new?fbclid=IwAR3e0NU6plMQCfkRyYCmrgYNL4SHnT6sEY-SHJZf5UCi5xHaSCZIu7Pjp9E)
+![✍🏾]({{ site.baseurl }}/assets/images/270d_1f3fe.png)Inscrivez-vous vous vite ![🏃🏾]({{ site.baseurl }}/assets/images/1f3c3_1f3fe.png)![🏃🏾‍♀️]({{ site.baseurl }}/assets/images/1f3c3_1f3fe_200d_2640.png) au lien suivant : [https://bit.ly/citadel-fellows2023-new](https://bit.ly/citadel-fellows2023-new?fbclid=IwAR3e0NU6plMQCfkRyYCmrgYNL4SHnT6sEY-SHJZf5UCi5xHaSCZIu7Pjp9E)
 
-![🛑](/assets/images/1f6d1.png)Date limite : 30 Mars 2023
+![🛑]({{ site.baseurl }}/assets/images/1f6d1.png)Date limite : 30 Mars 2023
 
-![👉🏾](/assets/images/1f449_1f3fe.png)Candidatures féminines encouragées.
+![👉🏾]({{ site.baseurl }}/assets/images/1f449_1f3fe.png)Candidatures féminines encouragées.

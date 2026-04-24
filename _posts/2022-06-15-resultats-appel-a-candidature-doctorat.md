@@ -5,6 +5,7 @@ date: '2022-06-15'
 category: 'actualites'
 image: /assets/images/CITADEL-Thesis-2022-Resultats-Linkedin.png
 ---
+![]({{ site.baseurl }}/assets/images/CITADEL-Thesis-2022-Resultats-Linkedin.png)
 
 Le Programme de Bourses de Thèses d’Excellence en Intelligence Artificielle (IA) est une initiative portée par CITADEL en vue d’accompagner les travaux de thèse des étudiants dans les universités du Burkina Faso vers la production d’une recherche de qualité dans le domaine de l’IA.  
 A l’issu de l’appel candidature lancé en Mars 2022, le jury a retenu Deux (02) candidats lors de la sélection finale avec Deux (02) candidats en liste d’attente.
@@ -26,5 +27,4 @@ A l’issu de l’appel candidature lancé en Mars 2022, le jury a retenu Deux (
 ```
 Un appel à candidature sera lancé en Septembre 2022 pour le recrutement deux (02) étudiantes en thèse... pour compléter la liste
 ```
-
-![](/assets/images/AxeDeRecherche-1024x753.png)
+![]({{ site.baseurl }}/assets/images/AxeDeRecherche-1024x753.png)

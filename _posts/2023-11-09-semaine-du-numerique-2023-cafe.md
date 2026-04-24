@@ -6,7 +6,7 @@ category: 'actualites'
 image: /assets/images/SN-2023-DigitalCofee.jpg
 ---
 
-![](/assets/images/SN-2023-DigitalCofee-1024x1024.jpg)
+![]({{ site.baseurl }}/assets/images/SN-2023-DigitalCofee-1024x1024.jpg)
 
 ## Découvrez les Enjeux de l'Intelligence Artificielle lors du Café Numérique à la Semaine du Numérique 2023 au Burkina Faso
 
