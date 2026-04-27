@@ -286,8 +286,10 @@
 
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
   gap: 2rem;
+  justify-items: center;
+  justify-content: center;
 }
 
 .partners-card {
@@ -301,11 +303,9 @@
   text-align: center;
   transition: all 200ms;
   border: 1px solid transparent;
-}
-
-.partners-card:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  border-color: rgba(0, 105, 62, 0.1);
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
 }
 
 .partners-card-image {
@@ -363,6 +363,13 @@
 
 .partners-card-link:hover {
   gap: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .partners-card {
+    padding: 2.5rem 1.5rem;
+    max-width: 100%;
+  }
 }
 
 /* ============================================

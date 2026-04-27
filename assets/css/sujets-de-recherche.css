@@ -10,3 +10,31 @@ h1, h2, h3, .nav-link { font-family: 'Manrope', sans-serif; }
   transition: opacity 0.3s ease-in-out;
   opacity: 1;
 }
+
+.research-card > .flex {
+  flex-wrap: wrap;
+}
+
+.research-card .flex-1 {
+  min-width: 0;
+}
+
+.research-card h3,
+.research-card span,
+.research-card p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.research-card .w-32 {
+  min-width: 4.5rem;
+  width: 4.5rem;
+  height: 5.5rem;
+}
+
+@media (max-width: 640px) {
+  .research-card .w-32 {
+    width: 4rem;
+    height: 5rem;
+  }
+}

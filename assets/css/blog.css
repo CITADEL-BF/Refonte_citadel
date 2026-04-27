@@ -294,8 +294,9 @@
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
   gap: 1.75rem;
+  justify-content: center;
 }
 
 .news-card {
@@ -304,8 +305,9 @@
   overflow: hidden;
   box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
   transition: transform 200ms ease, box-shadow 200ms ease;
-}
-
+  width: 100%;
+  max-width: 28rem;
+  margin: 0 auto;
 .news-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 22px 50px rgba(15, 23, 42, 0.12);
