@@ -20,10 +20,49 @@
     <!-- Actions -->
     <div class="nav-actions">
       <a href="{{ '/blog/' | relative_url }}" class="blog-btn">Blog</a>
+      
+      <!-- Hamburger button mobile -->
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
     </div>
 
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="{{ '/' | relative_url }}" class="mobile-menu-link">Accueil</a>
+    <a href="{{ '/membres/' | relative_url }}" class="mobile-menu-link">Membres</a>
+    <a href="{{ '/missions/' | relative_url }}" class="mobile-menu-link">Missions</a>
+    <a href="{{ '/sujets-de-recherche/' | relative_url }}" class="mobile-menu-link">Sujets de Recherche</a>
+    <a href="{{ '/publications/' | relative_url }}" class="mobile-menu-link">Publications</a>
+    <a href="{{ '/contact/' | relative_url }}" class="mobile-menu-link">Contact</a>
   </div>
 
   <!-- ligne séparatrice -->
   <div class="header-divider"></div>
 </nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerBtn = document.getElementById('hamburgerBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuLinks = document.querySelectorAll('.mobile-menu-link');
+
+    // Ouvrir/fermer le menu au clic sur le bouton
+    hamburgerBtn.addEventListener('click', function() {
+      hamburgerBtn.classList.toggle('active');
+      mobileMenu.classList.toggle('open');
+    });
+
+    // Fermer le menu quand on clique sur un lien
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        hamburgerBtn.classList.remove('active');
+        mobileMenu.classList.remove('open');
+      });
+    });
+  });
+</script>
