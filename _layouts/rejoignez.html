@@ -66,34 +66,22 @@
           <p class="text-on-surface-variant">{{ page.form_description }}</p>
         </div>
         <div class="bg-surface-container-lowest rounded-3xl p-12 shadow-2xl shadow-emerald-900/5">
-          <!-- Form -->
-          <form class="space-y-8">
-            <!-- Profile Selection -->
+          <form id="rejoignezForm" class="space-y-8" action="{{ page.formspree_endpoint }}" method="POST" enctype="multipart/form-data">
+            {% if page.formspree_endpoint %}
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" id="subjectInput" name="_subject" value="{{ page.formspree_subject | default: 'Nouvelle candidature Rejoignez-nous CITADEL' }}" />
+            {% endif %}
+            <input type="hidden" id="selectedProfileInput" name="profile" value="">
             <div>
               <label class="block text-sm font-label font-semibold text-on-surface mb-6 text-center uppercase tracking-widest">Quel est votre profil ?</label>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {% for profile in page.form_profiles %}
-                  <label class="cursor-pointer">
-                    <input {% if forloop.first %}checked{% endif %} class="sr-only peer" name="profile" type="radio" value="{{ profile }}">
-                    <div class="p-6 text-center border-2 border-surface-container rounded-xl peer-checked:border-primary peer-checked:bg-primary/5 transition-all">
-                      <span class="block font-headline font-bold text-on-surface">{{ profile }}</span>
-                    </div>
-                  </label>
-                {% endfor %}
-              </div>
+              <div id="profileButtons" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
             </div>
-
-            <!-- Form Fields -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {% for field in page.form_fields %}
-                <div class="space-y-2">
-                  <label class="text-xs font-label font-bold text-outline-variant uppercase">{{ field.label }}</label>
-                  <input class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface placeholder:text-outline" placeholder="{{ field.placeholder }}" type="{{ field.type }}" name="{{ field.name }}">
-                </div>
-              {% endfor %}
+            <div class="space-y-4">
+              <h3 id="variantTitle" class="text-3xl font-bold text-primary"></h3>
+              <p id="variantDescription" class="text-on-surface-variant"></p>
             </div>
-
-            <!-- Domain of Interest -->
+            <div id="variantFields" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+            <div id="variantFileFields" class="grid grid-cols-1 gap-6"></div>
             <div class="space-y-2">
               <label class="text-xs font-label font-bold text-outline-variant uppercase">Domaine d'Intérêt</label>
               <select class="w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface appearance-none" name="interest">
@@ -102,10 +90,8 @@
                 {% endfor %}
               </select>
             </div>
-
-            <!-- Submit Button -->
-            <button class="w-full py-4 bg-primary text-on-primary font-bold rounded-xl hover:bg-primary-dim transition-all flex items-center justify-center gap-2 group" type="button">
-              Envoyer
+            <button class="w-full py-4 bg-primary text-on-primary font-bold rounded-xl hover:bg-primary-dim transition-all flex items-center justify-center gap-2 group" type="submit">
+              {{ page.form_cta }}
               <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span>
             </button>
           </form>
@@ -232,6 +218,129 @@
         }
       }
     }
+  </script>
+  <script id="profile-data" type="application/json">{{ page.form_profiles | jsonify }}</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const profiles = JSON.parse(document.getElementById('profile-data').textContent || '[]');
+      const buttonsContainer = document.getElementById('profileButtons');
+      const titleElement = document.getElementById('variantTitle');
+      const descriptionElement = document.getElementById('variantDescription');
+      const fieldsContainer = document.getElementById('variantFields');
+      const fileFieldsContainer = document.getElementById('variantFileFields');
+      const selectedProfileInput = document.getElementById('selectedProfileInput');
+      const subjectInput = document.getElementById('subjectInput');
+
+      if (!profiles || !profiles.length || !buttonsContainer) {
+        return;
+      }
+
+      function createButton(profile, isActive) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'w-full py-4 rounded-xl border-2 font-semibold transition-all focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2';
+        button.classList.add('text-on-surface');
+        if (isActive) {
+          button.classList.add('border-primary', 'bg-primary/10', 'text-primary');
+        } else {
+          button.classList.add('border-surface-container', 'bg-surface-container');
+        }
+        button.textContent = profile.label;
+        button.dataset.profileId = profile.id;
+        button.addEventListener('click', function() {
+          selectProfile(profile.id);
+        });
+        return button;
+      }
+
+      function selectProfile(profileId) {
+        const profile = profiles.find(function(item) {
+          return item.id === profileId;
+        }) || profiles[0];
+
+        if (!profile) {
+          return;
+        }
+
+        selectedProfileInput.value = profile.label;
+        if (subjectInput) {
+          subjectInput.value = 'Nouvelle candidature Rejoignez-nous CITADEL - ' + profile.label;
+        }
+        titleElement.textContent = profile.title || '';
+        descriptionElement.textContent = profile.description || '';
+        renderFields(profile);
+        Array.from(buttonsContainer.children).forEach(function(button) {
+          if (button.dataset.profileId === profile.id) {
+            button.classList.remove('border-surface-container', 'bg-surface-container', 'text-on-surface');
+            button.classList.add('border-primary', 'bg-primary/10', 'text-primary');
+          } else {
+            button.classList.remove('border-primary', 'bg-primary/10', 'text-primary');
+            button.classList.add('border-surface-container', 'bg-surface-container', 'text-on-surface');
+          }
+        });
+      }
+
+      function renderFields(profile) {
+        fieldsContainer.innerHTML = '';
+        fileFieldsContainer.innerHTML = '';
+
+        (profile.fields || []).forEach(function(field) {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'space-y-2';
+
+          const label = document.createElement('label');
+          label.className = 'text-xs font-label font-bold text-outline-variant uppercase';
+          label.textContent = field.label;
+          wrapper.appendChild(label);
+
+          if (field.type === 'select') {
+            const select = document.createElement('select');
+            select.name = field.name;
+            select.className = 'w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface appearance-none';
+            (field.options || []).forEach(function(option) {
+              const opt = document.createElement('option');
+              opt.value = option;
+              opt.textContent = option;
+              select.appendChild(opt);
+            });
+            wrapper.appendChild(select);
+          } else {
+            const input = document.createElement('input');
+            input.type = field.type || 'text';
+            input.name = field.name;
+            input.placeholder = field.placeholder || '';
+            input.className = 'w-full bg-surface-container-high border-none border-b-2 border-outline-variant focus:border-primary focus:ring-0 rounded-t-lg px-4 py-3 text-on-surface placeholder:text-outline';
+            wrapper.appendChild(input);
+          }
+
+          fieldsContainer.appendChild(wrapper);
+        });
+
+        (profile.file_fields || []).forEach(function(fileField) {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'space-y-2';
+
+          const label = document.createElement('label');
+          label.className = 'text-xs font-label font-bold text-outline-variant uppercase';
+          label.textContent = fileField.label;
+          wrapper.appendChild(label);
+
+          const input = document.createElement('input');
+          input.type = 'file';
+          input.name = fileField.name;
+          input.className = 'w-full text-sm text-on-surface';
+          wrapper.appendChild(input);
+
+          fileFieldsContainer.appendChild(wrapper);
+        });
+      }
+
+      profiles.forEach(function(profile, index) {
+        buttonsContainer.appendChild(createButton(profile, index === 0));
+      });
+
+      selectProfile(profiles[0].id);
+    });
   </script>
   <style>
     .material-symbols-outlined {
