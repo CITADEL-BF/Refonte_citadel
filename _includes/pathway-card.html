@@ -12,7 +12,7 @@
     </li>
     {% endfor %}
   </ul>
-  <a class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all" href="{{ include.link_url }}">
+  <a class="text-primary font-bold inline-flex items-center gap-2 group-hover:gap-4 transition-all" href="{{ include.link_url | relative_url }}">
     {{ include.link_text }}
     <span class="material-symbols-outlined">arrow_forward</span>
   </a>

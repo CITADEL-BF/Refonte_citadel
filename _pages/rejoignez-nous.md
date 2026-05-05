@@ -25,7 +25,7 @@ pathways:
       - "Bourse de doctorat"
       - "Projets appliqués"
     link_text: "En savoir plus"
-    link_url: "#"
+    link_url: "/articles/2026-05-05-etudiants-citadel/"
     shadow_color: "primary"
   
   - id: "researchers"
@@ -39,7 +39,7 @@ pathways:
       - "Réseau international"
       - "Cadre propice à l’apprentissage et à la recherche"
     link_text: "En savoir plus"
-    link_url: "#"
+    link_url: "/articles/2026-05-05-chercheurs-citadel/"
     shadow_color: "secondary"
   
   - id: "partners"
@@ -53,7 +53,7 @@ pathways:
       - "Partenariats académiques et industriels"
       - "Mise en place de programmes de formation"
     link_text: "En savoir plus"
-    link_url: "#"
+    link_url: "/articles/2026-05-05-partenaires-citadel/"
     shadow_color: "tertiary"
 
 # Section: Application Form
