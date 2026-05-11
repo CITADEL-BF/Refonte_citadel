@@ -13,21 +13,21 @@ CITADEL propose aux institutions académiques, aux entreprises et aux organisati
 
 ### Formes de partenariat
 
-• Co-développement de projets de recherche et d’innovation.
-• Partenariats académiques et industriels pour des programmes communs.
-• Mise en place de programmes de formation, de stages et d’ateliers.
+- Co-développement de projets de recherche et d’innovation.
+- Partenariats académiques et industriels pour des programmes communs.
+- Mise en place de programmes de formation, de stages et d’ateliers.
 
 ### Ce que CITADEL apporte
 
-• Un écosystème de talents, de compétences et de ressources en IA.
-• Une expertise en recherche appliquée aux défis de développement.
-• Une capacité à mobiliser un réseau régional et international.
+- Un écosystème de talents, de compétences et de ressources en IA.
+- Une expertise en recherche appliquée aux défis de développement.
+- Une capacité à mobiliser un réseau régional et international.
 
 ### Avantages pour les partenaires
 
-• Accélération de l’innovation grâce à des projets partagés.
-• Accès à des formations ciblées pour vos équipes.
-• Contribution à des solutions concrètes dans les domaines de l’agriculture, de la santé, de la finance et de l’énergie.
+- Accélération de l’innovation grâce à des projets partagés.
+- Accès à des formations ciblées pour vos équipes.
+- Contribution à des solutions concrètes dans les domaines de l’agriculture, de la santé, de la finance et de l’énergie.
 
 ### Comment démarrer
 

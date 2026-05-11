@@ -11,19 +11,19 @@ Le Centre d’excellence interdisciplinaire en intelligence artificielle pour le
 
 ## Critères d’admission
 
-• Être Étudiantes en fin de cycle de master des universités du Burkina Faso ou d’Afrique francophone;  
-• Avoir pour objectif de publier les résultats originaux de ses travaux dans un journal ou de les présenter à une conférence internationale.
+- Être Étudiantes en fin de cycle de master des universités du Burkina Faso ou d’Afrique francophone;  
+- Avoir pour objectif de publier les résultats originaux de ses travaux dans un journal ou de les présenter à une conférence internationale.
 
 ## Dossier de candidature
 
-• Curriculum vitae ;  
-• Résumé d’un problème de recherche appliquée qui intéresse la candidate ;  
-• Lettre de recommandation d’un enseignant-chercheur.
+- Curriculum vitae ;  
+- Résumé d’un problème de recherche appliquée qui intéresse la candidate ;  
+- Lettre de recommandation d’un enseignant-chercheur.
 
 ## Important
 
-• Les étudiantes déjà inscrites en thèse (moins de 6 mois) peuvent postuler avec l’autorisation de leur encadrant (joindre une lettre au moment de candidater);  
-• Le sujet final de thèse sera discuté avec les chercheurs associés de CITADEL.
+- Les étudiantes déjà inscrites en thèse (moins de 6 mois) peuvent postuler avec l’autorisation de leur encadrant (joindre une lettre au moment de candidater);  
+- Le sujet final de thèse sera discuté avec les chercheurs associés de CITADEL.
 
 Le présent appel à candidature prendra fin le 20 octobre 2022. Postuler en cliquant sur le bouton ci-dessous
 

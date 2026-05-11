@@ -16,14 +16,14 @@ A l’issu de l’appel à candidature lancé en Octobre 2022 pour le recrutemen
 
 Le Programme de Bourses de Thèses d’Excellence en (IA) est une initiative portée par CITADEL en vue d’accompagner les travaux de thèse des étudiant.e.s dans les universités du Burkina Faso et d’Afrique Francophone vers la production d’une recherche de qualité dans le domaine de l’IA.
 
-### •Candidates retenues pour la bourse classés par ordre de mérite:
+### Candidates retenues pour la bourse classés par ordre de mérite:
 
 | Rang | Axes de Recherche | Nom      | Prénom   |Université                |
 | ---- | ----------------- | -------- | -------  | --------------------------
 | 1ère | Langage & Héritage| Ouattara | Maimouna | Université Joseph KI-ZERBO (Burkina Faso) |
 | 2ème | Fintech & Sécurité | Yameogo | Sougri-nooma Leetitia | Institute Supérieur du Génie Électrique (Burkina Faso) |
 
-### • Candidates en liste d’attente par ordre de mérite :
+### Candidates en liste d’attente par ordre de mérite :
 
 | Rang | Axes de Recherche | Nom | Prénom | Université |
 | ---- | ----------------- | --- | ------ | ------ |

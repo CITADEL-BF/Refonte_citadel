@@ -13,25 +13,25 @@ CITADEL offre aux étudiants une passerelle concrète entre les enjeux de dével
 
 ### Ce que propose CITADEL
 
-• Bourses de Master d’excellence pour des projets interdisciplinaires.
-• Bourses de doctorat pour travailler sur des sujets d’impact social en IA.
-• Projets appliqués en santé, agriculture, éducation, fintech et cybersécurité.
-• Accès à une communauté de mentorat international et de ressources scientifiques.
+- Bourses de Master d’excellence pour des projets interdisciplinaires.
+- Bourses de doctorat pour travailler sur des sujets d’impact social en IA.
+- Projets appliqués en santé, agriculture, éducation, fintech et cybersécurité.
+- Accès à une communauté de mentorat international et de ressources scientifiques.
 
 ### Profil recherché
 
 CITADEL accueille les étudiant·e·s motivé·e·s :
 
-• En Master ou en première année de Doctorat.
-• Avec un intérêt pour l’IA responsable et les solutions pour le développement.
-• Capables de proposer un projet clair, un état de l’art et une perspective d’impact.
+- En Master ou en première année de Doctorat.
+- Avec un intérêt pour l’IA responsable et les solutions pour le développement.
+- Capables de proposer un projet clair, un état de l’art et une perspective d’impact.
 
 ### Dossier de candidature
 
-• Curriculum vitae.
-• Lettre de motivation.
-• Projet court ou résumé de recherche.
-• Relevés de notes et, si possible, lettre de recommandation.
+- Curriculum vitae.
+- Lettre de motivation.
+- Projet court ou résumé de recherche.
+- Relevés de notes et, si possible, lettre de recommandation.
 
 ### Ce que vous vivrez à CITADEL
 

@@ -10,7 +10,7 @@ image: /assets/images/CITADEL-Resultats-de-lappel-a-candidature-de-Bourses-de-St
 Le Programme de Bourses de Master d’Excellence en Intelligence Artificielle (IA) est une initiative portée par CITADEL en vue d’accompagner les travaux de mémoire des étudiants en fin de cycle dans les universités du Burkina Faso vers la production d’un mémoire de qualité dans le domaine de l’IA.  
 A l’issu de l’appel candidature lancé en janvier 2022, le jury a retenu dix (10) candidats lors de la sélection finale avec trois (3) candidats en liste d’attente.
 
-## • Candidats retenus pour la bourse classés par ordre alphabétique :
+## Candidats retenus pour la bourse classés par ordre alphabétique :
 
 | **NOM ET PRENOM(s)** | **ETABLISSEMENT D'ORIGINE** |
 | --- | --- |
@@ -25,7 +25,7 @@ A l’issu de l’appel candidature lancé en janvier 2022, le jury a retenu dix
 | **Simboro Imelda Laetitia** | Institut Universitaire de Formations Initiale et et Continue |
 | **Yaméogo Sidbewendin Angélique** | Université Joseph KI-ZERBO |
 
-## • Candidats en liste d’attente par ordre de mérite :
+## Candidats en liste d’attente par ordre de mérite :
 
 | **NOM ET PRENOM(s)** | **ETABLISSEMENT D'ORIGINE** |
 | --- | --- |
@@ -35,9 +35,9 @@ A l’issu de l’appel candidature lancé en janvier 2022, le jury a retenu dix
 
 En rappel, cette bourse destinée aux étudiant.e.s en année de Master 2 de toute nationalité évoluant au sein d’une Université au Burkina Faso ou dans la sous-région d’Afrique francophone offre aux candidats retenus :
 
-- • Un encadreur issu de l’Université d’origine de l’étudiant ;
-- • Un encadreur issu de CITADEL selon l’axe stratégique sur lequel portera son thème de stage ;
-- • L’encadrement d’un expert métier pour clarifier les questions liées au métier et soutenir l’accès aux données ;
-- • Une initiation à l’écriture scientifique ;
-- • Un accès facile au métier ;
-- • Une prime de bourse de 100 000 FCFA/Mois durant la période de leurs bourse.
+- Un encadreur issu de l’Université d’origine de l’étudiant ;
+- Un encadreur issu de CITADEL selon l’axe stratégique sur lequel portera son thème de stage ;
+- L’encadrement d’un expert métier pour clarifier les questions liées au métier et soutenir l’accès aux données ;
+- Une initiation à l’écriture scientifique ;
+- Un accès facile au métier ;
+- Une prime de bourse de 100 000 FCFA/Mois durant la période de leurs bourse.

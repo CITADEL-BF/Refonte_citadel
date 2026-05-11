@@ -66,10 +66,12 @@
           <p class="text-on-surface-variant">{{ page.form_description }}</p>
         </div>
         <div class="bg-surface-container-lowest rounded-3xl p-12 shadow-2xl shadow-emerald-900/5">
-          <form id="rejoignezForm" class="space-y-8" action="{{ page.formspree_endpoint }}" method="POST" enctype="multipart/form-data">
-            {% if page.formspree_endpoint %}
+          {% assign form_action = page.formsubmit_email | default: '' %}
+          <form id="rejoignezForm" class="space-y-8" action="{% if form_action != '' %}https://formsubmit.co/{{ page.formsubmit_email }}{% endif %}" method="POST" enctype="multipart/form-data">
+            {% if page.formsubmit_email %}
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" id="subjectInput" name="_subject" value="{{ page.formspree_subject | default: 'Nouvelle candidature Rejoignez-nous CITADEL' }}" />
+              <input type="hidden" name="_next" value="{{ site.url }}{{ '/rejoignez-nous/merci/' | relative_url }}" />
+              <input type="hidden" id="subjectInput" name="_subject" value="{{ page.formsubmit_subject | default: 'Nouvelle candidature Rejoignez-nous CITADEL' }}" />
             {% endif %}
             <input type="hidden" id="selectedProfileInput" name="profile" value="">
             <div>

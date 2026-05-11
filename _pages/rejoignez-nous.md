@@ -164,7 +164,8 @@ form_interests:
   - "CONFIDENTIALITÉ ET EXPLICABILITÉ"
   - "ÉNERGIE ET CHANGEMENT CLIMATIQUE"
 form_cta: "Envoyer"
-formspree_endpoint: "https://formspree.io/f/mjglvkdy"
+formsubmit_email: "51e031ccf22655e991bf163cfb8b660d"
+formsubmit_subject: "Nouvelle candidature Rejoignez-nous CITADEL"
 
 # Section: Impact
 impact_title: "Pourquoi rejoindre"

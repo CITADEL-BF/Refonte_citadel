@@ -13,18 +13,18 @@ CITADEL accueille les chercheurs souhaitant développer des projets en intellige
 
 ### Ce que CITADEL offre aux chercheurs
 
-• Accès aux ressources de recherche à un soutien technique.
-• Réseautage avec des chercheur·e·s et expert·e·s internationaux.
-• Un cadre propice à l’apprentissage, à la diffusion et à la valorisation des résultats.
+- Accès aux ressources de recherche à un soutien technique.
+- Réseautage avec des chercheur·e·s et expert·e·s internationaux.
+- Un cadre propice à l’apprentissage, à la diffusion et à la valorisation des résultats.
 
 ### Domaines de recherche privilégiés
 
-• LANGUE & PATRIMOINE : IA pour la préservation et l'analyse des langues et patrimoines culturels.
-• SANTÉ & BIEN-ÊTRE : IA pour la santé et la télémédecine.
-• AGRICULTURE ET PASTORALISME : IA pour l’agriculture et la sécurité alimentaire.
-• FINTECH & SÉCURITÉ : Applications d’IA pour la finance inclusive et la cybersécurité.
-• CONFIDENTIALITÉ ET EXPLICABILITÉ : Analyse de données, vie privée et explicabilité.
-• ÉNERGIE ET CHANGEMENT CLIMATIQUE : Applications d’IA pour l’énergie durable et la lutte contre le changement climatique.
+- LANGUE & PATRIMOINE : IA pour la préservation et l'analyse des langues et patrimoines culturels.
+- SANTÉ & BIEN-ÊTRE : IA pour la santé et la télémédecine.
+- AGRICULTURE ET PASTORALISME : IA pour l’agriculture et la sécurité alimentaire.
+- FINTECH & SÉCURITÉ : Applications d’IA pour la finance inclusive et la cybersécurité.
+- CONFIDENTIALITÉ ET EXPLICABILITÉ : Analyse de données, vie privée et explicabilité.
+- ÉNERGIE ET CHANGEMENT CLIMATIQUE : Applications d’IA pour l’énergie durable et la lutte contre le changement climatique.
 
 ### Modalités de collaboration
 
