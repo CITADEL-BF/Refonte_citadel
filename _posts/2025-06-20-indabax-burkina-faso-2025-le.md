@@ -4,6 +4,7 @@ title: 'IndabaX Burkina Faso 2025 – Le rendez-vous de l’intelligence artific
 date: '2025-06-20'
 category: 'actualites'
 image: /assets/images/indabaX-BF2025.jpeg
+excerpt: "IndabaX Burkina Faso 2025 à Ouagadougou : conférences, ateliers, hackathons et networking pour une IA solidaire en Afrique."
 ---
 
 ![]({{ site.baseurl }}/assets/images/indabaX-BF2025-1024x1024.jpeg)

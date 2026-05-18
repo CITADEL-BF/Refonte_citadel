@@ -7,10 +7,10 @@ image: /assets/images/DIASPORA.-David.png
 ---
 ![]({{ site.baseurl }}/assets/images/DIASPORA.-David-1024x576.png)
 
-![🗣️]({{ site.baseurl }}/assets/images/1f5e3.png)#TALK\_INVITATION![🗣️]({{ site.baseurl }}/assets/images/1f5e3.png)  
-Pour ce mois de Novembre, CITADEL vous convie à une grande conférence publique de haut niveau sur l'intelligence Artificielle sous le thème ![✅]({{ site.baseurl }}/assets/images/2705.png): "L'intelligence Artificielle dans le Marketing: Réduire les dépenses et augmenter la rentabilité " animée par Mr. @David\_Anthony\_OUEDRAOGO, Ingénieur à Micropole France.  
-![🛑]({{ site.baseurl }}/assets/images/1f6d1.png)Vous êtes étudiant.e, Chercheur, expert.e du domaine ou tout simplement passionné.e par L'IA et/ou le Marketing , ce Rendez-vous est le vôtre...  
-![📌]({{ site.baseurl }}/assets/images/1f4cc.png)Soyez des nôtres le Vendredi 18 Novembre 2022 à partir de 16h:00mn GMT au siège l'Université Virtuelle du Burkina Faso (sis à Ouaga 2000 | Boulevard Muammar Kaddafi) ou en ligne via le lien ci-dessous :![👇]({{ site.baseurl }}/assets/images/1f447.png)
+🗣️#TALK\_INVITATION🗣️  
+Pour ce mois de Novembre, CITADEL vous convie à une grande conférence publique de haut niveau sur l'intelligence Artificielle sous le thème ✅: "L'intelligence Artificielle dans le Marketing: Réduire les dépenses et augmenter la rentabilité " animée par Mr. @David\_Anthony\_OUEDRAOGO, Ingénieur à Micropole France.  
+🛑Vous êtes étudiant.e, Chercheur, expert.e du domaine ou tout simplement passionné.e par L'IA et/ou le Marketing , ce Rendez-vous est le vôtre...  
+📌Soyez des nôtres le Vendredi 18 Novembre 2022 à partir de 16h:00mn GMT au siège l'Université Virtuelle du Burkina Faso (sis à Ouaga 2000 | Boulevard Muammar Kaddafi) ou en ligne via le lien ci-dessous :👇
 
 [https://bit.ly/citadel-talk-invitation-november](https://bit.ly/citadel-talk-invitation-november?fbclid=IwAR0hT-i0IyVfSb4dvb8FBD8r6-BMJsO7qltAE4n2ohYYSHwP9OiBW2FspK0)
 

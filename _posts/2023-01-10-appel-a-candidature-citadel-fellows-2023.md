@@ -12,19 +12,19 @@ image: /assets/images/Fellows2023-L.png
 
 ## Critères d’admission
 
-- ![✅]({{ site.baseurl }}/assets/images/2705.png) Être Étudiant.e.s en fin de cycle de Master des Universités du Burkina Faso et d’Afrique francophone ;
+- ✅ Être Étudiant.e.s en fin de cycle de Master des Universités du Burkina Faso et d’Afrique francophone ;
 
-- ![✅]({{ site.baseurl }}/assets/images/2705.png) A voir un grand intérêt pour l'IA.
+- ✅ A voir un grand intérêt pour l'IA.
 
 ## Dossier de candidature
 
 Dossier de candidature :
 
-- ![✅]({{ site.baseurl }}/assets/images/2705.png) Curriculum Vitae ;
+- ✅ Curriculum Vitae ;
 
-- ![✅]({{ site.baseurl }}/assets/images/2705.png) Relevés de note de Master ;
+- ✅ Relevés de note de Master ;
 
-- ![✅]({{ site.baseurl }}/assets/images/2705.png) Lettre de recommandation d’un enseignant-chercheur (facultatif).
+- ✅ Lettre de recommandation d’un enseignant-chercheur (facultatif).
 
 ## Contraintes
 
