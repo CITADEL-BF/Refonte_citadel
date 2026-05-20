@@ -78,7 +78,7 @@ h1, h2, h3, h4 {
   font-weight: 300;
   max-width: 40rem;
   margin: 0 auto;
-  opacity: 0.95;
+  opacity: 1;
   line-height: 1.6;
 }
 
@@ -264,7 +264,7 @@ form button:active {
 }
 
 .hero-map p {
-  opacity: 0.9;
+  opacity: 1;
   max-width: 720px;
   margin: 0 auto;
 }
