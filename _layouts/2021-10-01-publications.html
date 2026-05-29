@@ -42,7 +42,6 @@
 <button class="filter-btn px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-sm font-semibold hover:bg-secondary-fixed transition-all" data-filter="Santé & bien-être">Santé & bien-être</button>
 <button class="filter-btn px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-sm font-semibold hover:bg-secondary-fixed transition-all" data-filter="Vie privée & explicabilité">Vie privée & explicabilité</button>
 <button class="filter-btn px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-sm font-semibold hover:bg-secondary-fixed transition-all" data-filter="Sécurité">Sécurité</button>
-<button class="filter-btn px-5 py-2 rounded-full bg-secondary-container text-on-secondary-container text-sm font-semibold hover:bg-secondary-fixed transition-all" data-filter="Intelligence Artificielle">Intelligence Artificielle</button>
 <div class="ml-auto flex items-center gap-2 text-outline">
 <span class="text-sm">Trier par :</span>
 <select id="sort-select" class="bg-transparent border-none text-sm font-bold text-on-surface focus:ring-0 cursor-pointer">
@@ -56,7 +55,7 @@
 <!-- Publications List -->
 <section class="flex flex-col gap-6">
 {% for pub in page.publications %}
-<div class="publication-item bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0px_10px_30px_rgba(0,0,0,0.03)] border border-outline-variant/20" data-category="{{ pub.category }}" data-title="{{ pub.title | downcase }}" data-date="{{ pub.date }}">
+<div class="publication-item bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0px_10px_30px_rgba(0,0,0,0.03)] border border-outline-variant/20" data-category="{{ pub.category }}" data-tags='{{ pub.tags | jsonify }}' data-title="{{ pub.title | downcase }}" data-date="{{ pub.date }}">
 <!-- Collapsed Header -->
 <div class="accordion-header p-6 cursor-pointer flex justify-between items-center group">
 <div class="flex-1">
@@ -171,6 +170,29 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentSort = 'recent';
     let currentPage = 1;
 
+    // Mapping between filter buttons and search keywords in tags
+    const filterKeywordMap = {
+        'all': null,
+        'langues & patrimoine': ['langues', 'patrimoine'],
+        'santé & bien-être': ['santé', 'bien-être'],
+        'vie privée & explicabilité': ['vie privée', 'explicabilité'],
+        'sécurité': ['sécurité']
+    };
+
+    function normalizeString(str) {
+        return str ? str.toString().trim().toLowerCase() : '';
+    }
+
+    function matchesFilter(tags, filterKeywords) {
+        if (!filterKeywords) return true; // 'all' filter
+        if (!tags || tags.length === 0) return false;
+        
+        const normalizedTags = tags.map(tag => normalizeString(tag));
+        return filterKeywords.some(keyword => 
+            normalizedTags.some(tag => tag.includes(normalizeString(keyword)))
+        );
+    }
+
     function compareItems(a, b) {
         if (currentSort === 'az') {
             return a.dataset.title.localeCompare(b.dataset.title, 'fr', {sensitivity: 'base'});
@@ -182,15 +204,37 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function renderItems() {
-        const filtered = publicationItems.filter(item => currentFilter === 'all' || item.dataset.category === currentFilter);
+        const normalizedFilter = normalizeString(currentFilter);
+        const filterKeywords = filterKeywordMap[normalizedFilter];
+        
+        const filtered = publicationItems.filter(item => {
+            let tags = [];
+            try {
+                if (item.dataset.tags) {
+                    tags = JSON.parse(item.dataset.tags);
+                }
+            } catch (e) {
+                console.warn('Error parsing tags:', e);
+            }
+            return matchesFilter(tags, filterKeywords);
+        });
+
         filtered.sort(compareItems);
         const pageCount = Math.max(1, Math.ceil(filtered.length / pageSize));
         if (currentPage > pageCount) currentPage = pageCount;
-        filtered.forEach((item, index) => {
-            const start = (currentPage - 1) * pageSize;
-            const end = start + pageSize;
-            item.style.display = index >= start && index < end ? 'block' : 'none';
+        
+        // First, hide all items
+        publicationItems.forEach(item => {
+            item.style.display = 'none';
         });
+        
+        // Then show only filtered items on current page
+        const start = (currentPage - 1) * pageSize;
+        const end = start + pageSize;
+        filtered.slice(start, end).forEach(item => {
+            item.style.display = 'block';
+        });
+        
         renderPagination(pageCount);
     }
 
@@ -221,7 +265,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
-            currentFilter = this.getAttribute('data-filter');
+            const filterValue = this.getAttribute('data-filter');
+            currentFilter = filterValue ? filterValue.trim() : 'all';
             currentPage = 1;
             filterButtons.forEach(btn => btn.classList.remove('bg-primary', 'text-white'));
             this.classList.add('bg-primary', 'text-white');
@@ -235,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
         renderItems();
     });
 
-    publicationItems.forEach(item => item.style.display = 'none');
+    // Initialize: display items based on initial filter
     renderItems();
 
     document.querySelectorAll('.download-link').forEach(link => {

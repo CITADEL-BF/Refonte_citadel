@@ -10,6 +10,13 @@ publications:
     id: "CIT-2025-001"
     category: "Langues & patrimoine"
     category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "patrimoine"
+      - "traduction"
+      - "mooré"
+      - "linguistique"
+      - "ressources limitées"
     border_color: "border-purple-300"
     authors:
       - name: "Hamed Joseph Ouily"
@@ -30,6 +37,14 @@ publications:
     id: "CIT-2025-002"
     category: "Santé & bien-être"
     category_color: "text-blue-700 bg-blue-100"
+    tags:
+      - "santé"
+      - "bien-être"
+      - "diagnostic"
+      - "AVC"
+      - "hémorragique"
+      - "médical"
+      - "prise de décision"
     border_color: "border-blue-300"
     authors:
       - name: "Athanase SAWADOGO "
@@ -50,6 +65,14 @@ publications:
     id: "CIT-2025-003"
     category: "Vie privée & explicabilité"
     category_color: "text-gray-700 bg-gray-100"
+    tags:
+      - "vie privée"
+      - "explicabilité"
+      - "résumé"
+      - "actualités"
+      - "transparence"
+      - "ia"
+      - "privacy"
     border_color: "border-gray-300"
     authors:
       - name: "Issiaka Faissal Compaore"
@@ -70,6 +93,12 @@ publications:
     id: "CIT-2025-004"
     category: "Sécurité"
     category_color: "text-red-700 bg-red-100"
+    tags:
+      - "sécurité"
+      - "Burkina Faso"
+      - "analyse"
+      - "situation sécuritaire"
+      - "ia"
     border_color: "border-red-300"
     authors:
       - name: "Abdoul Fataoh Kaboré"
@@ -90,6 +119,12 @@ publications:
     id: "CIT-2025-005"
     category: "Intelligence Artificielle"
     category_color: "text-teal-700 bg-teal-100"
+    tags:
+      - "intelligence artificielle"
+      - "connaissances"
+      - "contrevérités"
+      - "texte"
+      - "ia"
     border_color: "border-teal-300"
     authors:
       - name: "Sidbewendin-Angelique-YAMEOGO"
@@ -110,6 +145,13 @@ publications:
     id: "CIT-2025-006"
     category: "Sécurité"
     category_color: "text-red-700 bg-red-100"
+    tags:
+      - "sécurité"
+      - "vidéo"
+      - "détection"
+      - "environnements contraints"
+      - "surveillance"
+      - "analytique"
     border_color: "border-red-300"
     authors:
       - name: "Rodrique Kafando"
@@ -130,6 +172,14 @@ publications:
     id: "CIT-2025-007"
     category: "Intelligence Artificielle"
     category_color: "text-teal-700 bg-teal-100"
+    tags:
+      - "vie privée"
+      - "explicabilité"
+      - "résumé automatique"
+      - "GPT"
+      - "Pegasus"
+      - "biais"
+      - "fidélité"
     border_color: "border-teal-300"
     authors:
       - name: "Issiaka Faissal Compaore"
@@ -150,6 +200,13 @@ publications:
     id: "CIT-2025-008"
     category: "Vie privée & explicabilité"
     category_color: "text-gray-700 bg-gray-100"
+    tags:
+      - "vie privée"
+      - "explicabilité"
+      - "deepfake"
+      - "audio"
+      - "identification"
+      - "éthique"
     border_color: "border-gray-300"
     authors:
       - name: "Djiré Albérick Euraste"
@@ -170,6 +227,13 @@ publications:
     id: "CIT-2025-009"
     category: "Vie privée & explicabilité"
     category_color: "text-gray-700 bg-gray-100"
+    tags:
+      - "vie privée"
+      - "confidentialité"
+      - "fuites de données"
+      - "Android"
+      - "smartphone"
+      - "sécurité"
     border_color: "border-gray-300"
     authors:
       - name: "Serge Lionel Nikiema"
@@ -190,6 +254,12 @@ publications:
     id: "CIT-2025-010"
     category: "Sécurité"
     category_color: "text-red-700 bg-red-100"
+    tags:
+      - "sécurité"
+      - "intelligence artificielle"
+      - "Burkina Faso"
+      - "crises"
+      - "données sécuritaires"
     border_color: "border-red-300"
     authors:
       - name: "Abdoul Fataoh Kabore"
@@ -210,6 +280,13 @@ publications:
     id: "CIT-2025-011"
     category: "Langues & patrimoine"
     category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "patrimoine"
+      - "multilingue"
+      - "apprentissage méta"
+      - "représentation"
+      - "code"
     border_color: "border-purple-300"
     authors:
       - name: "Weiguo Pian"
@@ -230,6 +307,13 @@ publications:
     id: "CIT-2025-012"
     category: "Langues & patrimoine"
     category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "patrimoine"
+      - "désambiguïsation"
+      - "entités nommées"
+      - "multilingue"
+      - "géographique"
     border_color: "border-purple-300"
     authors:
       - name: "Rodrique KAFANDO"
@@ -250,6 +334,13 @@ publications:
     id: "CIT-2025-013"
     category: "Santé & bien-être"
     category_color: "text-blue-700 bg-blue-100"
+    tags:
+      - "santé"
+      - "bien-être"
+      - "tuberculose"
+      - "ontologie"
+      - "recommandation"
+      - "traitement"
     border_color: "border-blue-300"
     authors:
       - name: "Zonabo Ouédraogo"
@@ -270,6 +361,12 @@ publications:
     id: "CIT-2025-014"
     category: "Langues & patrimoine"
     category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "patrimoine"
+      - "interaction vocale"
+      - "mooré"
+      - "reconnaissance de mots"
     border_color: "border-purple-300"
     authors:
       - name: "Moumini KABORE"

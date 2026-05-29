@@ -29,6 +29,7 @@ html, body {
   height: 100%;
   width: 100%;
   overflow: hidden;
+  background-color: #0f172a; /* Fond sombre pour éviter le flash blanc visuel */
 }
 
 .hero-slider .slide {
@@ -38,17 +39,18 @@ html, body {
   background-position: center;
   opacity: 0;
   transform: scale(1.05);
-  animation: slide-cycle 24s infinite ease-in-out;
+  animation: slide-cycle 12s infinite ease-in-out;
 }
 
 .hero-slider .slide-1 { background-image: url('../images/blog3.jpg'); animation-delay: 0s; }
-.hero-slider .slide-2 { background-image: url('../images/blog1.jpg'); animation-delay: 6s; }
-.hero-slider .slide-3 { background-image: url('../images/blog2.jpg'); animation-delay: 12s; }
+.hero-slider .slide-2 { background-image: url('../images/blog1.jpg'); animation-delay: 4s; }
+.hero-slider .slide-3 { background-image: url('../images/blog2.jpg'); animation-delay: 8s; }
 
 @keyframes slide-cycle {
-  0%, 20% { opacity: 1; transform: scale(1.05); }
-  25%, 45% { opacity: 0; transform: scale(1.1); }
-  100% { opacity: 0; }
+  0% { opacity: 0; transform: scale(1.05); }
+  8.33% { opacity: 1; transform: scale(1.05); }      /* Apparition douce (1s) */
+  33.33% { opacity: 1; transform: scale(1.08); }     /* Reste opaque jusqu'à 4s */
+  41.66%, 100% { opacity: 0; transform: scale(1.1); } /* Disparition douce (1s) */
 }
 
 .hero-slider::before {
