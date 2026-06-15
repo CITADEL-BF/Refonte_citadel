@@ -6,3 +6,4 @@ vendor
 output/
 scripts/
 *.zip
+pdf-mappings.json

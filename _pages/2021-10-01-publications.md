@@ -29,7 +29,7 @@ publications:
         image: "/assets/images/DrSabane.png"
     year: 2024
     abstract: "Cette étude présente une approche innovante pour la traduction automatique entre le français et le mooré, une langue à ressources limitées parlée au Burkina Faso. En utilisant des techniques d'apprentissage profond et des corpus parallèles limités, nous démontrons une amélioration significative de la qualité de traduction, ouvrant la voie à la préservation et à la digitalisation des langues africaines."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/A-Low-Resource-Language-Translation__0AFrench-To-Moore.pdf"
+    download_url: "/assets/pdfs/2024-french-to-moore.pdf"
     doi: "10.1007/978-3-031-88226-5_30"
     date: "2024-01-30"
 
@@ -57,7 +57,7 @@ publications:
         image: "/assets/images/Artboard-15.png"
     year: 2025
     abstract: "Cette recherche développe une approche basée sur l'intelligence artificielle pour assister le diagnostic précoce des accidents vasculaires cérébraux hémorragiques. En analysant les images médicales et les données cliniques, notre modèle offre un soutien décisionnel aux professionnels de santé, améliorant la rapidité et la précision du diagnostic dans les contextes à ressources limitées."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-BASED-APPROACH-FOR-EARLY-DIAGNOSIS_SUPPORT-IN-HEMORRHAGIC-STROKE.pdf"
+    download_url: "/assets/pdfs/2024-hemorrhagic-stroke.pdf"
     doi: "10.1038/citadel.2025.002"
     date: "2025-02-13"
 
@@ -85,7 +85,7 @@ publications:
         image: "/assets/images/Kaf.png"
     year: 2024
     abstract: "Cette étude explore l'utilisation de l'intelligence artificielle pour générer automatiquement des résumés d'actualités, en mettant l'accent sur l'explicabilité et la préservation de la vie privée. Nous proposons un modèle qui non seulement produit des résumés cohérents mais aussi explique ses décisions, contribuant ainsi à une IA plus transparente et éthique dans le traitement de l'information."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries.pdf"
+    download_url: "/assets/pdfs/AI-driven_Generation_of_News_Summaries_Leveraging_.pdf"
     doi: "10.1038/citadel.2025.003"
     date: "2024-01-05"
 
@@ -111,7 +111,7 @@ publications:
         image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
     year: 2024
     abstract: "Ce document présente une analyse assistée par intelligence artificielle pour la situation sécuritaire au Burkina Faso. Le modèle intègre des flux de données géospatiales et des signaux socio-économiques pour identifier les zones de tension et renforcer la prise de décision opérationnelle."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Artificial-Intelligence-for-the-Analysis-of-the_0ASecurity-Situation-in-Burkina-Faso_AFRICOMM_en.pdf"
+    download_url: "/assets/pdfs/2024-security-situation-bf.pdf"
     doi: "10.1007/978-3-031-81573-7_14"
     date: "2024-01-30"
 
@@ -137,7 +137,7 @@ publications:
         image: "/assets/images/DrSabane.png"
     year: 2024
     abstract: "Fakipedia introduit une base de connaissances spécialisée pour les faits et contre-vérités en langue française, exploitée par des modèles de génération de texte. Nous montrons comment renforcer la précision d'un système conversationnel face aux contenus trompeurs."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Fakipedia_-Building-and-exploiting-.pdf"
+    download_url: "/assets/pdfs/2024-fakipedia.pdf"
     doi: "10.1038/citadel.2025.005"
     date: "2024-01-30"
 
@@ -164,7 +164,7 @@ publications:
         image: "/assets/images/DrSabane.png"  
     year: 2024
     abstract: "Cette publication conçoit une solution d'analyse vidéo adaptée aux environnements contraints en ressources. Le système détecte automatiquement des comportements critiques tout en garantissant un faible coût de calcul pour des déploiements locaux."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Resource_Constrained_Environments_Video_Analytics-1.pdf"
+    download_url: "/assets/pdfs/2024-video-analytics.pdf"
     doi: "10.1038/citadel.2025.006"
     date: "2024-09-20"
 
@@ -192,11 +192,11 @@ publications:
         image: "/assets/images/Kaf.png"
     year: 2025
     abstract: "Ce travail compare plusieurs architectures de résumé automatique basées sur GPT et Pegasus pour améliorer la qualité des synthèses d'articles d'actualité. L'étude met l'accent sur la réduction des biais et la fidélité des informations extraites."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/AI-driven-Generation-of-News-Summaries-Leveraging-GPT-and-Pegasus-Summarizer-for-Efficient-Information-Extraction.pdf"
+    download_url: "/assets/pdfs/2024-news-summaries-gpt.pdf"
     doi: "10.4108/eai.18-12-2023.2348180"
     date: "2025-02-08"
 
-  - title: "Evaluating Acoustic Parameters for DeepFake Audio           Identification"
+  - title: "Evaluating Acoustic Parameters for DeepFake Audio Identification"
     id: "CIT-2025-008"
     category: "Vie privée & explicabilité"
     category_color: "text-gray-700 bg-gray-100"
@@ -219,7 +219,7 @@ publications:
         image: "/assets/images/DrSabane.png" 
     year: 2024
     abstract: "Ce document présente une démonstration de DeepFake vocal en langue locale et analyse les défis éthiques de cette technologie. Nous proposons des mécanismes de détection visant à prévenir les usages malveillants dans les médias numériques."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/DeepFake_Vocale-Alberick.pdf"
+    download_url: "/assets/pdfs/2024-deepfake-audio.pdf"
     doi: "10.1109/AFRCON58725.2023.10431521"
     date: "2024-01-30"
 
@@ -246,7 +246,7 @@ publications:
         image: "/assets/images/DrSabane.png" 
     year: 2025
     abstract: "Cette publication propose un modèle d'intelligence artificielle pour détecter les fuites de données sensibles sur les smartphones Android. Le système identifie les applications à risque et analyse les flux réseaux pour protéger la confidentialité des utilisateurs."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Detecting-Illicit-Data-Leaks-on-AndroidSmartphones-Using-an-ArtificialIntelligence-Models.pdf"
+    download_url: "/assets/pdfs/2024-android-leaks.pdf"
     doi: "10.1007/978-3-031-63215-0_14"
     date: "2024-06-19"
 
@@ -272,7 +272,7 @@ publications:
         image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
     year: 2025
     abstract: "Ce rapport examine l'application de l'intelligence artificielle à l'analyse de données sécuritaires au Burkina Faso. Le modèle détecte des tendances et contribue à l'anticipation des crises à partir de sources ouvertes et de capteurs locaux."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Lintelligence-artificielle-pour-lanalyse-de-la-situation-securitaire-du-Burkina-Faso.pdf"
+    download_url: "/assets/pdfs/papers2024-ia-securite-burkina.pdf"
     doi: "10.1038/citadel.2025.010"
     date: "2025-02-05"
 
@@ -299,7 +299,7 @@ publications:
         image: "/assets/images/Artboard-17.png"
     year: 2025
     abstract: "MetaTPTrans propose un apprentissage méta pour représenter des codes multilingues. Cette méthode facilite le traitement des langues africaines et le transfert de connaissances entre corpus disciplinaires."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/MetaTPTrans_-A-Meta-Learning-Approach-for-Multilingual-Code-Representation-Learning.pdf"
+    download_url: "/assets/pdfs/2023-metatptrans.pdf"
     doi: "10.1609/aaai.v37i11.25654"
     date: "2025-02-04"
 
@@ -326,7 +326,7 @@ publications:
         image: "/assets/images/Artboard-17.png"
     year: 2023
     abstract: "SNEToolkit est un outil de désambiguïsation des entités nommées spatiales pour des textes multilingues. Il améliore la reconnaissance de lieux et de personnes dans les documents africains tout en conservant la structure géographique."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/SNEToolkit_-Spatial-named-entities-disambiguation-toolkit.pdf"
+    download_url: "/assets/pdfs/2023-snetoolkit.pdf"
     doi: "10.1016/j.softx.2023.101476"
     date: "2023-09-04"
 
@@ -353,7 +353,7 @@ publications:
         image: "/assets/images/Artboard-15.png"
     year: 2025
     abstract: "Text-to-OWL décrit une chaîne de construction automatique d'ontologies pour recommander des traitements antituberculeux. Le système combine intelligence artificielle et knowledge graph pour assister les professionnels de santé."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Text-to-OWL_-Automated-Ontology-Construction-for-Tuberculosis-Treatment-Recommendation-using-Generative-AI.pdf"
+    download_url: "/assets/pdfs/2024-text-to-owl-tuberculose.pdf"
     doi: "10.1007/978-3-032-01910-3_18"
     date: "2025-02-02"
 
@@ -379,7 +379,7 @@ publications:
         image: "/assets/images/Kaf.png " 
     year: 2025
     abstract: "Cette étude présente une interface vocale en mooré pour la reconnaissance de mots isolés. Elle met en évidence les défis phonétiques et propose des techniques d'apprentissage profond adaptées aux langues africaines."
-    download_url: "https://citadel.bf/wp-content/uploads/2025/02/Voice-Interaction-in-Moore-Language-Study-on-Isolated-Word-Recognition-in-Audio-Samples.pdf"
+    download_url: "/assets/pdfs/2023-voice-moore.pdf"
     doi: "10.1038/citadel.2025.014"
     date: "2025-02-01"
 ---
