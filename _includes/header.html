@@ -51,6 +51,36 @@
     const hamburgerBtn = document.getElementById('hamburgerBtn');
     const mobileMenu = document.getElementById('mobileMenu');
     const menuLinks = document.querySelectorAll('.mobile-menu-link');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    // Fonction pour déterminer la page actuelle
+    function setActiveLink() {
+      const currentPath = window.location.pathname;
+      
+      // Activer le lien du menu desktop
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        const href = link.getAttribute('href');
+        
+        // Correspondance exacte ou correspondance avec trailing slash
+        if (currentPath === href || currentPath === href.replace(/\/$/, '') || currentPath.replace(/\/$/, '') === href) {
+          link.classList.add('active');
+        }
+      });
+      
+      // Activer le lien du menu mobile
+      menuLinks.forEach(link => {
+        link.classList.remove('active');
+        const href = link.getAttribute('href');
+        
+        if (currentPath === href || currentPath === href.replace(/\/$/, '') || currentPath.replace(/\/$/, '') === href) {
+          link.classList.add('active');
+        }
+      });
+    }
+    
+    // Appeler la fonction au chargement
+    setActiveLink();
 
     // Ouvrir/fermer le menu au clic sur le bouton
     hamburgerBtn.addEventListener('click', function() {

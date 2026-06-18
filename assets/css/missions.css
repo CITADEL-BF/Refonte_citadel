@@ -764,6 +764,15 @@ details[open] .missions-details-summary::after {
     align-items: flex-start;
   }
 
+  .missions-hero__content {
+    margin-top: 0;
+  }
+
+  .missions-hero {
+    min-height: auto;
+    padding-top: 2rem;
+  }
+
   .missions-hero__title {
     font-size: 2rem;
   }

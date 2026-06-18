@@ -16,7 +16,7 @@ hero:
 strategy:
   title: "Nos Axes de Recherches"
   description: "Les axes de recherche stratégiques servent de cadre de références concret pour alimenter la recherche théorique sur les technologies et méthodologies visant à garantir une IA sûre, inclusive, digne de confiance et responsable. La dimension des politiques d'appropriation de l'IA est donc une préoccupation majeure dans notre approche interdisciplinaire."
-  image: "https://i0.wp.com/citadel.bf/wp-content/uploads/2021/09/AXE.gif?resize=842%2C596&ssl=1"
+  image: "/assets/images/AXE.gif"
   alt: "Réseau neuronal et cerveau"
 
 # Research Projects

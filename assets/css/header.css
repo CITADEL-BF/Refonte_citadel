@@ -50,8 +50,6 @@
 /* Active link */
 .nav-links a.active {
     color: #00693e;
-    border-bottom: 2px solid #00693e;
-    padding-bottom: 4px;
 }
 
 /* Actions */
