@@ -44,7 +44,7 @@ partners:
 about:
   title: "Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement."
   description: "CITADEL est un pôle d'innovation dédié à l'avancement de la recherche fondamentale et appliquée en IA. Notre mission est de transformer les défis locaux en opportunités globales par le biais de solutions technologiques intelligentes et durables."
-  image: "/assets/images/members-banner.png"
+  image: "/assets/images/members-banner.webp"
   image_alt: "Modern research laboratory setting with diverse scientists working on advanced computing technology in a bright clean environment"
   points:
     - icon_image: "/assets/images/recherche.png"
@@ -62,7 +62,7 @@ research_axes:
   
 activities:
   title: "Nos Activités"
-  image: "/assets/images/projet-1024x724.png"
+  image: "/assets/images/projet-1024x724.webp"
   image_alt: "Group of young professional researchers collaborating in a bright modern academic space with diagrams on the wall"
   list:
     - icon: "analytics"

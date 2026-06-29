@@ -3,7 +3,7 @@ layout: post
 title: "Étudiants CITADEL : opportunités de Master et Doctorat"
 date: '2026-05-05'
 category: 'actualites'
-image: /assets/images/medium-shot-people-graduating.jpg
+image: /assets/images/medium-shot-people-graduating.webp
 excerpt: "Découvrez les opportunités de Master et Doctorat à CITADEL, les conditions de candidature et les axes de recherche appliquée en IA pour le développement."
 ---
 
