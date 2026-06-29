@@ -3,7 +3,7 @@ layout: post
 title: "Partenaires CITADEL : co-construire des projets d’IA"
 date: '2026-05-05'
 category: 'actualites'
-image: /assets/images/african-business-male-people-shaking-hands.jpg
+image: /assets/images/african-business-male-people-shaking-hands.webp
 excerpt: "Découvrez comment institutions et entreprises peuvent collaborer avec CITADEL pour co-développer des projets IA, des programmes de formation et des initiatives d’impact."
 ---
 
