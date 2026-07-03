@@ -1,7 +1,7 @@
 <!-- Partners Card Component -->
 <div class="partners-card">
   <div class="partners-card-image">
-    <img src="{{ include.partner.logo | relative_url }}" alt="{{ include.partner.name }}">
+    <img src="{{ include.partner.logo | relative_url }}" alt="{{ include.partner.name }}" loading="lazy">
   </div>
   <span class="partners-card-tag">{{ include.partner.tag }}</span>
   <h3 class="partners-card-name">{{ include.partner.name }}</h3>

@@ -1,0 +1,168 @@
+/assets/images/AXE.mp4
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['AXE.mp4']
+/assets/images/Artboard-15.png
+  used in: ['_pages\\2021-10-01-publications.md', '_pages\\2022-05-01-membres.md']
+  variants: ['Artboard-15.png']
+/assets/images/Artboard-17.png
+  used in: ['_pages\\2021-10-01-publications.md']
+  variants: ['Artboard-17.png']
+/assets/images/Artboard-17.png 
+  used in: ['_pages\\2021-10-01-publications.md']
+  variants: []
+/assets/images/AxeDeRecherche-1024x753.png
+  used in: ['_layouts\\2019-09-01-sujets-de-recherche.html', '_layouts\\accueil.html']
+  variants: ['AxeDeRecherche-1024x753.png', 'AxeDeRecherche.png']
+/assets/images/CITADEL-DrBissyande-min.png
+  used in: ['_pages\\2022-05-01-membres.md']
+  variants: ['CITADEL-DrBissyande-min.png']
+/assets/images/CITADEL-DrSabane-min.png
+  used in: ['_pages\\2022-05-01-membres.md']
+  variants: ['CITADEL-DrSabane-min.png']
+/assets/images/CITADEL-LANCEMENT-1.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['CITADEL-LANCEMENT-1.png']
+/assets/images/CITADEL-M-min.png
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-10-01-publications.md', '_pages\\2022-05-01-membres.md']
+  variants: ['CITADEL-M-min.png']
+/assets/images/CITADEL-MrTinto-min.png
+  used in: ['_pages\\2022-05-01-membres.md']
+  variants: ['CITADEL-MrTinto-min.png']
+/assets/images/CITADEL-Pr-AlkassoumMaiga-.jpg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['CITADEL-Pr-AlkassoumMaiga-.jpg']
+/assets/images/CITADEL-Talk22.jpg
+  used in: ['_pages\\2021-09-01-accueil.md']
+  variants: ['CITADEL-Talk22.jpg']
+/assets/images/CITADEL-lancement-1.jpg
+  used in: ['_layouts\\missions.html', '_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['CITADEL-lancement-1.jpg']
+/assets/images/CITADEL-lancement-Photo-famille.jpg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['CITADEL-lancement-Photo-famille.jpg']
+/assets/images/CITADEL-prix-international.jpg
+  used in: ['_pages\\2021-09-01-accueil.md']
+  variants: ['CITADEL-prix-international-1024x1024.jpg', 'CITADEL-prix-international.jpg']
+/assets/images/CITADEL-projet-min.png
+  used in: ['_pages\\2022-05-01-membres.md']
+  variants: ['CITADEL-projet-min.png']
+/assets/images/Carrousel-2-1.jpg
+  used in: ['index.md']
+  variants: ['Carrousel-2-1.jpg']
+/assets/images/Carrousel.jpg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['Carrousel.jpg']
+/assets/images/Chercheur.png
+  used in: ['_pages\\2022-05-01-missions.md']
+  variants: ['Chercheur.png']
+/assets/images/Collaboration.png
+  used in: ['_pages\\2022-05-01-missions.md']
+  variants: ['Collaboration.png']
+/assets/images/Djire-Alberick-Euraste.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-10-01-publications.md']
+  variants: ['Djire-Alberick-Euraste.jpg']
+/assets/images/DrSabane.png
+  used in: ['_pages\\2021-10-01-publications.md']
+  variants: ['DrSabane.png']
+/assets/images/Fellows-2025-cohort6-Admis.png
+  used in: ['_pages\\2021-09-01-accueil.md']
+  variants: ['Fellows-2025-cohort6-Admis.png']
+/assets/images/Isac-OUEDRAOGO.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['Isac-OUEDRAOGO.jpg']
+/assets/images/KABORE-Franck-Romuald-WendwoagaKABORE-Franck-Romuald-Wendwoaga.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['KABORE-Franck-Romuald-WendwoagaKABORE-Franck-Romuald-Wendwoaga.jpg']
+/assets/images/KIEMDE-Wendsongde-Elisee-Gontran.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['KIEMDE-Wendsongde-Elisee-Gontran.jpg']
+/assets/images/Kaf.png
+  used in: ['_pages\\2021-10-01-publications.md']
+  variants: ['Kaf.png']
+/assets/images/Kaf.png 
+  used in: ['_pages\\2021-10-01-publications.md']
+  variants: []
+/assets/images/MIDS.png
+  used in: ['_pages\\2022-05-01-missions.md']
+  variants: ['MIDS.png']
+/assets/images/MOUMOULA-Micheline.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['MOUMOULA-Micheline.jpg']
+/assets/images/Nignan_leon.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['Nignan_leon.jpg']
+/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-10-01-publications.md']
+  variants: ['OUATTARA_MaimounaOUATTARA_Maimouna.jpg']
+/assets/images/Photo-de-cloture-AfricAI.jpg
+  used in: ['_pages\\rejoignez-nous.md']
+  variants: ['Photo-de-cloture-AfricAI-1024x640.jpg', 'Photo-de-cloture-AfricAI.jpg']
+/assets/images/Sidbewendin-Angelique-YAMEOGO.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-10-01-publications.md']
+  variants: ['Sidbewendin-Angelique-YAMEOGO.jpg']
+/assets/images/Simboro_Imelda.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['Simboro_Imelda.jpg']
+/assets/images/UVBF.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['UVBF.png']
+/assets/images/ai4d-africa.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['ai4d-africa.png']
+/assets/images/cidr.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['cidr.png']
+/assets/images/citadel-u-auben-1-min-1024x370.jpeg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['citadel-u-auben-1-min-1024x370.jpeg']
+/assets/images/citadel-u-auben-18-min-1024x682.jpeg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['citadel-u-auben-18-min-1024x682.jpeg']
+/assets/images/citadel-u-auben-19-min-1024x394.jpeg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['citadel-u-auben-19-min-1024x394.jpeg']
+/assets/images/citadel-u-auben-20-min-1024x682.jpeg
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['citadel-u-auben-20-min-1024x682.jpeg']
+/assets/images/contact-us-1.png
+  used in: ['_pages\\2021-09-01-contact.md']
+  variants: ['contact-us-1-1024x854.png', 'contact-us-1.png']
+/assets/images/developpement.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['developpement.png']
+/assets/images/indabaX-BF2025.jpeg
+  used in: ['_pages\\2021-09-01-accueil.md']
+  variants: ['indabaX-BF2025-1024x1024.jpeg', 'indabaX-BF2025.jpeg']
+/assets/images/innovation.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['innovation.png']
+/assets/images/interdisciplinaire.png
+  used in: ['_pages\\2022-05-01-missions.md']
+  variants: ['interdisciplinaire.png']
+/assets/images/kabore-abdoul-fataoh.jpg
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md', '_pages\\2021-10-01-publications.md']
+  variants: ['kabore-abdoul-fataoh.jpg']
+/assets/images/logo.webp
+  used in: ['_includes\\header.html']
+  variants: ['logo.webp']
+/assets/images/members-banner.webp
+  used in: ['_pages\\2021-09-01-accueil.md', '_pages\\2022-05-01-membres.md', 'index.md']
+  variants: ['members-banner.webp']
+/assets/images/openBurkina.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['openBurkina.png']
+/assets/images/projet-1024x724.webp
+  used in: ['index.md']
+  variants: ['projet-1024x724.webp']
+/assets/images/recherche.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['recherche.png']
+/assets/images/sida.png
+  used in: ['_pages\\2021-09-01-accueil.md', 'index.md']
+  variants: ['sida.png']
+/assets/images/sujet.png
+  used in: ['_pages\\2019-09-01-sujets-de-recherche.md']
+  variants: ['sujet.png']
+/assets/images/woman-having-fun-with-vr-headset.jpg
+  used in: ['_pages\\rejoignez-nous.md']
+  variants: ['woman-having-fun-with-vr-headset.jpg']

@@ -57,7 +57,7 @@ about:
 research_axes:
   title: "Axes Stratégiques de Recherche"
   description: "Nos travaux s'articulent autour de piliers fondamentaux pour répondre aux enjeux du développement numérique en Afrique."
-  image: "/assets/images/AXE.gif"
+  image: "/assets/images/AXE.mp4"
   image_alt: "Conceptual visualization of artificial intelligence axes including robotics, big data, and neural networks in a clean organized diagram"
   
 activities:

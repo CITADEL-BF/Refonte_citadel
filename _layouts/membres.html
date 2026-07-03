@@ -30,7 +30,7 @@
     {% if page.hero %}
       <section class="hero">
         <div class="hero__background">
-          <img src="{{ page.hero.image | relative_url }}" alt="{{ page.hero.alt | default: 'Hero background' }}" />
+          <img src="{{ page.hero.image | relative_url }}" alt="{{ page.hero.alt | default: 'Hero background' }}" loading="eager" fetchpriority="high" />
         </div>
         <div class="hero__overlay"></div>
         <div class="hero__content">
@@ -114,6 +114,7 @@
                   src="{{ page.network.main_image.url | relative_url }}" 
                   alt="{{ page.network.main_image.alt | default: 'Laboratory' }}"
                   class="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
                 />
                 <div class="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent">
                   <p class="text-white text-sm font-medium">{{ page.network.main_image.caption }}</p>
@@ -139,6 +140,7 @@
                   src="{{ page.network.secondary_image.url | relative_url }}" 
                   alt="{{ page.network.secondary_image.alt | default: 'Team' }}"
                   class="absolute inset-0 w-full h-full object-cover"
+                  loading="lazy"
                 />
                 <div class="absolute inset-0 bg-primary/20"></div>
               </div>

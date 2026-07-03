@@ -26,6 +26,29 @@
   {% include header.html %}
 
   <main>
+    {% if page.hero.images %}
+      <img
+        src="{{ page.hero.images[0] | relative_url }}"
+        alt=""
+        aria-hidden="true"
+        loading="eager"
+        fetchpriority="high"
+        style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;"
+        width="1920"
+        height="800"
+      >
+    {% elsif page.hero.image %}
+      <img
+        src="{{ page.hero.image | relative_url }}"
+        alt=""
+        aria-hidden="true"
+        loading="eager"
+        fetchpriority="high"
+        style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;"
+        width="1920"
+        height="800"
+      >
+    {% endif %}
 
     <!-- Hero Section -->
     {% if page.hero %}
@@ -111,7 +134,7 @@
                 <div class="about-icon-item">
                   <div class="about-icon">
                     {% if point.icon_image %}
-                      <img src="{{ point.icon_image | relative_url }}" alt="{{ point.label }}" class="about-icon-image">
+                      <img src="{{ point.icon_image | relative_url }}" alt="{{ point.label }}" class="about-icon-image" loading="lazy">
                     {% else %}
                       <span class="material-symbols-outlined">{{ point.icon }}</span>
                     {% endif %}
@@ -123,7 +146,13 @@
           </div>
           
           <div class="about-right">
-            <img src="{{ page.about.image | relative_url }}" alt="{{ page.about.image_alt }}" class="about-image">
+            <img
+              src="{{ page.about.image | relative_url }}"
+              alt="{{ page.about.image_alt }}"
+              class="about-image"
+              loading="lazy"
+              {% if page.about.image contains 'members-banner.webp' %}width="900" height="900"{% endif %}
+            >
           </div>
         </div>
       </section>
@@ -137,7 +166,34 @@
           <p class="research-description">{{ page.research_axes.description }}</p>
           
           <div class="research-axes-box">
-            <img src="{{ page.research_axes.image | relative_url }}" alt="{{ page.research_axes.image_alt }}" class="research-image">
+            {% if page.research_axes.image contains '.mp4' %}
+              <video
+                class="research-image"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="metadata"
+                poster="{{ '/assets/images/AxeDeRecherche-1024x753.png' | relative_url }}"
+              >
+                <source src="{{ page.research_axes.image | relative_url }}" type="video/mp4">
+                <img
+                  src="{{ '/assets/images/AxeDeRecherche-1024x753.png' | relative_url }}"
+                  alt="{{ page.research_axes.image_alt }}"
+                  class="research-image"
+                  loading="lazy"
+                  width="1024"
+                  height="753"
+                />
+              </video>
+            {% else %}
+              <img
+                src="{{ page.research_axes.image | relative_url }}"
+                alt="{{ page.research_axes.image_alt }}"
+                class="research-image"
+                loading="lazy"
+              >
+            {% endif %}
             <div class="research-overlay">
               <div class="research-quote-label">{{ page.research_axes.quote_label }}</div>
               <div class="research-quote">{{ page.research_axes.quote }}</div>
@@ -152,7 +208,13 @@
       <section class="activities-section">
         <div class="section-container activities-grid">
           <div class="activities-left">
-            <img src="{{ page.activities.image | relative_url }}" alt="{{ page.activities.image_alt }}" class="activities-image">
+            <img
+              src="{{ page.activities.image | relative_url }}"
+              alt="{{ page.activities.image_alt }}"
+              class="activities-image"
+              loading="lazy"
+              {% if page.activities.image contains 'projet-1024x724.webp' %}width="572" height="404"{% endif %}
+            >
           </div>
           
           <div class="activities-right">
@@ -224,7 +286,7 @@
               <div class="gallery-grid">
                 {% for image in album.images %}
                   <div class="gallery-item">
-                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" class="gallery-image">
+                    <img src="{{ image.url | relative_url }}" alt="{{ image.alt }}" class="gallery-image" loading="lazy">
                   </div>
                 {% endfor %}
               </div>

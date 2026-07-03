@@ -15,7 +15,7 @@
     <!-- Hero Section -->
     <section class="relative min-h-[716px] flex items-center overflow-hidden">
       <div class="absolute inset-0 z-0">
-        <img class="w-full h-full object-cover" src="{{ page.hero_image | relative_url }}" alt="Technology and leisure background">
+        <img class="w-full h-full object-cover" src="{{ page.hero_image | relative_url }}" alt="Technology and leisure background" loading="eager" fetchpriority="high">
         <div class="absolute inset-0 bg-gradient-to-r from-emerald-900/40 to-transparent"></div>
       </div>
       <div class="relative z-10 max-w-screen-2xl mx-auto px-8 w-full">
@@ -107,7 +107,7 @@
         <!-- Image Side -->
         <div class="order-2 lg:order-1 relative">
           <div class="aspect-square rounded-[3rem] overflow-hidden rotate-3 scale-95 bg-primary-container/20 absolute inset-0 -z-10"></div>
-          <img class="w-full aspect-square object-cover rounded-[3rem] shadow-2xl" src="{{ page.impact_image | relative_url }}" alt="Researchers in high-tech lab">
+          <img class="w-full aspect-square object-cover rounded-[3rem] shadow-2xl" src="{{ page.impact_image | relative_url }}" alt="Researchers in high-tech lab" loading="lazy">
           <div class="absolute -bottom-8 -right-8 p-8 glass-panel rounded-3xl shadow-xl max-w-xs">
             <div class="flex items-center gap-4 mb-2">
               <span class="text-4xl font-headline font-black text-primary">{{ page.impact_stat_number }}</span>

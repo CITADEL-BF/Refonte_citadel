@@ -111,7 +111,10 @@
               <div class="missions-hero__image-bg"></div>
               <div class="missions-hero__image-circle">
                 <img src="{{ page.hero.image | default: '/assets/images/CITADEL-lancement-1.jpg' | relative_url }}" 
-                     alt="{{ page.hero.alt | default: 'CITADEL Research' }}">
+                     alt="{{ page.hero.alt | default: 'CITADEL Research' }}"
+                     loading="eager"
+                     fetchpriority="high"
+                     {% if page.hero.image contains 'CITADEL-lancement-1.jpg' or page.hero.image == nil %}width="960" height="640"{% endif %}>
               </div>
             </div>
           </div>
@@ -130,7 +133,7 @@
                   {{ step.number }}
                 </div>
                 <div class="aspect-square flex items-center justify-center bg-surface rounded-lg mb-6 overflow-hidden p-4">
-                  <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="w-full h-full object-contain">
+                  <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="w-full h-full object-contain" loading="lazy">
                 </div>
                 <h3 class="text-xl font-bold text-primary mb-4">{{ step.title }}</h3>
                 <p class="text-on-surface-variant font-body leading-relaxed min-h-24">{{ step.description }}</p>
@@ -276,7 +279,7 @@
             
             <div class="lg:col-span-1">
               <div class="sticky top-8 flex items-center justify-center">
-                <img src="{{ page.interdisciplinarity.image | relative_url }}" alt="{{ page.interdisciplinarity.title }}" class="w-full max-w-sm h-auto rounded-lg shadow-lg">
+                <img src="{{ page.interdisciplinarity.image | relative_url }}" alt="{{ page.interdisciplinarity.title }}" class="w-full max-w-sm h-auto rounded-lg shadow-lg" loading="lazy">
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
 <div class="group bg-surface-container-lowest rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col border-2 {{ include.researcher.border_color }} hover:border-opacity-60 research-card" data-category="{{ include.researcher.category }}">
   <div class="flex flex-wrap p-6 gap-6">
     <div class="w-32 h-40 shrink-0 overflow-hidden rounded-xl bg-surface-container">
-      <img alt="{{ include.researcher.name }}" class="w-full h-full object-cover grayscale contrast-125" src="{{ include.researcher.image | relative_url }}">
+      <img alt="{{ include.researcher.name }}" class="w-full h-full object-cover grayscale contrast-125" src="{{ include.researcher.image | relative_url }}" loading="lazy">
     </div>
     <div class="flex-1 min-w-0 flex flex-col justify-between py-2">
       <div>

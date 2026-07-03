@@ -1,6 +1,6 @@
 <article class="mission-step-card">
   {% if step.image %}
-    <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="mission-step-card__image" />
+    <img src="{{ step.image | relative_url }}" alt="{{ step.title }}" class="mission-step-card__image" loading="lazy" />
   {% endif %}
   <div class="mission-step-card__body">
     {% if step.number %}<span class="mission-step-card__number">{{ step.number }}</span>{% endif %}
