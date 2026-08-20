@@ -20,15 +20,26 @@ publications:
     border_color: "border-purple-300"
     authors:
       - name: "Hamed Joseph Ouily"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence CITADEL"
         image: "/assets/images/CITADEL-M-min.png"
       - name: "Aminata Sabané"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/DrSabane.png"
     year: 2024
-    abstract: "Cette étude présente une approche innovante pour la traduction automatique entre le français et le mooré, une langue à ressources limitées parlée au Burkina Faso. En utilisant des techniques d'apprentissage profond et des corpus parallèles limités, nous démontrons une amélioration significative de la qualité de traduction, ouvrant la voie à la préservation et à la digitalisation des langues africaines."
+    abstract: "Natural Language Processing (NLP) is an exciting field of artificial intelligence with the goal of enabling machines to understand human language in a natural way. Neural Machine Translation
+      (NMT) stands out as one of the most promising applications of NLP, offering the ability to ef
+      fectively translate text from a source language to a target language. In recent years, NMT has
+      experienced significant advances, marking a major milestone in the development of automatic
+      translation systems. Through the use of neural networks, NMT has demonstrated an ability to
+      capture the nuances of language, thereby improving the quality of translations and making the
+      experience of multilingual communication more seamless and precise. This evolution has opened
+      new perspectives in areas such as international collaboration, intercultural understanding, and the
+      global dissemination of information. However, most African languages, especially those in Burk
+      ina Faso, have received very little research attention in this context. In this article, we propose
+      automated translation models French to Mooré based on Transformers. We achieved a BLEU
+      score of 71.18 for the automated for the second model, French to Mooré translation."
     download_url: "/assets/pdfs/2024-french-to-moore.pdf"
     doi: "10.1007/978-3-031-88226-5_30"
     date: "2024-01-30"
@@ -48,15 +59,17 @@ publications:
     border_color: "border-blue-300"
     authors:
       - name: "Athanase SAWADOGO "
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: " Computer science department, UFR/SEA, Joseph KI-ZERBO University "
         image: "/assets/images/CITADEL-M-min.png"
       - name: "Lydie Simone TAPSOBA "
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Mathematics and Informatics laboratory (LAMI), Ouagadougou, Burkina Faso "
         image: "/assets/images/Artboard-15.png"
     year: 2025
-    abstract: "Cette recherche développe une approche basée sur l'intelligence artificielle pour assister le diagnostic précoce des accidents vasculaires cérébraux hémorragiques. En analysant les images médicales et les données cliniques, notre modèle offre un soutien décisionnel aux professionnels de santé, améliorant la rapidité et la précision du diagnostic dans les contextes à ressources limitées."
+    abstract: "A hemorrhagic stroke is a life-threatening medical condition that happens when a blood vessel in your brain ruptures and bleeds. It constitutes a burden on health services and the victim's family. The current definitive diagnosis of stroke is based 
+      on brain scanning. However, the clinical diagnosis of hemorrhagic stroke is complex and depends on the skills and experience of the practitioner. Human diagnostic errors lead to delays in treatment and thus compromise clinical outcomes. 
+      Our vision is to propose an artificial intelligence approach for medical assistance in the early clinical diagnosis of hemorrhagic strokes. We studied and compared three machine learning models, namely logistic regression, Random Forest and artificial neural networks, to choose the best one after setting up a stroke dataset and identifying the most important characteristics. We can conclude that our system designed with artificial intelligence is important with satisfactory results to help health workers make the rapid diagnosis of hemorrhagic stroke and promote rapid treatment of suspected patients."
     download_url: "/assets/pdfs/2024-hemorrhagic-stroke.pdf"
     doi: "10.1038/citadel.2025.002"
     date: "2025-02-13"
@@ -76,15 +89,35 @@ publications:
     border_color: "border-gray-300"
     authors:
       - name: "Issiaka Faissal Compaore"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence CITADEL"
         image: "/assets/images/CITADEL-M-min.png"
       - name: "Rodrique Kafando"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/Kaf.png"
     year: 2024
-    abstract: "Cette étude explore l'utilisation de l'intelligence artificielle pour générer automatiquement des résumés d'actualités, en mettant l'accent sur l'explicabilité et la préservation de la vie privée. Nous proposons un modèle qui non seulement produit des résumés cohérents mais aussi explique ses décisions, contribuant ainsi à une IA plus transparente et éthique dans le traitement de l'information."
+    abstract: "The escalating volume of online information presents a formidable challenge in
+      swiftly accessing pertinent news. The profusion of articles across diverse sources necessitates
+      however automated methods for efficient extraction and summarization of information. In re
+      sponse to this challenge, our research delves into the design and implementation of an online
+      press synthesis tool, harnessing advanced artificial intelligence models.
+      This paper explores the viability of an AI-based online press synthesis tool incorporating two
+      pre-trained models, GPT-3.5 Turbo 16k and Pegasus Summarizer. These models generate high
+      quality automatic summaries from scraped articles on various news sites. Our methodology
+      encompasses a robust web scraping process utilizing Beautiful Soup, integration of pre-trained
+      models, calculation of article similarity, and audio matching of produced summaries. Evaluation
+      metrics such as ROUGE or BLEU gauge model performance.
+      Experimentation results reveal the GPT-3.5 Turbo 16k model’s superior accuracy. In a test involv
+      ing a renowned article on the declaration of human rights, GPT-3.5 Turbo 16k achieved a BLEU
+      score of 16.39% and a ROUGE score of 0.66%. Notably, the turner007/pegasus-summarizer
+      model demonstrated significant performance, registering a BLEU score of 15.45% and a ROUGE
+      score of 0.45%. These scores were obtained through tests on reference summaries authored by
+      humans. Beyond the results, we identify potential areas for enhancement, including enriching the database
+      with expert-authored human summaries and developing a dynamic approach to adapt to evolving
+      news developments. Furthermore, we explore the unified models approach. In conclusion, our
+      work lays the groundwork for an advanced AI-powered online press synthesis tool, paving the
+      way for continuous improvements in an ever-evolving media landscape."
     download_url: "/assets/pdfs/AI-driven_Generation_of_News_Summaries_Leveraging_.pdf"
     doi: "10.1038/citadel.2025.003"
     date: "2024-01-05"
@@ -102,15 +135,35 @@ publications:
     border_color: "border-red-300"
     authors:
       - name: "Abdoul Fataoh Kaboré"
-        role: "Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
         image: "/assets/images/kabore-abdoul-fataoh.jpg"
       - name: "Maı̈mouna Ouattara"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
         image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
     year: 2024
-    abstract: "Ce document présente une analyse assistée par intelligence artificielle pour la situation sécuritaire au Burkina Faso. Le modèle intègre des flux de données géospatiales et des signaux socio-économiques pour identifier les zones de tension et renforcer la prise de décision opérationnelle."
+    abstract: "Face à la situation d’insécurité due au terrorisme
+      que vit le Burkina Faso depuis 2015, la population ne manque de
+      manifester ses sentiments. Les diverses réactions de la population
+      se font par les commentaires sur les différentes plateformes
+      sociales créant ainsi une grande quantité de données. L’analyse
+      de ces opinions pourrait être une aide à la prise de décision
+      appliquée à la sécurité. Cette analyse pourrait se faire grâce
+      aux techniques et méthodes offertes par l’intelligence artificielle
+      (IA). Pour nos travaux dans cet article, nous proposons un outil
+      de web scraping pour collecter des données. Puis, nous utilisons
+      des modèles d’analyse des sentiments et de détection de propos
+      haineux basés sur les transformers [2]. A travers ces recherches,
+      nos contributions sont les suivantes :la mise en place d’une base
+      de données textuelles ou un corpus sur la situation sécuritaire,
+      la proposition d’une approche méthodologique basée sur l’IA
+      pour l’analyse de ces données et la proposition d’un tableau de
+      bord pour la visualisation des résultats d’analyse.
+      Nos travaux sont disponibles sur le dépôt suivant
+      https://github.com/abdoulfataoh/security-situation-analysis
+      Index Terms—situation sécuritaire, intelligence artificielle,
+      transformers, web scraping ."
     download_url: "/assets/pdfs/2024-security-situation-bf.pdf"
     doi: "10.1007/978-3-031-81573-7_14"
     date: "2024-01-30"
@@ -128,15 +181,20 @@ publications:
     border_color: "border-teal-300"
     authors:
       - name: "Sidbewendin-Angelique-YAMEOGO"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence CITADEL"
         image: "/assets/images/Sidbewendin-Angelique-YAMEOGO.jpg"
       - name: "Aminata Sabané"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/DrSabane.png"
     year: 2024
-    abstract: "Fakipedia introduit une base de connaissances spécialisée pour les faits et contre-vérités en langue française, exploitée par des modèles de génération de texte. Nous montrons comment renforcer la précision d'un système conversationnel face aux contenus trompeurs."
+    abstract: "Misinformation poses a significant challenge, especially in developing countries with low literacy rates. The rapid spread on social media, coupled with their lack of robust verification mecha
+      nisms, makes distinguishing between credible and false information increasingly difficult. This
+      document outlines our efforts to address this challenge in Burkina Faso using the pre-trained lin
+      guistic model CAMEMBERT. Our preliminary results show high performance (up to a 99.34%
+      F1 score) on Fakipedia, suggesting that certain blatant instances of false information can be effec
+      tively identified and stopped by automated tools."
     download_url: "/assets/pdfs/2024-fakipedia.pdf"
     doi: "10.1038/citadel.2025.005"
     date: "2024-01-30"
@@ -155,15 +213,18 @@ publications:
     border_color: "border-red-300"
     authors:
       - name: "Rodrique Kafando"
-        role: "Researcher"
+        role: "1er Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/Kaf.png"
       - name: "Aminata Sabané"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/DrSabane.png"  
     year: 2024
-    abstract: "Cette publication conçoit une solution d'analyse vidéo adaptée aux environnements contraints en ressources. Le système détecte automatiquement des comportements critiques tout en garantissant un faible coût de calcul pour des déploiements locaux."
+    abstract: " Developing countries face a growing demand for video analytics, yet often lack sufficient computational resources. This paper addresses this challenge by proposing and evaluating optimization techniques for efficient video stream processing on resource-constrained devices, including edge systems. We introduce and evaluate several techniques, including image resizing, frame skipping, parallel processing, threading, queue management, memory optimization, and buffering. 
+      Experimental results demonstrate substantial improvements in frames per second (FPS) and memory usage, enabling real-time video analytics without compromising accuracy. By effectively balancing performance and resource consumption, our methods facilitate the deployment of advanced
+      AI-driven video analysis in resource-limited environments, paving the
+      way for practical real-time monitoring and alert systems."
     download_url: "/assets/pdfs/2024-video-analytics.pdf"
     doi: "10.1038/citadel.2025.006"
     date: "2024-09-20"
@@ -183,15 +244,36 @@ publications:
     border_color: "border-teal-300"
     authors:
       - name: "Issiaka Faissal Compaore"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation : "Centre d’Excellence CITADEL"
         image: "/assets/images/Artboard-17.png"
       - name: "Rodrique Kafando"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/Kaf.png"
     year: 2025
-    abstract: "Ce travail compare plusieurs architectures de résumé automatique basées sur GPT et Pegasus pour améliorer la qualité des synthèses d'articles d'actualité. L'étude met l'accent sur la réduction des biais et la fidélité des informations extraites."
+    abstract: "The escalating volume of online information presents a formidable challenge in
+              swiftly accessing pertinent news. The profusion of articles across diverse sources necessitates
+              however automated methods for efficient extraction and summarization of information. In re
+              sponse to this challenge, our research delves into the design and implementation of an online
+              press synthesis tool, harnessing advanced artificial intelligence models.
+              This paper explores the viability of an AI-based online press synthesis tool incorporating two
+              pre-trained models, GPT-3.5 Turbo 16k and Pegasus Summarizer. These models generate high
+              quality automatic summaries from scraped articles on various news sites. Our methodology
+              encompasses a robust web scraping process utilizing Beautiful Soup, integration of pre-trained
+              models, calculation of article similarity, and audio matching of produced summaries. Evaluation
+              metrics such as ROUGE or BLEU gauge model performance.
+              Experimentation results reveal the GPT-3.5 Turbo 16k model’s superior accuracy. In a test involv
+              ing a renowned article on the declaration of human rights, GPT-3.5 Turbo 16k achieved a BLEU
+              score of 16.39% and a ROUGE score of 0.66%. Notably, the turner007/pegasus-summarizer
+              model demonstrated significant performance, registering a BLEU score of 15.45% and a ROUGE
+              score of 0.45%. These scores were obtained through tests on reference summaries authored by
+              humans.
+              Beyond the results, we identify potential areas for enhancement, including enriching the database
+              with expert-authored human summaries and developing a dynamic approach to adapt to evolving
+              news developments. Furthermore, we explore the unified models approach. In conclusion, our
+              work lays the groundwork for an advanced AI-powered online press synthesis tool, paving the
+              way for continuous improvements in an ever-evolving media landscape."
     download_url: "/assets/pdfs/2024-news-summaries-gpt.pdf"
     doi: "10.4108/eai.18-12-2023.2348180"
     date: "2025-02-08"
@@ -210,15 +292,36 @@ publications:
     border_color: "border-gray-300"
     authors:
       - name: "Djiré Albérick Euraste"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence en IA (CITADEL) Université Virtuelle du Burkina Faso"
         image: "/assets/images/Djire-Alberick-Euraste.jpg"
       - name: "Aminata Sabané"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "UFR Sciences Exactes et Appliquées Université Joseph Ki-Zerbo (UJKZ)"
         image: "/assets/images/DrSabane.png" 
     year: 2024
-    abstract: "Ce document présente une démonstration de DeepFake vocal en langue locale et analyse les défis éthiques de cette technologie. Nous proposons des mécanismes de détection visant à prévenir les usages malveillants dans les médias numériques."
+    abstract: "The progress made in the field of machine learning
+              applied to signal processing offers interesting perspectives in
+              terms of technological evolution but also causes some troubles
+              in terms of ethics and security. For example, we are witnessing
+              the emergence of audio deepFakes used to orchestrate scams.
+              However, although the tools used in the generation of these
+              deepFake audios show good results which can sometimes produce
+              audios that seem to be confused with real audio, it is not
+              impossible to dissect them. In order to detect them, many
+              methods exist, in particular the analysis of the acoustic param
+              eters which can attest to the authenticity of an audio extract.
+              These parameters include energy, power, pitch, signal spectrum,
+              cepstral coefficients, etc. However, these acoustic parameters are
+              numerous and not all of them are suitable for detecting deepFake
+              audio. This paper presents a comparative review of acoustic
+              parameters useful in detecting DeepFake audio. Among them,
+              we highlight the relevance of the study of cepstral parameters
+              such as MFCC compared to other acoustic parameters such as
+              mel-spectograms. The objective is to provide reliable leads in the
+              detection of deepFake audio.
+              Index Terms—deepFake audio, detection, mel-spectogram,
+              MFCC."
     download_url: "/assets/pdfs/2024-deepfake-audio.pdf"
     doi: "10.1109/AFRCON58725.2023.10431521"
     date: "2024-01-30"
@@ -237,15 +340,27 @@ publications:
     border_color: "border-gray-300"
     authors:
       - name: "Serge Lionel Nikiema"
-        role: "Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence en IA pour le Developpement (CITADEL)"
         image: "/assets/images/Artboard-17.png"
       - name: "Aminata Sabané"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/DrSabane.png" 
     year: 2025
-    abstract: "Cette publication propose un modèle d'intelligence artificielle pour détecter les fuites de données sensibles sur les smartphones Android. Le système identifie les applications à risque et analyse les flux réseaux pour protéger la confidentialité des utilisateurs."
+    abstract: " In today’s digital landscape, hackers and espionage agents
+                are increasingly targeting Android, the world’s most prevalent mobile
+                operating system. We introduce DeepDetector- a system based on artifi
+                cial intelligence to recognize data thefts in Android. This model is based
+                upon a large dataset comprising of clean and tainted network traffic
+                trained using a Random Forest Classifier. DeepDetector scores high in
+                two main areas as it achieves 82.9% accuracy for connection anomaly
+                detection and 89.9% recall in connection anomaly detection whereas it
+                gets 78.9% accuracy and 81.6 recall in terms of detection of under the sys
+                tem mounted with Raspberry Pi, automatic data collection, preparing of
+                a dataset, training and testing of the model, as well as leak detection are
+                ensured. In this regard, DeepDetector offers a viable way of enhancing
+                Android user security."
     download_url: "/assets/pdfs/2024-android-leaks.pdf"
     doi: "10.1007/978-3-031-63215-0_14"
     date: "2024-06-19"
@@ -263,15 +378,35 @@ publications:
     border_color: "border-red-300"
     authors:
       - name: "Abdoul Fataoh Kabore"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
         image: "/assets/images/kabore-abdoul-fataoh.jpg"
       - name: "Maïmouna Ouattara"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Centre d’Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement (CITADEL)"
         image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg" 
     year: 2025
-    abstract: "Ce rapport examine l'application de l'intelligence artificielle à l'analyse de données sécuritaires au Burkina Faso. Le modèle détecte des tendances et contribue à l'anticipation des crises à partir de sources ouvertes et de capteurs locaux."
+    abstract: "Face à la situation d’insécurité due au terrorisme
+              que vit le Burkina Faso depuis 2015, la population ne manque de
+              manifester ses sentiments. Les diverses réactions de la population
+              se font par les commentaires sur les différentes plateformes
+              sociales créant ainsi une grande quantité de données. L’analyse
+              de ces opinions pourrait être une aide à la prise de décision
+              appliquée à la sécurité. Cette analyse pourrait se faire grâce
+              aux techniques et méthodes offertes par l’intelligence artificielle
+              (IA). Pour nos travaux dans cet article, nous proposons un outil
+              de web scraping pour collecter des données. Puis, nous utilisons
+              des modèles d’analyse des sentiments et de détection de propos
+              haineux basés sur les transformers [2]. A travers ces recherches,
+              nos contributions sont les suivantes : la mise en place d’une base
+              de données textuelles ou un corpus sur la situation sécuritaire,
+              la proposition d’une approche méthodologique basée sur l’IA
+              pour l’analyse de ces données et la proposition d’un tableau de
+              bord pour la visualisation des résultats d’analyse.
+              Nos travaux sont disponibles sur le dépôt suivant
+              https://github.com/abdoulfataoh/security-situation-analysis
+              Index Terms—situation sécuritaire, intelligence artificielle,
+              transformers, web scraping ."
     download_url: "/assets/pdfs/papers2024-ia-securite-burkina.pdf"
     doi: "10.1038/citadel.2025.010"
     date: "2025-02-05"
@@ -290,15 +425,37 @@ publications:
     border_color: "border-purple-300"
     authors:
       - name: "Weiguo Pian"
-        role: "Researcher"
+        role: "1er Auteur"
         affiliation: " SnT"
         image: "/assets/images/Artboard-17.png"
       - name: "Hanyu Peng"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: " University of Luxembourg"
         image: "/assets/images/Artboard-17.png"
     year: 2025
-    abstract: "MetaTPTrans propose un apprentissage méta pour représenter des codes multilingues. Cette méthode facilite le traitement des langues africaines et le transfert de connaissances entre corpus disciplinaires."
+    abstract: "Representation learning of source code is essential for apply
+              ing machine learning to software engineering tasks. Learning
+              code representation from a multilingual source code dataset
+              has been shown to be more effective than learning from single
+              language datasets separately, since more training data from
+              multilingual dataset improves the model’s ability to extract
+              language-agnostic information from source code. However,
+              existing multilingual training overlooks the language-specific
+              information which is crucial for modeling source code across
+              different programming languages, while only focusing on
+              learning a unified model with shared parameters among differ
+              ent languages for language-agnostic information modeling. To
+              address this problem, we propose MetaTPTrans, a meta learn
+              ing approach for multilingual code representation learning.
+              MetaTPTrans generates different parameters for the feature
+              extractor according to the specific programming language type
+              of the input code snippet, enabling the model to learn both
+              language-agnostic and language-specific information with dy
+              namic parameters in the feature extractor. We conduct ex
+              periments on the code summarization and code completion
+              tasks to verify the effectiveness of our approach. The results
+              demonstrate the superiority of our approach with significant
+              improvements on state-of-the-art baselines."
     download_url: "/assets/pdfs/2023-metatptrans.pdf"
     doi: "10.1609/aaai.v37i11.25654"
     date: "2025-02-04"
@@ -317,15 +474,29 @@ publications:
     border_color: "border-purple-300"
     authors:
       - name: "Rodrique KAFANDO"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "TETIS"
         image: "/assets/images/Kaf.png"
       - name: "Rémy Decoupes"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Univ Montpellier"
         image: "/assets/images/Artboard-17.png"
     year: 2023
-    abstract: "SNEToolkit est un outil de désambiguïsation des entités nommées spatiales pour des textes multilingues. Il améliore la reconnaissance de lieux et de personnes dans les documents africains tout en conservant la structure géographique."
+    abstract: "‘‘Can you tell me where San Jose is located?’’ ‘‘Uh! Do you know that there are more than 1700 locations
+      named San Jose in the world?’’ The official name of a location is often not the name with which we are
+      familiar. Spatial named entity (SNE) disambiguation is the process of identifying and assigning precise
+      coordinates to a place name that can be identified in a text. This task is not always straightforward,
+      especially when the place name in question is ambiguous for various reasons. In this context, we
+      are interested in the disambiguation of spatial named entities that can be identified in a textual
+      document on a country level. The solution that we propose is based on a set of techniques that allow
+      us to disambiguate the spatial entity considering the context in which it is mentioned from a certain
+      number of characteristics that are specific to it. The solution uses as input a textual document and
+      extricates the named entities identified therein while associating them with the correct coordinates.
+      SNE disambiguation is designed to support the process of fast exploration of spatiotemporal data
+      analysis, most often for event tracking. The proposed approach was tested on 1360 SNEs extracted
+      from the GeoVirus dataset. The results show that SNEToolkit outperformed the baseline, the standard
+      Geonames geocoder, with a recall value of 0.911 against a recall value of 0.871 for the baseline. A
+      flexible Python package is provided for end users."
     download_url: "/assets/pdfs/2023-snetoolkit.pdf"
     doi: "10.1016/j.softx.2023.101476"
     date: "2023-09-04"
@@ -344,15 +515,29 @@ publications:
     border_color: "border-blue-300"
     authors:
       - name: "Zonabo Ouédraogo"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "Interdisciplinary Center of Excellence in AI for Development (CITADEL)"
         image: "/assets/images/Artboard-15.png"
       - name: " Lydie Simone Tapsoba"
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Interdisciplinary Center of Excellence in AI for Development (CITADEL)"
         image: "/assets/images/Artboard-15.png"
     year: 2025
-    abstract: "Text-to-OWL décrit une chaîne de construction automatique d'ontologies pour recommander des traitements antituberculeux. Le système combine intelligence artificielle et knowledge graph pour assister les professionnels de santé."
+    abstract: "This paper presents an automated approach for building ontologies to improve treat
+              ment recommendations for tuberculosis (TB), in particular multidrug-resistant tuberculosis (MDR
+              TB) cases in Burkina Faso, using generative language models such as GPT-3. The aim is to
+              facilitate the personalization of treatments according to the patient profile and drug resistance.
+              Two approaches were explored: a automated approach based on the DaVinci GPT-3 model to
+              generate OWL axioms from natural language sentences and a semi-automated approach using
+              text extraction and natural language processing (NLP) techniques. The automated approach was
+              fine-tuned with a dataset consisting of technical guidelines on TB management. The automated
+              approach created an ontology composed of 158 classes, 55 object properties and 57 data prop
+              erties, outperforming the semi-automated approach in terms of efficiency and accuracy. The
+              axioms generated were validated using Protégé and integrated into a formal knowledge base.
+              The study demonstrates that the use of language models such as GPT-3 can efficiently automate
+              ontology generation, reducing human intervention.This approach is particularly well-suited to
+              the management of complex MDR-TB cases and paves the way for standardization of treatment
+              recommendations, while remaining adaptable to local specificities."
     download_url: "/assets/pdfs/2024-text-to-owl-tuberculose.pdf"
     doi: "10.1007/978-3-032-01910-3_18"
     date: "2025-02-02"
@@ -370,15 +555,22 @@ publications:
     border_color: "border-purple-300"
     authors:
       - name: "Moumini KABORE"
-        role: "Lead Researcher"
+        role: "1er Auteur"
         affiliation: "CITADEL-Université Virtuelle du Burkina Faso"
         image: "/assets/images/Artboard-17.png " 
       - name: "Dc KAFANDO Rodrigue "
-        role: "Co-Researcher"
+        role: "2e Auteur"
         affiliation: "Université Virtuelle du Burkina Faso"
         image: "/assets/images/Kaf.png " 
     year: 2025
-    abstract: "Cette étude présente une interface vocale en mooré pour la reconnaissance de mots isolés. Elle met en évidence les défis phonétiques et propose des techniques d'apprentissage profond adaptées aux langues africaines."
+    abstract: "This paper explores the optimization of telephone functionalities through voice interaction in the Moore language, prevalent in Burkina Faso. Data gathered from 492 individuals
+     in Ouagadougou, representing diverse dialects and vocal intensities across age groups, informs
+              the study. Employing K-Nearest Neighbor (KNN), Random Forest (RF), and Recurrent Neural
+              Networks (RNNs), the analysis focuses on 29 Moore language commands, prioritizing practical
+              ity and user interaction. The findings suggest promising prospects for RNNs, achieving a 63%
+              accuracy in recognizing isolated words. This success hints at potential advancements in RNNs,
+              incorporating attention mechanisms and end-to-end technology, catering to the voice-controlled
+              mobile device needs of Moore speakers."
     download_url: "/assets/pdfs/2023-voice-moore.pdf"
     doi: "10.1038/citadel.2025.014"
     date: "2025-02-01"

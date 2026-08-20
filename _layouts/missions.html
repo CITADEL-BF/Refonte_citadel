@@ -108,14 +108,9 @@
               <p class="missions-hero__description">{{ page.hero.description }}</p>
             </div>
             <div class="missions-hero__image">
-              <div class="missions-hero__image-bg"></div>
-              <div class="missions-hero__image-circle">
-                <img src="{{ page.hero.image | default: '/assets/images/CITADEL-lancement-1.jpg' | relative_url }}" 
-                     alt="{{ page.hero.alt | default: 'CITADEL Research' }}"
-                     loading="eager"
-                     fetchpriority="high"
-                     {% if page.hero.image contains 'CITADEL-lancement-1.jpg' or page.hero.image == nil %}width="960" height="640"{% endif %}>
-              </div>
+              <video class="missions-hero__video" autoplay muted loop playsinline preload="metadata" aria-label="Axes de recherche de CITADEL">
+                <source src="{{ '/assets/images/AXE.mp4' | relative_url }}" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>

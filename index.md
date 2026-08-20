@@ -22,7 +22,7 @@ partners:
   list:
     - name: "Université Virtuelle Burkina"
       logo: "/assets/images/UVBF.png"
-      tag: "Hôte"
+      tag: "Hôte Phase 1"
       url: "https://uv.bf"
     - name: "Open Burkina"
       logo: "/assets/images/openBurkina.png"
@@ -40,6 +40,10 @@ partners:
       logo: "/assets/images/ai4d-africa.png"
       tag: "Thématique"
       url: "https://www.ai4d.ai/"
+    - name: "Université Joseph Ki Zerbo"
+      logo: "/assets/images/UJKZ.jpg"
+      tag: "Hôte Phase 2"
+      url: "https://www.ujkz.bf/"
 
 about:
   title: "Centre d'Excellence Interdisciplinaire en Intelligence Artificielle pour le Développement."
