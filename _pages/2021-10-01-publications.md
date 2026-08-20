@@ -574,4 +574,128 @@ publications:
     download_url: "/assets/pdfs/2023-voice-moore.pdf"
     doi: "10.1038/citadel.2025.014"
     date: "2025-02-01"
+
+  - title: "Neural Machine Translation for French–Mooré: Adapting Large Language Models to Low-Resource Languages"
+    id: "CIT-2026-015"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "patrimoine"
+      - "traduction"
+      - "français"
+      - "mooré"
+      - "langues à faibles ressources"
+      - "modèles de langage"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Walker Stanislas Rocksane COMPAORE"
+        role: "1er Auteur"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/CITADEL-M-min.png"
+      - name: "Maimouna Ouattara"
+        role: "2e Auteur"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg"
+    year: 2026
+    abstract: "This work focuses on neural machine transla
+              tion between French and Mooré, leveraging the
+              capabilities of Large Language Models (LLMs)
+              in a low-resource language context. Mooré
+              is a local language widely spoken in Burkina
+              Faso but remains underrepresented in digital
+              resources. Alongside Mooré, French, now a
+              working language, remains widely used in ad
+              ministration, education, justice, etc. The coexis
+              tence of these two languages creates a growing
+              demand for effective translation tools. How
+              ever, Mooré, like many low-resource languages,
+              poses significant challenges for machine trans
+              lation due to the scarcity of parallel corpora and
+              its complex morphology.
+              The main objective of this work is to adapt
+              LLMs for French–Mooré translation. Three
+              pre-trained models were selected: No Lan
+              guage Left Behind (NLLB-200), mBART50,
+              and AfroLM. A corpus of approximately
+              83,000 validated sentence pairs was compiled
+              from an initial collection of 97,060 pairs
+              through pre-processing, semantic filtering, and
+              human evaluation. Specific adaptations to tok
+              enizers and model architectures were applied
+              to improve translation quality.
+              The results show that the fine-tuned NLLB
+              model outperforms the others, highlighting
+              the importance of native language support.
+              mBART50 achieves comparable performance
+              after fine-tuning, while AfroLM remains less ef
+              fective. Despite existing limitations, this study
+              demonstrates the potential of fine-tuned LLMs
+              for African low-resource languages."
+    download_url: "/assets/pdfs/Neural Machine Translation for French_Mooré_Adapting Large Language.pdf"
+    doi: "10.18653/v1/2026.loreslm-1.53"
+    date: "2026-03"
+
+  - title: "Contributing to Speech-to-Speech Translation for African Low-Resource Languages: Study of French-Mooré Pair"
+    id: "CIT-2026-016"
+    category: "Langues & patrimoine"
+    category_color: "text-purple-700 bg-purple-100"
+    tags:
+      - "langues"
+      - "traduction"
+      - "français"
+      - "mooré"
+      - "traduction parole-à-parole"
+      - "langues africaines"
+      - "langues à faibles ressources"
+    border_color: "border-purple-300"
+    authors:
+      - name: "Fayçal S. A. Ouedraogo"
+        role: "1er Auteur"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/CITADEL-M-min.png"
+      - name: "Maimouna Ouattara"
+        role: "2e Auteur"
+        affiliation: "Centre d’Excellence CITADEL"
+        image: "/assets/images/OUATTARA_MaimounaOUATTARA_Maimouna.jpg"
+    year: 2026
+    abstract: "Most of African low-resource languages are
+              primarily spoken rather than written and lack
+              large, standardized textual resources. In many
+              communities, low literacy rates and limited
+              access to formal education mean that text
+              based translation technologies alone are insuffi
+              cient for effective communication. As a result,
+              speech-to-speech translation systems play a cru
+              cial role by enabling direct and natural interac
+              tion across languages without requiring reading
+              or writing skills. Such systems are essential for
+              improving access to information, public ser
+              vices, healthcare, and education. The goal of
+              our work is to build powerful transcription and
+              speech synthesis models for Mooré language.
+              Then, these models have been used to build
+              a cascaded voice translation system between
+              French and Mooré, since we already got a
+              French-Mooré machine translation model. We
+              collected Mooré audio-text pairs, reaching a to
+              tal audio duration of 150 hours. Then, We fine
+              tuned Orpheus-3B and XTTS-v2 for speech
+              synthesis and Wav2Vec-Bert-2.0 for transcrip
+              tion task. After fine-tuning and evaluation by
+              36 Mooré native speakers, XTTS-v2 achieved
+              a MOS of 4.36 out of 5 compared to 3.47 out
+              of 5 for Orpheus-3B. The UTMOS evaluation
+              resulted in 3.47 out of 5 for XTTS-v2 and 2.80
+              out of 5 for Orpheus-3B. The A/Btests revealed
+              that the evaluators preferred XTTS-v2 Mooré
+              audios in 77.8% of cases compared to 22.2%
+              for Orpheus-3B. After fine-tuning on Mooré,
+              Wav2Vec-Bert-2.0 achieved a WER of 4.24%
+              and a CER of 1.11%. Using these models,
+              we successfully implemented a French-Mooré
+              Speech-to-Speech Translation system."
+    download_url: "/assets/pdfs/Contributing to Speech-to-Speech Translation for African Low-Resource Languages.pdf"
+    doi: "10.18653/v1/2026.loreslm-1.54"
+    date: "2026-03"
 ---
